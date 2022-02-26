@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import CompanyLogo from "../../../public/images/CRUXLogoDark.png";
 import { animateScroll as scroll } from "react-scroll";
@@ -33,8 +34,12 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>More Information</FooterLinkTitle>
-                <FooterLink to="/contact">Get Started</FooterLink>
-                <FooterLink to="/">Google Reviews</FooterLink>
+                <Link href="/contact-form" passHref>
+                  <FooterLink>Get Started</FooterLink>
+                </Link>
+                <Link href="https://google.com" passHref>
+                  <FooterLink>Google Reviews</FooterLink>
+                </Link>
               </FooterLinkItems>
               <FooterLinkItems>
                 <FooterLinkTitle>Social Media</FooterLinkTitle>
