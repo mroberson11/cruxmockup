@@ -11,6 +11,7 @@ import {
   homeObjThree,
 } from "../src/components/InfoSection/Data";
 import Services from "../src/components/Services";
+import Footer from "../src/components/Footer";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ export default function Home() {
       <Services />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
+      <Footer />
     </>
   );
 }
