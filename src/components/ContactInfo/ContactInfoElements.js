@@ -8,9 +8,9 @@ export const Container = styled.div`
   right: 0;
   top: 0;
   z-index: 0;
-  overflow: hidden;
-  background: black;
   overflow: scroll;
+  overflow-x: hidden;
+  background: black;
 `;
 
 export const HeaderSection = styled.div`
@@ -92,12 +92,13 @@ export const ContactP = styled.p`
 export const EmphasizedP = styled.p`
   font-size: 1.1em;
   text-align: center;
-  color: #66fcf1;
+  color: #00ffef;
+  cursor: pointer;
 `;
 
 export const ContactH1 = styled.h1`
   color: #fff;
   font-size: 2.3em;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 7rem;
 `;

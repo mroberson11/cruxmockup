@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ButtonRouter } from "../ButtonElements";
 import Email from "../../../public/images/contactInfo/email.svg";
 import Text from "../../../public/images/contactInfo/text.svg";
@@ -53,8 +54,12 @@ const ContactInfo = () => {
             <ContactH2>Submit a Contact Request</ContactH2>
             <ContactP>
               Fill out an online contact request form{" "}
-              <ButtonRouter to="/contact" style={{ background: "none" }}>
-                <EmphasizedP>here</EmphasizedP>
+              <ButtonRouter style={{ background: "none" }}>
+                <EmphasizedP>
+                  <Link href="/contact-form">
+                    <i>here</i>
+                  </Link>
+                </EmphasizedP>
               </ButtonRouter>
             </ContactP>
           </ContactCard>
