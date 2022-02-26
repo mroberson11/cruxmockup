@@ -9,11 +9,14 @@ import {
   FormH1,
   FormLabel,
   FormInput,
+  CheckListWrapper,
+  FormComments,
   FormButton,
   Text,
 } from "./ContactFormElements";
 import { ButtonRouter } from "../ButtonElements";
 import emailjs from "@emailjs/browser";
+import SwitchItem from "../SwitchItem";
 
 const ContactForm = () => {
   const form = useRef();
@@ -56,15 +59,21 @@ const ContactForm = () => {
                 Submit your contact information to have a representative reach
                 out within 24 hours.
               </FormH1>
-              <FormLabel htmlFor="for">Full Name</FormLabel>
+              <FormLabel htmlFor="for">Full Name*</FormLabel>
               <FormInput type="text" name="user_name" required />
-              <FormLabel htmlFor="for">Email</FormLabel>
+              <FormLabel htmlFor="for">Email*</FormLabel>
               <FormInput type="email" name="user_email" required />
-              <FormLabel htmlFor="for">Phone</FormLabel>
-              <FormInput type="phone" name="phone" />
-              <FormLabel htmlFor="for">How We Can Help</FormLabel>
-              <FormInput type="comments" name="comments" />
-
+              <FormLabel htmlFor="for">Phone*</FormLabel>
+              <FormInput type="phone" name="phone" required />
+              <FormLabel htmlFor="for">My Interests</FormLabel>
+              <CheckListWrapper>
+                <SwitchItem switchLabel="I want a fast website" />
+                <SwitchItem switchLabel="I want an attractive website" />
+                <SwitchItem switchLabel="I want more leads for my business" />
+                <SwitchItem switchLabel="I want my website maintained for me" />
+              </CheckListWrapper>
+              <FormLabel htmlFor="for">Additonal Comments</FormLabel>
+              <FormComments type="comments" name="comments" />
               <FormButton type="submit">Submit</FormButton>
               <ButtonRouter
                 to="/contact-info"
