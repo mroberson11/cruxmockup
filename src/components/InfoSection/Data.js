@@ -1,8 +1,8 @@
-import pic1 from "../../../public/images/startup-life.svg";
-import pic2 from "../../../public/images/programming-behind.svg";
-import pic3 from "../../../public/images/pair-programming.svg";
-import pic4 from "../../../public/images/seo.svg";
-import pic5 from "../../../public/images/contact-us.svg";
+import pic1 from "../../../public/images/InfoImages/startup-life.svg";
+import pic2 from "../../../public/images/InfoImages/programming-behind.svg";
+import pic3 from "../../../public/images/InfoImages/pair-programming.svg";
+import pic4 from "../../../public/images/InfoImages/seo.svg";
+import pic5 from "../../../public/images/InfoImages/contact-us.svg";
 
 export const homeObjOne = {
   id: "about",

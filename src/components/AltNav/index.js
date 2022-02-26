@@ -3,7 +3,6 @@ import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import CompanyLogo from "../../../public/images/CompanyLogo.png";
 import {
   Nav,
   NavbarContainer,
@@ -22,7 +21,7 @@ const AltNav = () => {
             <NavLogo>
               <Link href="/" passHref>
                 <LogoImg
-                  src={"../../images/CompanyLogo.png"}
+                  src={"../../images/CompanyLogos/CompanyLogo.png"}
                   alt="Company Logo"
                 />
               </Link>

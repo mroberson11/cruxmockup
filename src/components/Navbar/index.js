@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CompanyLogo from "../../../public/images/CRUXLogoDark.png";
+import CompanyLogo from "../../../public/images/CompanyLogos/CRUXLogoDark.png";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";

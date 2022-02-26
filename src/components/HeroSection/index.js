@@ -40,7 +40,7 @@ const HeroSection = () => {
           />
         ) : (
           <BackgroundPic
-            src={"../../images/blue-milky-way.jpg"}
+            src={"../../images/HeroImages/blue-milky-way.jpg"}
             alt="Blue Space Background"
           />
         )}

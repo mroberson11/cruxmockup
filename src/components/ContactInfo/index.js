@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ButtonRouter } from "../ButtonElements";
-import Email from "../../../public/images/contactInfo/email.svg";
-import Text from "../../../public/images/contactInfo/text.svg";
-import OnlineRequest from "../../../public/images/contactInfo/online-request.svg";
+import Email from "../../../public/images/ContactInfo/email.svg";
+import Text from "../../../public/images/ContactInfo/text.svg";
+import OnlineRequest from "../../../public/images/ContactInfo/online-request.svg";
 import AltNav from "../AltNav";
 import {
   Container,

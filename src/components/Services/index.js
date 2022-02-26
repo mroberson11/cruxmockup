@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Icon1 from "../../../public/images/pair-programming.svg";
-import Icon2 from "../../../public/images/seo.svg";
-import Icon3 from "../../../public/images/server.svg";
+import Icon1 from "../../../public/images/InfoImages/pair-programming.svg";
+import Icon2 from "../../../public/images/InfoImages/image-enhancement.svg";
+import Icon3 from "../../../public/images/InfoImages/seo.svg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -33,7 +33,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon>
-              <Image src={Icon3} alt="Image Enhancement" />
+              <Image src={Icon2} alt="Image Enhancement" />
             </ServicesIcon>
             <ServicesH2>Image Enhancement</ServicesH2>
             <ServicesP>
@@ -45,7 +45,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon>
-              <Image src={Icon2} alt="Lead Generation" />
+              <Image src={Icon3} alt="Lead Generation" />
             </ServicesIcon>
             <ServicesH2>Lead Generation</ServicesH2>
             <ServicesP>
