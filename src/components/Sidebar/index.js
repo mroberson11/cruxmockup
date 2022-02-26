@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
           </SidebarLink>
           <SidebarLink to="why" onClick={toggle}>
-            Why Us?
+            Why Us
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
