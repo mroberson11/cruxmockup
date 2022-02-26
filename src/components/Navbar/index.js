@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CompanyLogo from "../../images/CRUXLogoDark.png";
+import CompanyLogo from "../../../public/images/CRUXLogoDark.png";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
@@ -15,7 +15,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-  LogoImg,
+  LogoContainer,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -41,7 +41,9 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <LogoImg src={CompanyLogo} alt="Company Logo" />
+              <LogoContainer>
+                <Image src={CompanyLogo} alt="Next Image" />
+              </LogoContainer>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

@@ -116,7 +116,7 @@ export const NavBtnLink = styled.div`
   }
 `;
 
-export const LogoImg = styled.img`
+export const LogoContainer = styled.div`
   width: 100px;
 
   @media screen and (max-width: 500px) {
