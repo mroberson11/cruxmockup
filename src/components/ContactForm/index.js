@@ -75,7 +75,9 @@ const ContactForm = () => {
                 offset={-80}
                 style={{ background: "none" }}
               >
-                <Text>Get in touch sooner</Text>
+                <Link href="/contact-info" passHref>
+                  <Text>Get in touch sooner</Text>
+                </Link>
               </ButtonRouter>
             </Form>
           </FormContent>

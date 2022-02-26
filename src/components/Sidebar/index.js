@@ -28,9 +28,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="why" onClick={toggle}>
             Why Us
           </SidebarLink>
+          <SidebarLink to="information" onClick={toggle}>
+            Contact
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contact">Get Started</SidebarRoute>
+          <Link href="/contact-form" passHref>
+            <SidebarRoute>Get Started</SidebarRoute>
+          </Link>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

@@ -47,7 +47,9 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Want a website like this?</HeroH1>
-        <HeroP>Only four spots available per month. Don't miss out.</HeroP>
+        <HeroP>
+          Only three spots available per month. <br /> Don't miss out.
+        </HeroP>
         <HeroBtnWrapper>
           <Link href="/contact-form" passHref>
             <ButtonRouter

@@ -67,9 +67,9 @@ export const homeObjThree = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Get in Touch",
-  headline: "Start Your Journey With Us Today",
+  headline: "Start Your Journey",
   description:
-    "Get in touch with one of our representatives today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutinize your online presence. We are available to calls, emails, and even text messages.",
+    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutinize your online presence. We are available for calls, texts, emails, and through our online contact form.",
   buttonLabel: "Contact Information",
   imgStart: false,
   img: pic5,
