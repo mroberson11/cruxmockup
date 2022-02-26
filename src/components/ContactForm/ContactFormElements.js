@@ -35,6 +35,7 @@ export const Icon = styled.a`
   color: #fff;
   font-weight: 700;
   font-size: 3em;
+  cursor: pointer;
 
   @media screen and (max-width: 480px) {
     text-align: center;

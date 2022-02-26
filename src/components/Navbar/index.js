@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <Link href="/hello-world">
+              <Link href="/contact-form">
                 <NavBtnLink
                   to="/contact"
                   smooth={true}

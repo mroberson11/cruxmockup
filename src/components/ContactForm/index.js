@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Link from "next/link";
 import {
   Container,
   FormWrap,
@@ -46,7 +47,9 @@ const ContactForm = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon href="/">CRUX</Icon>
+          <Link href="/">
+            <Icon>CRUX</Icon>
+          </Link>
           <FormContent>
             <Form ref={form} onSubmit={showSuccess}>
               <FormH1>
