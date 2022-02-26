@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { ButtonRouter } from "../ButtonElements";
+import Link from "next/link";
 import {
   InfoContainer,
   InfoWrapper,
@@ -43,19 +44,20 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <ButtonRouter
-                    to={pageLink}
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </ButtonRouter>
+                  <Link href={pageLink} passHref>
+                    <ButtonRouter
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      primary={primary ? 1 : 0}
+                      dark={dark ? 1 : 0}
+                      dark2={dark2 ? 1 : 0}
+                    >
+                      {buttonLabel}
+                    </ButtonRouter>
+                  </Link>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
