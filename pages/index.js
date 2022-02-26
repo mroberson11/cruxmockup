@@ -10,6 +10,7 @@ import {
   homeObjTwo,
   homeObjThree,
 } from "../src/components/InfoSection/Data";
+import Services from "../src/components/Services";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ export default function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      <Services />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
     </>
