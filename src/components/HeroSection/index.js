@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-// import Video from "../../videos/BlueBackground.mp4";
 import { ButtonRouter } from "../ButtonElements";
 import { useMediaQuery } from "react-responsive";
-// import BlueSpace from "../../images/blue-milky-way.jpg";
 import {
   HeroContainer,
   HeroBg,
@@ -36,7 +34,7 @@ const HeroSection = () => {
             loop
             muted
             playsinline
-            src={"../../videos/BlueBackground.mp4"}
+            src={require("../../../public/videos/BlueSpace.mp4")}
             type="video/mp4"
           />
         ) : (
