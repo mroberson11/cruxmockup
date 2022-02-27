@@ -119,6 +119,13 @@ export const FormButton = styled.button`
   cursor: pointer;
 `;
 
+export const RecaptchaWrapper = styled.div`
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+`;
+
 export const Text = styled.span`
   text-align: center;
   margin-top: 24px;

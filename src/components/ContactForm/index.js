@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 import {
   Container,
@@ -12,40 +12,49 @@ import {
   CheckListWrapper,
   FormComments,
   FormButton,
+  RecaptchaWrapper,
   Text,
 } from "./ContactFormElements";
 import { ButtonRouter } from "../ButtonElements";
 import emailjs from "@emailjs/browser";
 import SwitchItem from "../SwitchItem";
+import Recaptcha from "../Recaptcha";
 
 const ContactForm = () => {
+  const [isValid, setIsValid] = useState(false);
+  console.log("Valid set to False");
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    if (isValid) {
+      console.log("Form is valid. Sending email.");
 
-    emailjs
-      .sendForm(
-        "service_lz8gq0f",
-        "template_up0b275",
-        form.current,
-        "user_YZWlae1Uq0NzIL8lY9vPH"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      emailjs
+        .sendForm(
+          "service_lz8gq0f",
+          "template_up0b275",
+          form.current,
+          "user_YZWlae1Uq0NzIL8lY9vPH"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
+    console.log("Form is not valid.");
   };
 
-  const showSuccess = (e) => {
-    e.preventDefault();
-
-    <div>Success!</div>;
+  const handleClick = () => {
+    // Changing state
+    console.log("Handling click");
+    setIsValid(true);
   };
+
   return (
     <>
       <Container>
@@ -54,7 +63,7 @@ const ContactForm = () => {
             <Icon>CRUX</Icon>
           </Link>
           <FormContent>
-            <Form ref={form} onSubmit={showSuccess}>
+            <Form ref={form} onSubmit={sendEmail}>
               <FormH1>
                 Submit your contact information to have a representative reach
                 out within 24 hours.
@@ -75,6 +84,10 @@ const ContactForm = () => {
               <FormLabel htmlFor="for">Additonal Comments</FormLabel>
               <FormComments type="comments" name="comments" />
               <FormButton type="submit">Submit</FormButton>
+              <RecaptchaWrapper>
+                <Recaptcha />
+              </RecaptchaWrapper>
+              <button onClick={handleClick}>Set Valid</button>
               <ButtonRouter
                 to="/contact-info"
                 smooth={true}

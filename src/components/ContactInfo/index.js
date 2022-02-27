@@ -34,7 +34,7 @@ const ContactInfo = () => {
             <ContactH2>Shoot Us a Text</ContactH2>
             <ContactP>
               Send us a text message day or night at{" "}
-              <EmphasizedP>601-345-1545</EmphasizedP>
+              <EmphasizedP>601-345-1523</EmphasizedP>
             </ContactP>
           </ContactCard>
           <ContactCard>
