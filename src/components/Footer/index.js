@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import CompanyLogo from "../../../public/images/CompanyLogos/CRUXLogoDark.png";
+import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
