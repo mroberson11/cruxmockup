@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import {
   Container,
   FormWrap,
@@ -19,8 +20,34 @@ import { ButtonRouter } from "../ButtonElements";
 import emailjs from "@emailjs/browser";
 import SwitchItem from "../SwitchItem";
 import Recaptcha from "../Recaptcha";
+import { useForm } from "../../hooks/useForm";
+import Success from "../Success";
 
 const ContactForm = () => {
+  const { handleSubmit, handleChange, data, errors } = useForm({
+    validations: {
+      name: {
+        pattern: {
+          value: "^[a-zA-Z ]*$",
+          message: "Alphabetic characters only.",
+        },
+      },
+      email: {
+        required: {
+          value: true,
+          message: "Valid email is required.",
+        },
+      },
+      phone: {
+        pattern: {
+          value: "^[0-9]*$",
+          message: "Numerical digits only.",
+        },
+      },
+    },
+    onSubmit: () => alert("Submitted form"),
+  });
+
   const [isValid, setIsValid] = useState(false);
   console.log("Valid set to False");
   const form = useRef();
@@ -49,12 +76,6 @@ const ContactForm = () => {
     console.log("Form is not valid.");
   };
 
-  const handleClick = () => {
-    // Changing state
-    console.log("Handling click");
-    setIsValid(true);
-  };
-
   return (
     <>
       <Container>
@@ -63,17 +84,57 @@ const ContactForm = () => {
             <Icon>CRUX</Icon>
           </Link>
           <FormContent>
-            <Form ref={form} onSubmit={sendEmail}>
+            <Success />
+            <Form ref={form} onSubmit={handleSubmit}>
               <FormH1>
                 Submit your contact information to have a representative reach
                 out within 24 hours.
               </FormH1>
               <FormLabel htmlFor="for">Full Name*</FormLabel>
-              <FormInput type="text" name="user_name" required />
+              {errors.name && (
+                <p className="error" style={{ color: "red" }}>
+                  {errors.name}
+                </p>
+              )}
+              <FormInput
+                type="text"
+                name="name"
+                placeholder="John Doe"
+                value={data.name || ""}
+                onChange={handleChange("name")}
+                required
+              />
+
               <FormLabel htmlFor="for">Email*</FormLabel>
-              <FormInput type="email" name="user_email" required />
+              {errors.email && (
+                <p className="error" style={{ color: "red" }}>
+                  {errors.email}
+                </p>
+              )}
+              <FormInput
+                type="email"
+                name="email"
+                placeholder="johndoe@email.com"
+                value={data.email || ""}
+                onChange={handleChange("email")}
+                required
+              />
+
               <FormLabel htmlFor="for">Phone*</FormLabel>
-              <FormInput type="phone" name="phone" required />
+              {errors.phone && (
+                <p className="error" style={{ color: "red", topMargin: "0" }}>
+                  {errors.phone}
+                </p>
+              )}
+              <FormInput
+                type="phone"
+                name="phone"
+                placeholder="6011234567"
+                value={data.phone || ""}
+                onChange={handleChange("phone")}
+                required
+              />
+
               <FormLabel htmlFor="for">My Interests</FormLabel>
               <CheckListWrapper>
                 <SwitchItem switchLabel="I want a fast website" />
@@ -87,7 +148,6 @@ const ContactForm = () => {
               <RecaptchaWrapper>
                 <Recaptcha />
               </RecaptchaWrapper>
-              <button onClick={handleClick}>Set Valid</button>
               <ButtonRouter
                 to="/contact-info"
                 smooth={true}
