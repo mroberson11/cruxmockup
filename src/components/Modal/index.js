@@ -47,6 +47,7 @@ const Modal = ({ handleClose, text }) => {
               alt="Animated Checkmark"
               width="150px"
               height="120px"
+              priority={true}
             />
           </ImageWrapper>
           <ModalHeading>Thank You!</ModalHeading>

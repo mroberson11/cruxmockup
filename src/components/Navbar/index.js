@@ -42,7 +42,7 @@ const Navbar = ({ toggle }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               <LogoContainer>
-                <Image src={CompanyLogo} alt="Company Logo" />
+                <Image src={CompanyLogo} alt="Company Logo" priority={true} />
               </LogoContainer>
             </NavLogo>
             <MobileIcon onClick={toggle}>

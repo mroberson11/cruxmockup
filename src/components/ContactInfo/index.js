@@ -29,7 +29,7 @@ const ContactInfo = () => {
         <ContactWrapper>
           <ContactCard>
             <ContactIcon>
-              <Image src={Text} alt="Text Messages" />
+              <Image src={Text} alt="Text Messages" priority={true} />
             </ContactIcon>
             <ContactH2>Shoot Us a Text</ContactH2>
             <ContactP>
@@ -39,7 +39,7 @@ const ContactInfo = () => {
           </ContactCard>
           <ContactCard>
             <ContactIcon>
-              <Image src={Email} alt="Mailbox" />
+              <Image src={Email} alt="Mailbox" priority={true} />
             </ContactIcon>
             <ContactH2>Drop an Email</ContactH2>
             <ContactP>
@@ -49,7 +49,7 @@ const ContactInfo = () => {
           </ContactCard>
           <ContactCard>
             <ContactIcon>
-              <Image src={OnlineRequest} alt="Contact Form" />
+              <Image src={OnlineRequest} alt="Contact Form" priority={true} />
             </ContactIcon>
             <ContactH2>Submit a Contact Request</ContactH2>
             <ContactP>

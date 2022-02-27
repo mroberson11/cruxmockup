@@ -21,7 +21,7 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon>
-              <Image src={Icon1} alt="Pair Programming" />
+              <Image src={Icon1} alt="Pair Programming" priority={true} />
             </ServicesIcon>
             <ServicesH2>Website Creation</ServicesH2>
             <ServicesP>
@@ -33,7 +33,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon>
-              <Image src={Icon2} alt="Image Enhancement" />
+              <Image src={Icon2} alt="Image Enhancement" priority={true} />
             </ServicesIcon>
             <ServicesH2>Image Enhancement</ServicesH2>
             <ServicesP>
@@ -45,7 +45,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon>
-              <Image src={Icon3} alt="Lead Generation" />
+              <Image src={Icon3} alt="Lead Generation" priority={true} />
             </ServicesIcon>
             <ServicesH2>Lead Generation</ServicesH2>
             <ServicesP>

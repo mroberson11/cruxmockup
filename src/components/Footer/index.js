@@ -57,7 +57,7 @@ const Footer = () => {
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>
                 <LogoContainer>
-                  <Image src={CompanyLogo} alt="Company Logo" />
+                  <Image src={CompanyLogo} alt="Company Logo" priority={true} />
                 </LogoContainer>
               </SocialLogo>
               <WebsiteRights>
