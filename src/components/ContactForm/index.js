@@ -15,6 +15,7 @@ import {
   FormButton,
   RecaptchaWrapper,
   Text,
+  SubmitText,
 } from "./ContactFormElements";
 import { ButtonRouter } from "../ButtonElements";
 import emailjs from "@emailjs/browser";
@@ -24,6 +25,10 @@ import { useForm } from "../../hooks/useForm";
 import Success from "../Success";
 
 const ContactForm = () => {
+  const [successfulSubmission, setSuccessfulSubmission] = useState(false);
+  const [recaptchaVerified, setRecaptchaVerified] = useState(false);
+  const form = useRef();
+
   const { handleSubmit, handleChange, data, errors } = useForm({
     validations: {
       name: {
@@ -45,46 +50,43 @@ const ContactForm = () => {
         },
       },
     },
-    onSubmit: () => alert("Submitted form"),
+    onSubmit: () => sendEmail(),
   });
 
-  const [isValid, setIsValid] = useState(false);
-  console.log("Valid set to False");
-  const form = useRef();
+  const sendEmail = () => {
+    console.log("Sending email...");
+    emailjs
+      .sendForm(
+        "service_lz8gq0f",
+        "template_up0b275",
+        form.current,
+        "user_YZWlae1Uq0NzIL8lY9vPH"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSuccessfulSubmission(true);
+        },
+        (error) => {
+          alert(error.text);
+        }
+      );
+  };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    if (isValid) {
-      console.log("Form is valid. Sending email.");
-
-      emailjs
-        .sendForm(
-          "service_lz8gq0f",
-          "template_up0b275",
-          form.current,
-          "user_YZWlae1Uq0NzIL8lY9vPH"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    }
-    console.log("Form is not valid.");
+  const recaptchaCallback = (value) => {
+    console.log("Recaptcha in parent Verified: ", value);
+    setRecaptchaVerified(value);
   };
 
   return (
     <>
       <Container>
         <FormWrap>
+          {successfulSubmission ? <Success /> : console.log()}
           <Link href="/">
             <Icon>CRUX</Icon>
           </Link>
           <FormContent>
-            <Success />
             <Form ref={form} onSubmit={handleSubmit}>
               <FormH1>
                 Submit your contact information to have a representative reach
@@ -104,7 +106,6 @@ const ContactForm = () => {
                 onChange={handleChange("name")}
                 required
               />
-
               <FormLabel htmlFor="for">Email*</FormLabel>
               {errors.email && (
                 <p className="error" style={{ color: "red" }}>
@@ -119,7 +120,6 @@ const ContactForm = () => {
                 onChange={handleChange("email")}
                 required
               />
-
               <FormLabel htmlFor="for">Phone*</FormLabel>
               {errors.phone && (
                 <p className="error" style={{ color: "red", topMargin: "0" }}>
@@ -134,19 +134,38 @@ const ContactForm = () => {
                 onChange={handleChange("phone")}
                 required
               />
-
               <FormLabel htmlFor="for">My Interests</FormLabel>
               <CheckListWrapper>
-                <SwitchItem switchLabel="I want a fast website" />
-                <SwitchItem switchLabel="I want an attractive website" />
-                <SwitchItem switchLabel="I want more leads for my business" />
-                <SwitchItem switchLabel="I want my website maintained for me" />
+                <SwitchItem
+                  name="option1"
+                  switchLabel="I want a fast website"
+                />
+                <SwitchItem
+                  name="option2"
+                  switchLabel="I want an attractive website"
+                />
+                <SwitchItem
+                  name="option3"
+                  switchLabel="I want more leads for my business"
+                />
+                <SwitchItem
+                  name="option4"
+                  switchLabel="I want my website maintained for me"
+                />
               </CheckListWrapper>
               <FormLabel htmlFor="for">Additonal Comments</FormLabel>
               <FormComments type="comments" name="comments" />
-              <FormButton type="submit">Submit</FormButton>
+              {recaptchaVerified ? (
+                <FormButton type="submit">Submit</FormButton>
+              ) : (
+                <SubmitText>Validate Recaptcha</SubmitText>
+              )}
+
               <RecaptchaWrapper>
-                <Recaptcha />
+                <Recaptcha
+                  recaptchaVerified={recaptchaVerified}
+                  recaptchaCallback={recaptchaCallback}
+                />
               </RecaptchaWrapper>
               <ButtonRouter
                 to="/contact-info"

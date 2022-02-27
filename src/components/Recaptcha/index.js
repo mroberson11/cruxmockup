@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
-const Recaptcha = () => {
-  const [isHuman, setIsHuman] = useState(false);
+const Recaptcha = ({ verified, recaptchaCallback }) => {
+  const [isHuman, setIsHuman] = useState(verified);
   function onChange(value) {
     setIsHuman(true);
   }
   useEffect(() => {
-    console.log("Use Effect triggered. isHuman value: ", isHuman);
+    recaptchaCallback(isHuman);
   }, [isHuman]);
 
   return (

@@ -3,21 +3,12 @@ import { useState } from "react";
 import Modal from "../Modal";
 
 const Success = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(true);
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
   return (
     <>
-      <motion.button
-        className="Success Button"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        onClick={() => (modalOpen ? close() : open())}
-      >
-        Launch Modal
-      </motion.button>
-
       <AnimatePresence
         initial={false}
         exitBeforeEnter={true}

@@ -133,3 +133,11 @@ export const Text = styled.span`
   font-size: 14px;
   text-decoration: underline;
 `;
+
+export const SubmitText = styled.span`
+  text-align: center;
+  margin-top: 24px;
+  color: white;
+  font-size: 16px;
+  color: red;
+`;

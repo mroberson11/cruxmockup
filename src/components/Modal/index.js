@@ -5,7 +5,6 @@ import {
   ModalContent,
   ModalHeading,
   ImageWrapper,
-  TextWrapper,
   ModalText,
 } from "./ModalElements";
 import Icon1 from "../../../public/videos/AnimatedCheckmark.gif";
