@@ -83,7 +83,7 @@ const ContactForm = () => {
       <Container>
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}
-          <Link href="/">
+          <Link href="/" passHref>
             <Icon>CRUX</Icon>
           </Link>
           <FormContent>

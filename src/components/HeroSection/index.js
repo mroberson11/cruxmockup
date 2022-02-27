@@ -48,7 +48,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Want a website like this?</HeroH1>
         <HeroP>
-          Only three spots available per month. <br /> Don't miss out.
+          Only three spots available per month. <br /> Don&apos;t miss out.
         </HeroP>
         <HeroBtnWrapper>
           <Link href="/contact-form" passHref>

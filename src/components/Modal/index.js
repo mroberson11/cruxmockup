@@ -52,10 +52,10 @@ const Modal = ({ handleClose, text }) => {
           <ModalHeading>Thank You!</ModalHeading>
           <ModalText>
             Your form submission was successful! We sincerely appreciate you
-            reaching out to us. We know your time is valuable which is why we're
-            committed to responding within a 24 hour time frame barring any
-            technical difficulties. If your inquiry is urgent, please contact us
-            via 601-345-1523.{" "}
+            reaching out to us. We know your time is valuable which is why
+            we&apos;re committed to responding within a 24 hour time frame
+            barring any technical difficulties. If your inquiry is urgent,
+            please contact us via 601-345-1523.{" "}
           </ModalText>
         </ModalContent>
       </motion.div>

@@ -56,7 +56,7 @@ const ContactInfo = () => {
               Fill out an online contact request form{" "}
               <ButtonRouter style={{ background: "none" }}>
                 <EmphasizedP>
-                  <Link href="/contact-form">
+                  <Link href="/contact-form" passHref>
                     <i>here</i>
                   </Link>
                 </EmphasizedP>

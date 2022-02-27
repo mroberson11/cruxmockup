@@ -38,8 +38,8 @@ const Services = () => {
             <ServicesH2>Image Enhancement</ServicesH2>
             <ServicesP>
               Tired of being embarrassed by your existing website? Ashamed to
-              market it to potential customers? We've all been there. Allow us
-              to help visualize your potential online transformation at no
+              market it to potential customers? We&apos;ve all been there. Allow
+              us to help visualize your potential online transformation at no
               initial cost through free mockups.
             </ServicesP>
           </ServicesCard>
@@ -49,11 +49,11 @@ const Services = () => {
             </ServicesIcon>
             <ServicesH2>Lead Generation</ServicesH2>
             <ServicesP>
-              There's no use in having a beautifully designed website if there's
-              no one to admire it. Utilizing today's most up to date SEO
-              techniques & dynamic ads, our team will ensure potential customers
-              are able to organically discover your online content ahead of
-              industry competitors.
+              There&apos;s no use in having a beautifully designed website if
+              there&apos;s no one to admire it. Utilizing today&apos;s most up
+              to date SEO techniques & dynamic ads, our team will ensure
+              potential customers are able to organically discover your online
+              content ahead of industry competitors.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>
