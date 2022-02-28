@@ -35,7 +35,7 @@ const HeroSection = () => {
             loop
             muted
             playsinline
-            src={require("../../../public/videos/BlueSpace.mp4")}
+            src={require("../../../public/videos/Bluespace.webm")}
             type="video/mp4"
           />
         ) : (
