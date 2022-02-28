@@ -30,7 +30,7 @@ const HeroSection = () => {
     <HeroContainer id="home">
       <HeroBg>
         <BackgroundPic
-          src={"../../images/HeroImages/blue-milky-way.jpg"}
+          src={"../../images/HeroImages/blue-milky-way.webp"}
           alt="Blue Space Background"
         />
       </HeroBg>
