@@ -29,21 +29,10 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        {isDesktopOrLaptop ? (
-          <VideoBg
-            autoPlay
-            loop
-            muted
-            playsinline
-            src={require("../../videos/Bluespace.webm")}
-            type="video/mp4"
-          />
-        ) : (
-          <BackgroundPic
-            src={"../../images/HeroImages/blue-milky-way.jpg"}
-            alt="Blue Space Background"
-          />
-        )}
+        <BackgroundPic
+          src={"../../images/HeroImages/blue-milky-way.jpg"}
+          alt="Blue Space Background"
+        />
       </HeroBg>
       <HeroContent>
         <HeroH1>Want a website like this?</HeroH1>

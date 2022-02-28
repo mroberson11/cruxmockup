@@ -8,7 +8,7 @@ const Recaptcha = ({ verified, recaptchaCallback }) => {
   }
   useEffect(() => {
     recaptchaCallback(isHuman);
-  }, [isHuman]);
+  }, [isHuman, recaptchaCallback]);
 
   return (
     <>
