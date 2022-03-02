@@ -20,7 +20,7 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
-  pageLink: "",
+  pageLink: "about",
 };
 
 // export const homeObjTwo = {

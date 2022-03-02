@@ -35,3 +35,21 @@
   background: black;
   color: white;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  background: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #66fcf1;
+  border-radius: 10px;
+}

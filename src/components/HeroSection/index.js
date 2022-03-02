@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ButtonRouter } from "../ButtonElements";
 import { useMediaQuery } from "react-responsive";
@@ -15,10 +16,11 @@ import {
   NavBtnLink,
   BackgroundPic,
 } from "./HeroElements";
+import HeroImage from "../../images/HeroImages/blue-milky-way.jpg";
 
 const HeroSection = () => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 600px)",
+    query: "(min-width: 700px)",
   });
   const [hover, setHover] = useState(false);
 
@@ -29,10 +31,14 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <BackgroundPic
-          src={"../../images/HeroImages/blue-milky-way.webp"}
-          alt="Blue Space Background"
-        />
+        {isDesktopOrLaptop ? (
+          <Image src={HeroImage} alt="Green Space Background" layout="fill" />
+        ) : (
+          <BackgroundPic
+            src={"../../images/HeroImages/blue-milky-way.jpg"}
+            alt="Blue Space Background"
+          />
+        )}
       </HeroBg>
       <HeroContent>
         <HeroH1>Want a website like this?</HeroH1>
