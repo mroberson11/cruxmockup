@@ -65,5 +65,6 @@ export const InfoSectionHeader = styled.h2`
 
 export const InfoSectionText = styled.p`
   font-size: 1.5rem;
-  /* text-align: center; */
+  text-align: center;
+  padding: 0.5rem;
 `;

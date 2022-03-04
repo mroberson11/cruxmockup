@@ -50,17 +50,13 @@ const About = () => {
             <InfoSection>
               <InfoSectionHeader>Why We Do It</InfoSectionHeader>
               <InfoSectionText>
-                Donec sed ligula a diam suscipit feugiat et quis felis. Vivamus
-                a orci id ante pellentesque egestas. Nulla urna nunc, feugiat in
-                commodo eu, tincidunt ut lacus. Proin mattis velit lorem, quis
-                laoreet eros euismod sit amet. Aenean id lacinia est, sed
-                laoreet velit. Sed tincidunt, ante vitae fermentum porta, urna
-                purus venenatis erat, vel blandit leo tellus in eros. Integer
-                sed sapien a diam pretium molestie. Nullam facilisis metus vel
-                tellus commodo hendrerit in ut sem. Aenean id nunc sagittis,
-                venenatis lorem vel, euismod orci. Phasellus nunc est, molestie
-                nec magna eget, condimentum rhoncus tortor. Pellentesque ornare
-                tristique convallis.
+                We have a passion for helping small businesses grow. We believe
+                a company&apos;s website can be its greatest digital asset &
+                marketing tool or its greatest handicap. Technology is complex.
+                So, we want to make it as simple as possible for service based
+                businesses to take advantage of the massive potential that
+                implementing a strategic sales funnel & quality website can have
+                on their lead generation, revenue, and company growth.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>
