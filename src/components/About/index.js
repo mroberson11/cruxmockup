@@ -26,7 +26,7 @@ const About = () => {
           <AboutContent>
             <VideoWrapper>
               <InfoVideo
-                src={require("../../videos/Bluespace.webm")}
+                src={require("../../../public/videos/Bluespace.webm")}
                 alt="Introduction Video"
                 type="video/mp4"
                 playsinline
