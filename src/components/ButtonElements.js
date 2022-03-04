@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
+import { motion } from "framer-motion";
 
 export const Button = styled(LinkS)`
   border-radius: 50px;
@@ -22,7 +23,7 @@ export const Button = styled(LinkS)`
   }
 `;
 
-export const ButtonRouter = styled.div`
+export const ButtonRouter = styled(motion.button)`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? "#66fcf1" : "#010606")};
   white-space: nowrap;

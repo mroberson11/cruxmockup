@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const InfoContainer = styled.div`
+export const InfoContainer = styled.section`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
@@ -40,7 +41,7 @@ export const Column1 = styled.div`
   grid-area: col1;
 `;
 
-export const Column2 = styled.div`
+export const Column2 = styled(motion.div)`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
@@ -52,7 +53,7 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `;
 
-export const TopLine = styled.p`
+export const TopLine = styled(motion.p)`
   color: #66fcf1;
   font-size: 16px;
   line-height: 16px;
@@ -62,7 +63,7 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `;
 
-export const Heading = styled.h1`
+export const Heading = styled(motion.h1)`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
@@ -74,7 +75,7 @@ export const Heading = styled.h1`
   }
 `;
 
-export const Subtitle = styled.p`
+export const Subtitle = styled(motion.p)`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
