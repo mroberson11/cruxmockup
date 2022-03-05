@@ -15,6 +15,7 @@ import {
   InfoSectionText,
 } from "./AboutElements";
 import Footer from "../Footer";
+import FAQs from "../FAQs";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 
@@ -89,11 +90,7 @@ const About = () => {
             <InfoSection>
               <InfoSectionHeader>FAQs</InfoSectionHeader>
               <InfoSectionText>
-                <ul>
-                  <li>Example 1</li>
-                  <li>Example 2</li>
-                  <li>Exmaple 3</li>
-                </ul>
+                <FAQs />
               </InfoSectionText>
             </InfoSection>
           </AboutContent>
