@@ -1,11 +1,14 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import Favicon from "../src/components/Favicon";
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <Favicon />
+        </Head>
         <body>
           <Main />
           <NextScript />
