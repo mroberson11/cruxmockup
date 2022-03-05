@@ -16,8 +16,8 @@ import {
   ImgWrap,
   Img,
 } from "./InfoElements";
-import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
+import { useMyAnimation } from "../../hooks/useMyAnimation";
 
 const InfoSection = ({
   lightBg,
@@ -36,19 +36,8 @@ const InfoSection = ({
   dark2,
   pageLink,
 }) => {
-  const initial = { opacity: 0, y: 30 };
   const animation = useAnimation();
-
-  const { ref, inView } = useInView({ threshold: 0.2 });
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        opacity: 1,
-        y: 0,
-      });
-    }
-  }, [inView, animation]);
+  const { ref, initial } = useMyAnimation({ animation });
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id} ref={ref}>

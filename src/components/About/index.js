@@ -36,15 +36,15 @@ const About = () => {
             <InfoSection>
               <InfoSectionHeader>What We Do</InfoSectionHeader>
               <InfoSectionText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                nisl quam, tristique quis scelerisque ac, gravida eu tortor.
-                Mauris posuere ac eros sed tempus. Vestibulum non laoreet erat,
-                at suscipit magna. Nam sed velit quis nisi tincidunt dapibus et
-                sed nisi. Quisque commodo, metus ut mollis volutpat, neque nulla
-                ullamcorper nulla, et tempor lacus neque sit amet elit. In eu
-                pretium tortor. Proin bibendum porta metus nec malesuada.
-                Vivamus commodo libero orci, faucibus aliquam nibh aliquet sit
-                amet.
+                CRUX Software Solutions is a premium web development agency
+                specializing in the creation of lightning fast websites that are
+                aesthetically pleasing. Search Engine Optimization & Business
+                Lead Generation are at the heart of our service offerings. For
+                the technical savvy, we utilize the Next.js framework to create
+                React (Javascript) applications served on our partners Central
+                Distributed Network. In layman&apos;s terms, we make <i>fast</i>{" "}
+                websites. This enhances user experience, customer satisfaction,
+                and of course lead conversion.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>
