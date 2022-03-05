@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const Container = styled.div`
+export const Container = styled.section`
   min-height: 692px;
   position: fixed;
   bottom: 0;
@@ -58,12 +59,12 @@ export const InfoSection = styled.div`
   margin-top: 1rem;
 `;
 
-export const InfoSectionHeader = styled.h2`
+export const InfoSectionHeader = styled(motion.h2)`
   font-size: 2rem;
   margin-bottom: 0.5rem;
 `;
 
-export const InfoSectionText = styled.p`
+export const InfoSectionText = styled(motion.p)`
   font-size: 1.5rem;
   text-align: center;
   padding: 0.5rem;

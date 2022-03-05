@@ -54,13 +54,15 @@ const ContactInfo = () => {
             <ContactH2>Submit a Contact Request</ContactH2>
             <ContactP>
               Fill out an online contact request form{" "}
-              <ButtonRouter style={{ background: "none" }}>
-                <EmphasizedP>
-                  <Link href="/contact-form" passHref>
-                    <i>here</i>
-                  </Link>
-                </EmphasizedP>
-              </ButtonRouter>
+              <EmphasizedP>
+                <Link
+                  href="/contact-form"
+                  passHref
+                  style={{ textAlign: "center" }}
+                >
+                  <i>here</i>
+                </Link>
+              </EmphasizedP>
             </ContactP>
           </ContactCard>
         </ContactWrapper>
