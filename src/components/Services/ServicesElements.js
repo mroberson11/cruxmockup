@@ -65,7 +65,6 @@ export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 50px;
-  margin-top: 50px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
