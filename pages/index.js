@@ -9,7 +9,9 @@ import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
+  homeObjFour,
 } from "../src/components/InfoSection/Data";
+import Benefits from "../src/components/Benefits";
 import Services from "../src/components/Services";
 import Footer from "../src/components/Footer";
 
@@ -25,6 +27,7 @@ export default function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      <Benefits />
       <Services />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />

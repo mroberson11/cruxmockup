@@ -1,23 +1,30 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ServicesContainer = styled.div`
-  min-height: 700px;
+export const BenefitsContainer = styled.section`
+  min-height: 400px;
+  background: #f9f9f9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1400px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 1400px;
+    padding: 2rem 0;
   }
 `;
 
-export const ServicesWrapper = styled.div`
+export const Heading = styled(motion.h1)`
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+`;
+
+export const BenefitsWrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -36,14 +43,14 @@ export const ServicesWrapper = styled.div`
   }
 `;
 
-export const ServicesCard = styled.div`
+export const BenefitItem = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  min-height: 300px;
+  min-height: 2rem;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -53,31 +60,4 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursore: pointer;
   }
-`;
-
-export const ServicesIcon = styled.div`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
-`;
-
-export const ServicesH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
-  margin-bottom: 50px;
-  margin-top: 50px;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
-`;
-
-export const ServicesH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 10px;
-`;
-
-export const ServicesP = styled.p`
-  font-size: 1rem;
-  text-align: center;
 `;
