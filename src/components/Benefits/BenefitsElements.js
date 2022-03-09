@@ -1,8 +1,16 @@
 import styled from "styled-components";
+import {
+  FaCheckCircle,
+  FaFunnelDollar,
+  FaSmile,
+  FaSearchDollar,
+} from "react-icons/fa";
+import { BsFillLightningFill } from "react-icons/bs";
+import { MdLeaderboard } from "react-icons/md";
 import { motion } from "framer-motion";
 
-export const BenefitsContainer = styled.section`
-  min-height: 400px;
+export const BenefitsContainer = styled(motion.section)`
+  min-height: 600px;
   background: #f9f9f9;
   display: flex;
   flex-direction: column;
@@ -17,14 +25,14 @@ export const BenefitsContainer = styled.section`
 export const Heading = styled(motion.h1)`
   font-size: 2.5rem;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
 `;
 
-export const BenefitsWrapper = styled.div`
+export const BenefitsWrapper = styled(motion.div)`
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -46,8 +54,7 @@ export const BenefitsWrapper = styled.div`
 export const BenefitItem = styled.div`
   background: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
   align-items: center;
   border-radius: 10px;
   min-height: 2rem;
@@ -58,6 +65,44 @@ export const BenefitItem = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursore: pointer;
+    cursor: pointer;
   }
+`;
+
+export const BenefitIcon = styled.div`
+  min-height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 10px;
+`;
+
+export const Lightning = styled(BsFillLightningFill)`
+  font-size: 1.5rem;
+  color: #def107;
+`;
+
+export const Funnel = styled(FaFunnelDollar)`
+  font-size: 1.5rem;
+  color: #1df20e;
+`;
+
+export const Leaderboard = styled(MdLeaderboard)`
+  font-size: 1.5rem;
+  color: #c22ef2;
+`;
+
+export const Smile = styled(FaSmile)`
+  font-size: 1.5rem;
+  color: #66fcf1;
+`;
+
+export const Checkmark = styled(FaCheckCircle)`
+  font-size: 1.5rem;
+  color: #001eff;
+`;
+export const SearchDollar = styled(FaSearchDollar)`
+  font-size: 1.5rem;
+  color: #f06701;
+`;
+export const BenefitText = styled.p`
+  font-size: 1.1rem;
 `;
