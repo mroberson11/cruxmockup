@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
+import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
@@ -95,7 +96,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled.div`
+export const NavBtnLink = styled(motion.button)`
   border-radius: 50px;
   background: #66fcf1;
   white-space: nowrap;
@@ -105,14 +106,12 @@ export const NavBtnLink = styled.div`
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
   font-family: "Iceberg";
 
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #45a29e;
-    color: #010606;
+    color: white;
   }
 `;
 
