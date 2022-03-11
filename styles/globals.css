@@ -4,10 +4,12 @@
   --cruxBlue: #66fcf1;
   --faqText: #00ffef;
   --darkBlue: #101522;
+
+  --defaultFont: "Iceberg";
 }
 
 @font-face {
-  font-family: "Iceberg";
+  font-family: var(--defaultFont);
   src: url("./Iceberg-Regular.ttf");
 }
 
@@ -15,7 +17,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Iceberg";
+  font-family: var(--defaultFont);
 }
 
 .backdrop {

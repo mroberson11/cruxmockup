@@ -32,7 +32,7 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled.div`
   color: var(--trueWhite);
-  justify-self flex-start;
+  justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
@@ -81,7 +81,7 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  font-family: "Iceberg";
+  font-family: var(--defaultFont);
 
   &.active {
     border-bottom: 3px solid var(--cruxBlue);
@@ -108,7 +108,7 @@ export const NavBtnLink = styled(motion.button)`
   border: none;
   cursor: pointer;
   text-decoration: none;
-  font-family: "Iceberg";
+  font-family: var(--defaultFont);
 
   &:hover {
     background: var(--trueWhite);
