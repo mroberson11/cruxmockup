@@ -55,7 +55,7 @@ const About = () => {
               >
                 CRUX Software Solutions is a premium web development agency
                 specializing in the creation of lightning fast websites that are
-                aesthetically pleasing tailored to service based businesses.
+                aesthetically pleasing & tailored to service based businesses.
                 Search Engine Optimization & Lead Generation are at the heart of
                 our service offerings. For the technical savvy, we utilize the
                 Next.js framework to create React (Javascript) applications
