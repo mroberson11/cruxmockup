@@ -12,6 +12,18 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="aTOluMyzrlfVjo8rtl8BYY8kUq1CYpCB4DPcRVoRQms"
           />
+          <meta name="title" content="CRUX Software Solutions." />
+          <meta
+            name="description"
+            content="CRUX Software Solutions is a premium web development agency specializing in the creation of lightning fast websites that are aesthetically pleasing."
+          />
+          <meta
+            name="keywords"
+            content="Web Design, Web Agency, Lead Generation"
+          />
+          <meta name="robots" content="index, follow" />
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
         </Head>
         <body>
           <Main />
