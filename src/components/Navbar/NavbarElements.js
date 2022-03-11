@@ -3,7 +3,8 @@ import { Link as LinkS } from "react-scroll";
 import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "var(--trueBlack)" : "transparent")};
+  background: ${({ scrollNav }) =>
+    scrollNav ? "var(--trueBlack)" : "transparent"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -110,8 +111,7 @@ export const NavBtnLink = styled(motion.button)`
   font-family: "Iceberg";
 
   &:hover {
-    background: #45a29e;
-    color: var(--trueWhite);
+    background: var(--trueWhite);
   }
 `;
 
