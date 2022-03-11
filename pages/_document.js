@@ -8,6 +8,10 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <Favicon />
+          <meta
+            name="google-site-verification"
+            content="aTOluMyzrlfVjo8rtl8BYY8kUq1CYpCB4DPcRVoRQms"
+          />
         </Head>
         <body>
           <Main />
