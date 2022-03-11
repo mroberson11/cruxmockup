@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: var(--defaultFont);
+  font-family: "Iceberg";
   src: url("./Iceberg-Regular.ttf");
 }
 
@@ -17,7 +17,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--defaultFont);
+  font-family: "Iceberg";
 }
 
 .backdrop {
