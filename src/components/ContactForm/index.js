@@ -17,7 +17,7 @@ import {
   Text,
   SubmitText,
 } from "./ContactFormElements";
-import { ButtonRouter } from "../ButtonElements";
+import { AnimatedButton } from "../ButtonElements";
 import emailjs from "@emailjs/browser";
 import SwitchItem from "../SwitchItem";
 import Recaptcha from "../Recaptcha";
@@ -165,7 +165,7 @@ const ContactForm = () => {
                   recaptchaCallback={recaptchaCallback}
                 />
               </RecaptchaWrapper>
-              <ButtonRouter
+              <AnimatedButton
                 to="/contact-info"
                 smooth={true}
                 duration={500}
@@ -177,7 +177,7 @@ const ContactForm = () => {
                 <Link href="/contact-info" passHref>
                   <Text>Get in touch sooner</Text>
                 </Link>
-              </ButtonRouter>
+              </AnimatedButton>
             </Form>
           </FormContent>
         </FormWrap>

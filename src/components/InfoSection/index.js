@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import { ButtonRouter } from "../ButtonElements";
+import { AnimatedButton } from "../ButtonElements";
 import Link from "next/link";
 import {
   InfoContainer,
@@ -74,7 +74,7 @@ const InfoSection = ({
                 </Subtitle>
                 <BtnWrap>
                   <Link href={pageLink} passHref>
-                    <ButtonRouter
+                    <AnimatedButton
                       smooth={true}
                       duration={500}
                       spy={true}
@@ -88,7 +88,7 @@ const InfoSection = ({
                       animate={animation}
                     >
                       {buttonLabel}
-                    </ButtonRouter>
+                    </AnimatedButton>
                   </Link>
                 </BtnWrap>
               </TextWrapper>

@@ -23,7 +23,7 @@ export const Button = styled(LinkS)`
   }
 `;
 
-export const ButtonRouter = styled(motion.button)`
+export const AnimatedButton = styled(motion.button)`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? "#66fcf1" : "#010606")};
   white-space: nowrap;

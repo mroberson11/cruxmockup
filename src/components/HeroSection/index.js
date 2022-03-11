@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ButtonRouter } from "../ButtonElements";
+import { AnimatedButton } from "../ButtonElements";
 import { useMediaQuery } from "react-responsive";
 import {
   HeroContainer,
@@ -52,7 +52,7 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
           <Link href="/contact-form" passHref>
-            <ButtonRouter
+            <AnimatedButton
               to="contact"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
@@ -69,7 +69,7 @@ const HeroSection = () => {
               whileTap={{ scale: 0.9 }}
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-            </ButtonRouter>
+            </AnimatedButton>
           </Link>
         </HeroBtnWrapper>
       </HeroContent>
