@@ -15,7 +15,7 @@ export const Container = styled.section`
 `;
 
 export const AboutH1 = styled.h1`
-  color: #fff;
+  color: var(--trueWhite);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
@@ -31,7 +31,7 @@ export const AboutWrapper = styled.div`
 `;
 
 export const AboutContent = styled.div`
-  background: white;
+  background: var(--trueWhite);
   border-radius: 10px;
   width: clamp(250px, 90vw, 900px);
   padding: 1rem;

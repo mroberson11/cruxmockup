@@ -24,7 +24,7 @@ export const BenefitsContainer = styled(motion.section)`
 
 export const Heading = styled(motion.h1)`
   font-size: 2.5rem;
-  color: #000;
+  color: var(--trueBlack);
   margin-bottom: 1.5rem;
 
   @media screen and (max-width: 480px) {
@@ -52,7 +52,7 @@ export const BenefitsWrapper = styled(motion.div)`
 `;
 
 export const BenefitItem = styled.div`
-  background: #fff;
+  background: var(--trueWhite);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,7 +92,7 @@ export const Leaderboard = styled(MdLeaderboard)`
 
 export const Smile = styled(FaSmile)`
   font-size: 1.5rem;
-  color: #66fcf1;
+  color: var(--cruxBlue);
 `;
 
 export const Checkmark = styled(FaCheckCircle)`

@@ -15,7 +15,7 @@ import { SocialIcons, SocialIconLink } from "../Footer/FooterElements.js";
 const AltNav = () => {
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "var(--trueWhite)" }}>
         <Nav style={{ background: "black" }}>
           <NavbarContainer>
             <NavLogo>

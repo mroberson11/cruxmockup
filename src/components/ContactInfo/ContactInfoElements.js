@@ -22,11 +22,11 @@ export const HeaderSection = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 4px 0px rgba(102, 252, 241, 0.4);
-  background: white;
+  background: var(--trueWhite);
 `;
 
 export const DivSection = styled.div`
-  background: white;
+  background: var(--trueWhite);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   margin-top: 10px;
@@ -53,7 +53,7 @@ export const ContactWrapper = styled.div`
 `;
 
 export const ContactCard = styled.div`
-  background: #fff;
+  background: var(--trueWhite);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -97,7 +97,7 @@ export const EmphasizedP = styled.p`
 `;
 
 export const ContactH1 = styled.h1`
-  color: #fff;
+  color: var(--trueWhite);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;

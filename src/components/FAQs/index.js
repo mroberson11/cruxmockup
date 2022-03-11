@@ -36,8 +36,8 @@ const FAQs = () => {
   };
 
   const styles = {
-    titleTextColor: "#00FFEF",
-    rowTitleColor: "#00FFEF",
+    titleTextColor: "var(--faqText)",
+    rowTitleColor: "var(--faqText)",
   };
 
   const config = {

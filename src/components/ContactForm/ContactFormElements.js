@@ -32,7 +32,7 @@ export const Icon = styled.a`
   margin-top: 2em;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: var(--trueWhite);
   font-weight: 700;
   font-size: 3em;
   cursor: pointer;
@@ -75,7 +75,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
-  color: #fff;
+  color: var(--trueWhite);
   font-size: 20px;
   font-weight: 400;
   text-align: center;
@@ -84,7 +84,7 @@ export const FormH1 = styled.h1`
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   font-size: 16px;
-  color: #fff;
+  color: var(--trueWhite);
 `;
 
 export const FormInput = styled.input`
@@ -95,7 +95,7 @@ export const FormInput = styled.input`
 `;
 
 export const CheckListWrapper = styled.div`
-  color: white;
+  color: var(--trueWhite);
   display: grid;
   justify-content: center;
   margin-top: 0.5rem;
@@ -110,11 +110,11 @@ export const FormComments = styled.textarea`
 `;
 
 export const FormButton = styled.button`
-  background: #66fcf1;
+  background: var(--cruxBlue);
   padding: 16px 0;
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: var(--trueWhite);
   font-size: 20px;
   cursor: pointer;
 `;
@@ -129,7 +129,7 @@ export const RecaptchaWrapper = styled.div`
 export const Text = styled.span`
   text-align: center;
   margin-top: 24px;
-  color: white;
+  color: var(--trueWhite);
   font-size: 14px;
   text-decoration: underline;
 `;
@@ -137,7 +137,7 @@ export const Text = styled.span`
 export const SubmitText = styled.span`
   text-align: center;
   margin-top: 24px;
-  color: white;
+  color: var(--trueWhite);
   font-size: 16px;
   color: red;
 `;

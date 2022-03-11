@@ -3,7 +3,7 @@ import { Link as LinkS } from "react-scroll";
 import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "var(--trueBlack)" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.div`
-  color: #fff;
+  color: var(--trueWhite);
   justify-self flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: var(--trueWhite);
   }
 `;
 
@@ -73,7 +73,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: var(--trueWhite);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
   font-family: "Iceberg";
 
   &.active {
-    border-bottom: 3px solid #66fcf1;
+    border-bottom: 3px solid var(--cruxBlue);
   }
 `;
 
@@ -98,10 +98,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(motion.button)`
   border-radius: 50px;
-  background: #66fcf1;
-  white-space: nowrap;
+  background: var(--cruxBlue);
+  var(--trueWhite)-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: var(--trueBlack);
   font-size: 16px;
   outline: none;
   border: none;
@@ -111,7 +111,7 @@ export const NavBtnLink = styled(motion.button)`
 
   &:hover {
     background: #45a29e;
-    color: white;
+    color: var(--trueWhite);
   }
 `;
 

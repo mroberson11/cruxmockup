@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const InfoContainer = styled.section`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  color: var(--trueWhite);
+  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "var(--trueBlack)")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled(motion.p)`
-  color: #66fcf1;
+  color: var(--cruxBlue);
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -68,7 +68,7 @@ export const Heading = styled(motion.h1)`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "var(--trueBlack)")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -80,7 +80,7 @@ export const Subtitle = styled(motion.p)`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: ${({ darkText }) => (darkText ? "var(--trueBlack)" : "var(--trueWhite)")};
 `;
 
 export const BtnWrap = styled.div`

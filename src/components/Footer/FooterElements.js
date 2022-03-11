@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Link from "next/link";
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  background-color: var(--darkBlue);
 `;
 
 export const FooterWrap = styled.div`
@@ -41,7 +41,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 200px;
   box-sizing: border-box;
-  color: #fff;
+  color: var(--trueWhite);
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -56,14 +56,14 @@ export const FooterLinkTitle = styled.h1`
 `;
 
 export const FooterLink = styled.a`
-  color: #fff;
+  color: var(--trueWhite);
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 20px;
   cursore: pointer;
 
   &:hover {
-    color: #66fcf1;
+    color: var(--cruxBlue);
     transition: 0.3s ease-out;
   }
 `;
@@ -85,7 +85,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled.div`
-  color: #fff;
+  color: var(--trueWhite);
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -97,7 +97,7 @@ export const SocialLogo = styled.div`
 `;
 
 export const WebsiteRights = styled.small`
-  color: #fff;
+  color: var(--trueWhite);
   margin-bottom: 16px;
 `;
 
@@ -109,6 +109,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  color: var(--trueWhite);
   font-size: 24px;
 `;

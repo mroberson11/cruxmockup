@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 
 export const Button = styled(LinkS)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? "#66fcf1" : "#010606")};
-  white-space: nowrap;
+  background: ${({ primary }) =>
+    primary ? "var(--cruxBlue)" : "var(--trueBlack)"};
+  var(--trueWhite)-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#010606" : "#fff")};
+  color: ${({ dark }) => (dark ? "var(--trueBlack)" : "var(--trueWhite)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -19,16 +20,18 @@ export const Button = styled(LinkS)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#fff" : "#66fcf1")};
+    background: ${({ primary }) =>
+      primary ? "var(--trueWhite)" : "var(--cruxBlue)"};
   }
 `;
 
 export const AnimatedButton = styled(motion.button)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? "#66fcf1" : "#010606")};
-  white-space: nowrap;
+  background: ${({ primary }) =>
+    primary ? "var(--cruxBlue)" : "var(--trueBlack)"};
+  var(--trueWhite)-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#010606" : "#fff")};
+  color: ${({ dark }) => (dark ? "var(--trueBlack)" : "var(--trueWhite)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -39,6 +42,7 @@ export const AnimatedButton = styled(motion.button)`
   text-decoration: none;
 
   &:hover {
-    background: ${({ primary }) => (primary ? "#fff" : "#66fcf1")};
+    background: ${({ primary }) =>
+      primary ? "var(--trueWhite)" : "var(--cruxBlue)"};
   }
 `;

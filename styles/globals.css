@@ -1,3 +1,11 @@
+:root {
+  --trueWhite: #ffffff;
+  --trueBlack: #010606;
+  --cruxBlue: #66fcf1;
+  --faqText: #00ffef;
+  --darkBlue: #101522;
+}
+
 @font-face {
   font-family: "Iceberg";
   src: url("./Iceberg-Regular.ttf");
@@ -50,6 +58,6 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #66fcf1;
+  background: var(--cruxBlue);
   border-radius: 10px;
 }
