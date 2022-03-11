@@ -16,7 +16,7 @@ import {
   NavBtnLink,
   BackgroundPic,
 } from "./HeroElements";
-import HeroImage from "../../images/HeroImages/blue-milky-way.jpg";
+import HeroImage from "../../images/HeroImages/blue-milky-way.webp";
 
 const HeroSection = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -32,10 +32,15 @@ const HeroSection = () => {
     <HeroContainer id="home">
       <HeroBg>
         {isDesktopOrLaptop ? (
-          <Image src={HeroImage} alt="Green Space Background" layout="fill" />
+          <Image
+            src={HeroImage}
+            alt="Green Space Background"
+            layout="fill"
+            type="image/webp"
+          />
         ) : (
           <BackgroundPic
-            src={"../../images/HeroImages/blue-milky-way.jpg"}
+            src={"../../images/HeroImages/blue-milky-way.webp"}
             alt="Blue Space Background"
           />
         )}

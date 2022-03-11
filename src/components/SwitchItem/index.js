@@ -6,16 +6,16 @@ const SwitchItem = ({ switchLabel }) => {
 
   const handleChange = (checkValue, checkEvent, itemId) => {
     setIsSwitched(!isSwitched);
-    console.log(itemId, "has been set to", checkValue);
   };
 
   return (
-    <label>
+    <label htmlFor={switchLabel}>
       <Switch
         onChange={handleChange}
         checked={isSwitched}
         onColor="#00FFEF"
         id={switchLabel}
+        name={switchLabel}
       />{" "}
       {switchLabel}
     </label>
