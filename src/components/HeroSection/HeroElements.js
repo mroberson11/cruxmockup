@@ -58,7 +58,7 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-export const HeroH1 = styled.h1`
+export const HeroH1 = styled(motion.h1)`
   color: var(--trueWhite);
   font-size: 48px;
   text-align: center;
@@ -72,7 +72,7 @@ export const HeroH1 = styled.h1`
   }
 `;
 
-export const HeroP = styled.p`
+export const HeroP = styled(motion.p)`
   margin-top: 24px;
   color: var(--trueWhite);
   font-size: 24px;

@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled.li`
+export const NavItem = styled(motion.li)`
   height: 80px;
 `;
 
@@ -115,7 +115,7 @@ export const NavBtnLink = styled(motion.button)`
   }
 `;
 
-export const LogoContainer = styled.div`
+export const LogoContainer = styled(motion.div)`
   width: 100px;
 
   @media screen and (max-width: 500px) {

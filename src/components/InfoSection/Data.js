@@ -10,7 +10,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Software Solution Providers",
-  headline: "Front-End Development",
+  headline: "Web Design Agency",
   description:
     "We are Software Solution providers who specialize in Web Development, Lead Generation, and Search Engine Optimization.",
   buttonLabel: "Learn More",
@@ -69,7 +69,7 @@ export const homeObjThree = {
   topLine: "Get in Touch",
   headline: "Start Your Journey",
   description:
-    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutinize your online presence. We are available for calls, texts, emails, and through our online contact form.",
+    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutionize your online presence. We are available for calls, texts, emails, and through our online contact form.",
   buttonLabel: "Contact Information",
   imgStart: false,
   img: pic5,

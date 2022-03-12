@@ -41,7 +41,11 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <LogoContainer>
+              <LogoContainer
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
                 <Image src={CompanyLogo} alt="Company Logo" priority={true} />
               </LogoContainer>
             </NavLogo>
@@ -49,7 +53,11 @@ const Navbar = ({ toggle }) => {
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
                 <NavLinks
                   to="about"
                   smooth={true}
@@ -61,7 +69,11 @@ const Navbar = ({ toggle }) => {
                   About
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
                 <NavLinks
                   to="services"
                   smooth={true}
@@ -73,7 +85,11 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
                 <NavLinks
                   to="why"
                   smooth={true}
@@ -85,7 +101,11 @@ const Navbar = ({ toggle }) => {
                   Why Us
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
                 <NavLinks
                   to="information"
                   smooth={true}
