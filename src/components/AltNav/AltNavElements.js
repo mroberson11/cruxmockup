@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "var(--trueBlack)" : "transparent")};
+  background: ${({ scrollNav }) =>
+    scrollNav ? "var(--trueBlack)" : "transparent"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -30,7 +32,7 @@ export const NavbarContainer = styled.div`
   }
 `;
 
-export const NavLogo = styled.div`
+export const NavLogo = styled(motion.div)`
   color: var(--trueWhite);
   justify-self flex-start;
   cursor: pointer;

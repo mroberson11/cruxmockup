@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href="/contact-form" passHref>
                   <FooterLink>Get Started</FooterLink>
                 </Link>
-                <Link href="https://google.com" passHref>
+                <Link href="https://g.page/r/CRXcCbOIyJ6JEAg/review " passHref>
                   <FooterLink>Google Reviews</FooterLink>
                 </Link>
               </FooterLinkItems>
@@ -55,7 +55,13 @@ const Footer = () => {
 
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to="/" onClick={toggleHome}>
+              <SocialLogo
+                whileHover={{
+                  scale: 1.1,
+                }}
+                to="/"
+                onClick={toggleHome}
+              >
                 <LogoContainer>
                   <Image src={CompanyLogo} alt="Company Logo" priority={true} />
                 </LogoContainer>
@@ -69,6 +75,9 @@ const Footer = () => {
                   href="https://www.facebook.com/cruxsoftware"
                   target="_blank"
                   aria-label="Facebook"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaFacebook />
                 </SocialIconLink>
@@ -76,6 +85,9 @@ const Footer = () => {
                   href="https://www.instagram.com/cruxsoftware/"
                   target="_blank"
                   aria-label="Instagram"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaInstagram />
                 </SocialIconLink>
@@ -83,6 +95,9 @@ const Footer = () => {
                   href="https://www.youtube.com"
                   target="_blank"
                   aria-label="Youtube"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaYoutube />
                 </SocialIconLink>

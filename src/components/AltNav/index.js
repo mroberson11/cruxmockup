@@ -18,7 +18,11 @@ const AltNav = () => {
       <IconContext.Provider value={{ color: "var(--trueWhite)" }}>
         <Nav style={{ background: "black" }}>
           <NavbarContainer>
-            <NavLogo>
+            <NavLogo
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
               <Link href="/" passHref>
                 <LogoImg
                   src={"../../images/CompanyLogos/CompanyLogo.png"}
@@ -32,6 +36,9 @@ const AltNav = () => {
                   href="https://www.facebook.com/cruxsoftware"
                   target="_blank"
                   aria-label="Facebook"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaFacebook />
                 </SocialIconLink>
@@ -39,6 +46,9 @@ const AltNav = () => {
                   href="https://www.instagram.com/cruxsoftware/"
                   target="_blank"
                   aria-label="Instagram"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaInstagram />
                 </SocialIconLink>
@@ -46,6 +56,9 @@ const AltNav = () => {
                   href="https://www.youtube.com"
                   target="_blank"
                   aria-label="Youtube"
+                  whileHover={{
+                    scale: 1.1,
+                  }}
                 >
                   <FaYoutube />
                 </SocialIconLink>

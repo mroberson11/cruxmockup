@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const FooterContainer = styled.footer`
   background-color: var(--darkBlue);
@@ -84,7 +85,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled.div`
+export const SocialLogo = styled(motion.div)`
   color: var(--trueWhite);
   justify-self: start;
   cursor: pointer;
@@ -108,7 +109,7 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.a`
+export const SocialIconLink = styled(motion.a)`
   color: var(--trueWhite);
   font-size: 24px;
 `;
