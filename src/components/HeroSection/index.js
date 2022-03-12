@@ -58,15 +58,17 @@ const HeroSection = () => {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
-              smooth={true}
               duration={500}
-              spy={true}
               exact="true"
               offset={-80}
+              whileTap={{ scale: 0.9 }}
+              animate={{
+                rotate: [0, 0, 360, 0, 0],
+              }}
+              transition={{ duration: 3 }}
               whileHover={{
                 scale: 1.1,
               }}
-              whileTap={{ scale: 0.9 }}
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </AnimatedButton>

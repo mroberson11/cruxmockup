@@ -102,9 +102,7 @@ const Navbar = ({ toggle }) => {
               <Link href="/contact-form" passHref>
                 <NavBtnLink
                   to="/contact"
-                  smooth={true}
                   duration={500}
-                  spy={true}
                   exact="true"
                   offset={-80}
                   whileHover={{

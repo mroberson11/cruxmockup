@@ -12,6 +12,12 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="aTOluMyzrlfVjo8rtl8BYY8kUq1CYpCB4DPcRVoRQms"
           />
+          <title>CRUX Software Solutions</title>
+          <meta
+            property="og:title"
+            content="CRUX Software Solutions"
+            key="title"
+          />
           <meta name="title" content="CRUX Software Solutions" />
           <meta
             name="description"
