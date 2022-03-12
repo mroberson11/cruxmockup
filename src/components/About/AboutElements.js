@@ -11,7 +11,7 @@ export const Container = styled.section`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: black;
+  background: var(--trueBlack);
 `;
 
 export const AboutH1 = styled.h1`

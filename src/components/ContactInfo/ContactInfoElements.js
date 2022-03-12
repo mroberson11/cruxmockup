@@ -10,14 +10,14 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: black;
+  background: var(--trueBlack);
 `;
 
 export const HeaderSection = styled.div`
   z-index: 2;
   min-height: 80px;
   top: 0;
-  background: black;
+  background: var(--trueBlack);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +86,7 @@ export const ContactH2 = styled.h2`
 export const ContactP = styled.p`
   font-size: 1.1em;
   text-align: center;
-  color: black;
+  color: var(--trueBlack);
 `;
 
 export const EmphasizedP = styled.p`
