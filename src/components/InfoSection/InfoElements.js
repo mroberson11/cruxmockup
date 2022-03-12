@@ -89,7 +89,7 @@ export const BtnWrap = styled.div`
   justify-content: flex-start;
 `;
 
-export const ImgWrap = styled.div`
+export const ImgWrap = styled(motion.div)`
   max-width: 555px;
   height: 100%;
 `;

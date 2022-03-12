@@ -96,7 +96,10 @@ const InfoSection = ({
               transition={{ delay: 0.5, duration: 0.6 }}
               animate={animation}
             >
-              <ImgWrap>
+              <ImgWrap
+                whileHover={{ rotate: 2, scale: 1.02 }}
+                transition={{ duration: 0.5 }}
+              >
                 <Image src={img} alt={alt} priority={true} />
               </ImgWrap>
             </Column2>
