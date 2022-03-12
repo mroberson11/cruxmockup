@@ -80,7 +80,8 @@ export const Subtitle = styled(motion.p)`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "var(--trueBlack)" : "var(--trueWhite)")};
+  color: ${({ darkText }) =>
+    darkText ? "var(--trueBlack)" : "var(--trueWhite)"};
 `;
 
 export const BtnWrap = styled.div`
