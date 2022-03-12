@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const HeroContainer = styled.div`
@@ -87,7 +88,7 @@ export const HeroP = styled.p`
   }
 `;
 
-export const HeroBtnWrapper = styled.div`
+export const HeroBtnWrapper = styled(motion.div)`
   margin-top: 32px;
   display: flex;
   flex-direction: column;

@@ -50,7 +50,11 @@ const HeroSection = () => {
         <HeroP>
           Only three spots available per month. <br /> Don&apos;t miss out.
         </HeroP>
-        <HeroBtnWrapper>
+        <HeroBtnWrapper
+          whileHover={{
+            scale: 1.1,
+          }}
+        >
           <Link href="/contact-form" passHref>
             <AnimatedButton
               to="contact"
@@ -66,9 +70,6 @@ const HeroSection = () => {
                 rotate: [0, 0, 360, 0, 0],
               }}
               transition={{ duration: 3 }}
-              whileHover={{
-                scale: 1.1,
-              }}
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </AnimatedButton>
