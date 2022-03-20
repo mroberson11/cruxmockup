@@ -14,6 +14,7 @@ import {
   ContactH2,
   ContactP,
   EmphasizedP,
+  EmphasizedA,
 } from "./ContactInfoElements";
 import Footer from "../Footer";
 
@@ -31,7 +32,13 @@ const ContactInfo = () => {
             <ContactH2>Shoot Us a Text</ContactH2>
             <ContactP>
               Send us a text message day or night at{" "}
-              <EmphasizedP>601-345-1523</EmphasizedP>
+              <Link
+                href="tel: 601-345-1523"
+                passHref
+                style={{ textAlign: "center" }}
+              >
+                <EmphasizedP>601-345-1523</EmphasizedP>
+              </Link>
             </ContactP>
           </ContactCard>
           <ContactCard>
@@ -40,8 +47,14 @@ const ContactInfo = () => {
             </ContactIcon>
             <ContactH2>Drop an Email</ContactH2>
             <ContactP>
-              If you prefer your mail electronic then reach out to
-              <EmphasizedP>info@cruxsoftwaresolutions.com</EmphasizedP>
+              If you prefer your mail electronic then reach out to{" "}
+              <Link
+                href="mailto:info@cruxsoftwaresolutions.com"
+                passHref
+                style={{ textAlign: "center" }}
+              >
+                <EmphasizedA>info@cruxsoftwaresolutions.com</EmphasizedA>
+              </Link>
             </ContactP>
           </ContactCard>
           <ContactCard>

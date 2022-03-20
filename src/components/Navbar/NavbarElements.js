@@ -100,7 +100,7 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(motion.button)`
   border-radius: 50px;
   background: var(--cruxBlue);
-  var(--trueWhite)-space: nowrap;
+  white-space: nowrap;
   padding: 10px 22px;
   color: var(--trueBlack);
   font-size: 16px;

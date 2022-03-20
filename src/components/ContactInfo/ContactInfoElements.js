@@ -96,6 +96,13 @@ export const EmphasizedP = styled.p`
   cursor: pointer;
 `;
 
+export const EmphasizedA = styled.a`
+  font-size: 1.1em;
+  text-align: center;
+  color: #00ffef;
+  cursor: pointer;
+  text-decoration: none;
+`;
 export const ContactH1 = styled.h1`
   color: var(--trueWhite);
   font-size: 2.3em;
