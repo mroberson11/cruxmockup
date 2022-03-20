@@ -33,7 +33,7 @@ const ContactInfo = () => {
             <ContactP>
               Send us a text message day or night at{" "}
               <Link
-                href="tel: 601-345-1523"
+                href="tel: 6013451523"
                 passHref
                 style={{ textAlign: "center" }}
               >
