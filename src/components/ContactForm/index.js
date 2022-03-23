@@ -169,6 +169,7 @@ const ContactForm = () => {
                   whileHover={{
                     scale: 1.1,
                   }}
+                  whileTap={{ scale: 0.9 }}
                   type="submit"
                 >
                   Submit
