@@ -64,8 +64,8 @@ export const Form = styled.form`
   width: 100%;
   z-index: 1;
   display: grid;
-  margin: 0 auto;
-  padding: 60px 32px;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
@@ -141,4 +141,8 @@ export const SubmitText = styled.span`
   color: var(--trueWhite);
   font-size: 16px;
   color: red;
+`;
+
+export const LogoWrapper = styled(motion.div)`
+  padding: 2rem;
 `;

@@ -1,5 +1,7 @@
 import React, { useState, useRef } from "react";
+import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 import Link from "next/link";
 import Recaptcha from "../Recaptcha";
 import SwitchItem from "../SwitchItem";
@@ -22,6 +24,7 @@ import {
   RecaptchaWrapper,
   Text,
   SubmitText,
+  LogoWrapper,
 } from "./ContactFormElements";
 
 const ContactForm = () => {
@@ -83,11 +86,19 @@ const ContactForm = () => {
       <Container>
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}
-          <Link href="/" passHref>
-            <Icon>CRUX</Icon>
-          </Link>
+
           <FormContent>
             <Form ref={form} onSubmit={handleSubmit}>
+              <LogoWrapper
+                whileHover={{
+                  scale: 1.1,
+                }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <Link href="/" passHref>
+                  <Image src={CompanyLogo} alt="Company Logo" priority={true} />
+                </Link>
+              </LogoWrapper>
               <FormH1>
                 Submit your contact information to have a representative reach
                 out within 24 hours.
