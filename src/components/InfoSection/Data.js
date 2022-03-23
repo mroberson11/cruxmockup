@@ -1,8 +1,6 @@
 import pic1 from "../../images/InfoImages/startup-life.svg";
 import pic2 from "../../images/InfoImages/programming-behind.svg";
-import pic3 from "../../images/InfoImages/pair-programming.svg";
-import pic4 from "../../images/InfoImages/seo.svg";
-import pic5 from "../../images/InfoImages/contact-us.svg";
+import pic3 from "../../images/InfoImages/contact-us.svg";
 
 export const homeObjOne = {
   id: "about",
@@ -72,7 +70,7 @@ export const homeObjThree = {
     "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutionize your online presence. We are available for calls, texts, emails, and through our online contact form.",
   buttonLabel: "Contact Information",
   imgStart: false,
-  img: pic5,
+  img: pic3,
   alt: "Contact image",
   dark: true,
   primary: true,

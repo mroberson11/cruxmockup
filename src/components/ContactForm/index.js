@@ -8,7 +8,6 @@ import SwitchItem from "../SwitchItem";
 import Success from "../Success";
 import { AnimatedButton } from "../ButtonElements";
 import { useForm } from "../../hooks/useForm";
-import { useRouter } from "next/router";
 import {
   Container,
   FormWrap,

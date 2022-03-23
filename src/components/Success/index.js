@@ -1,5 +1,5 @@
 import Modal from "../Modal";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 const Success = () => {

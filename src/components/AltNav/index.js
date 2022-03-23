@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { SocialIcons, SocialIconLink } from "../Footer/FooterElements.js";

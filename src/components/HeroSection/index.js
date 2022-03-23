@@ -7,14 +7,12 @@ import { useMediaQuery } from "react-responsive";
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
   HeroContent,
   HeroH1,
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-  NavBtnLink,
   BackgroundPic,
 } from "./HeroElements";
 

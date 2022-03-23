@@ -1,10 +1,7 @@
 import React from "react";
 import AltNav from "../AltNav";
-import Image from "next/image";
-import Link from "next/link";
 import FAQs from "../FAQs";
 import Footer from "../Footer";
-import { AnimatedButton } from "../ButtonElements";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
