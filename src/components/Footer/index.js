@@ -1,9 +1,10 @@
 import React from "react";
+import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
 import { animateScroll as scroll } from "react-scroll";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { LogoContainer } from "../Navbar/NavbarElements";
 import {
   FooterContainer,
   FooterWrap,
@@ -19,7 +20,6 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
-import { LogoContainer } from "../Navbar/NavbarElements";
 
 const Footer = () => {
   const toggleHome = () => {

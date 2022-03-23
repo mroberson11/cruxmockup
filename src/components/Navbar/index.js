@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
+import Image from "next/image";
+import Link from "next/link";
+import { animateScroll as scroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,

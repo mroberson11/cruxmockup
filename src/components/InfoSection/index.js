@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import { AnimatedButton } from "../ButtonElements";
 import Link from "next/link";
+import { AnimatedButton } from "../ButtonElements";
+import { useAnimation } from "framer-motion";
+import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
   InfoContainer,
   InfoWrapper,
@@ -16,8 +18,6 @@ import {
   ImgWrap,
   Img,
 } from "./InfoElements";
-import { useAnimation } from "framer-motion";
-import { useMyAnimation } from "../../hooks/useMyAnimation";
 
 const InfoSection = ({
   lightBg,

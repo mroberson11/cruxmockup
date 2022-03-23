@@ -1,13 +1,13 @@
 import styled from "styled-components";
+import { BsFillLightningFill } from "react-icons/bs";
+import { MdLeaderboard } from "react-icons/md";
+import { motion } from "framer-motion";
 import {
   FaCheckCircle,
   FaFunnelDollar,
   FaSmile,
   FaSearchDollar,
 } from "react-icons/fa";
-import { BsFillLightningFill } from "react-icons/bs";
-import { MdLeaderboard } from "react-icons/md";
-import { motion } from "framer-motion";
 
 export const BenefitsContainer = styled(motion.section)`
   min-height: 600px;

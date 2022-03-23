@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export const useMyAnimation = ({ animation }) => {
   const initial = { opacity: 0, y: 30 };

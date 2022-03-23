@@ -1,13 +1,13 @@
 import Image from "next/image";
-import { motion } from "framer-motion";
 import Backdrop from "../Backdrop";
+import Icon1 from "../../../public/videos/AnimatedCheckmark.gif";
+import { motion } from "framer-motion";
 import {
   ModalContent,
   ModalHeading,
   ImageWrapper,
   ModalText,
 } from "./ModalElements";
-import Icon1 from "../../../public/videos/AnimatedCheckmark.gif";
 
 const dropIn = {
   hidden: {

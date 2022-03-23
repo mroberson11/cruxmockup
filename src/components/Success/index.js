@@ -1,6 +1,6 @@
+import Modal from "../Modal";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import Modal from "../Modal";
 
 const Success = () => {
   const [modalOpen, setModalOpen] = useState(true);

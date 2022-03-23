@@ -1,10 +1,11 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import Email from "../../images/ContactInfo/email.svg";
-import Text from "../../images/ContactInfo/text.svg";
-import OnlineRequest from "../../images/ContactInfo/online-request.svg";
 import AltNav from "../AltNav";
+import Email from "../../images/ContactInfo/email.svg";
+import Image from "next/image";
+import Footer from "../Footer";
+import Link from "next/link";
+import OnlineRequest from "../../images/ContactInfo/online-request.svg";
+import Text from "../../images/ContactInfo/text.svg";
 import {
   Container,
   ContactWrapper,
@@ -16,7 +17,6 @@ import {
   EmphasizedP,
   EmphasizedA,
 } from "./ContactInfoElements";
-import Footer from "../Footer";
 
 const ContactInfo = () => {
   return (

@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { useAnimation } from "framer-motion";
+import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
   BenefitsContainer,
   BenefitsWrapper,
@@ -13,8 +15,6 @@ import {
   SearchDollar,
   BenefitText,
 } from "./BenefitsElements";
-import { useAnimation } from "framer-motion";
-import { useMyAnimation } from "../../hooks/useMyAnimation";
 
 const Benefits = () => {
   const animation = useAnimation();

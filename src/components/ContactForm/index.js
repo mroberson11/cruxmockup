@@ -1,5 +1,11 @@
 import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import Recaptcha from "../Recaptcha";
+import SwitchItem from "../SwitchItem";
+import Success from "../Success";
+import { AnimatedButton } from "../ButtonElements";
+import { useForm } from "../../hooks/useForm";
 import { useRouter } from "next/router";
 import {
   Container,
@@ -17,12 +23,6 @@ import {
   Text,
   SubmitText,
 } from "./ContactFormElements";
-import { AnimatedButton } from "../ButtonElements";
-import emailjs from "@emailjs/browser";
-import SwitchItem from "../SwitchItem";
-import Recaptcha from "../Recaptcha";
-import { useForm } from "../../hooks/useForm";
-import Success from "../Success";
 
 const ContactForm = () => {
   const [successfulSubmission, setSuccessfulSubmission] = useState(false);

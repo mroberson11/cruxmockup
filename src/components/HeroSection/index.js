@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import HeroImage from "../../images/HeroImages/blue-milky-way.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatedButton } from "../ButtonElements";
@@ -16,7 +17,6 @@ import {
   NavBtnLink,
   BackgroundPic,
 } from "./HeroElements";
-import HeroImage from "../../images/HeroImages/blue-milky-way.webp";
 
 const HeroSection = () => {
   const isDesktopOrLaptop = useMediaQuery({

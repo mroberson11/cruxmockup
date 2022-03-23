@@ -3,7 +3,6 @@ import Image from "next/image";
 import Icon1 from "../../images/InfoImages/pair-programming.svg";
 import Icon2 from "../../images/InfoImages/seo.svg";
 import Icon3 from "../../images/InfoImages/image-enhancement.svg";
-
 import {
   ServicesContainer,
   ServicesH1,

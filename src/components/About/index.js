@@ -1,8 +1,12 @@
 import React from "react";
+import AltNav from "../AltNav";
 import Image from "next/image";
 import Link from "next/link";
+import FAQs from "../FAQs";
+import Footer from "../Footer";
 import { AnimatedButton } from "../ButtonElements";
-import AltNav from "../AltNav";
+import { useAnimation } from "framer-motion";
+import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
   Container,
   AboutH1,
@@ -14,10 +18,6 @@ import {
   InfoSectionHeader,
   InfoSectionText,
 } from "./AboutElements";
-import Footer from "../Footer";
-import FAQs from "../FAQs";
-import { useAnimation } from "framer-motion";
-import { useMyAnimation } from "../../hooks/useMyAnimation";
 
 const About = () => {
   const animation = useAnimation();
