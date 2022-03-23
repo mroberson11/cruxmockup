@@ -1,19 +1,19 @@
 import React, { useState } from "react";
+import Benefits from "../src/components/Benefits";
+import Footer from "../src/components/Footer";
 import Head from "next/head";
-import Image from "next/image";
-import Navbar from "../src/components/Navbar";
 import HeroSection from "../src/components/HeroSection";
-import Sidebar from "../src/components/Sidebar";
+import Image from "next/image";
 import InfoSection from "../src/components/InfoSection";
+import Navbar from "../src/components/Navbar";
+import Sidebar from "../src/components/Sidebar";
+import Services from "../src/components/Services";
 import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
   homeObjFour,
 } from "../src/components/InfoSection/Data";
-import Benefits from "../src/components/Benefits";
-import Services from "../src/components/Services";
-import Footer from "../src/components/Footer";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);

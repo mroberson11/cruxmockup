@@ -1,6 +1,6 @@
+import Favicon from "../src/components/Favicon";
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import Favicon from "../src/components/Favicon";
 
 export default class MyDocument extends Document {
   render() {

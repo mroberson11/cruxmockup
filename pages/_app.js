@@ -1,5 +1,5 @@
-import { NextSeo } from "next-seo";
 import "../styles/globals.css";
+import { NextSeo } from "next-seo";
 
 function MyApp({ Component, pageProps }) {
   <NextSeo
