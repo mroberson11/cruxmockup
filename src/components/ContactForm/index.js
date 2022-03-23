@@ -154,7 +154,14 @@ const ContactForm = () => {
               <FormLabel htmlFor="for">Additional Comments</FormLabel>
               <FormComments type="comments" name="comments" />
               {recaptchaVerified ? (
-                <FormButton type="submit">Submit</FormButton>
+                <FormButton
+                  whileHover={{
+                    scale: 1.1,
+                  }}
+                  type="submit"
+                >
+                  Submit
+                </FormButton>
               ) : (
                 <SubmitText>Validate Recaptcha</SubmitText>
               )}

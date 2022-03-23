@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -109,7 +110,7 @@ export const FormComments = styled.textarea`
   min-height: 30px;
 `;
 
-export const FormButton = styled.button`
+export const FormButton = styled(motion.button)`
   background: var(--cruxBlue);
   padding: 16px 0;
   border: none;
