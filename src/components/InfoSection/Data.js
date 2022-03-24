@@ -8,9 +8,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Software Solution Providers",
-  headline: "Web Design Agency",
+  headline: "Web Development Agency",
   description:
-    "We are Software Solution providers who specialize in Web Development, Lead Generation, and Search Engine Optimization.",
+    "We are web developers who specialize in the creation of premium websites that are highly efficient & include a modern design focused on generating more leads for technically challenged service based businesses.",
   buttonLabel: "Learn More",
   imgStart: false,
   img: pic1,
