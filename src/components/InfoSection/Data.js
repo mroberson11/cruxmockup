@@ -10,7 +10,7 @@ export const homeObjOne = {
   topLine: "Software Solution Providers",
   headline: "Web Development Agency",
   description:
-    "We are web developers who specialize in the creation of premium websites that are highly efficient & include a modern design focused on generating more leads for technically challenged service based businesses.",
+    "We are web developers who specialize in the creation of premium websites that are highly efficient. We incorporate a modern design focused on generating more leads for technically challenged service based businesses.",
   buttonLabel: "Learn More",
   imgStart: false,
   img: pic1,
