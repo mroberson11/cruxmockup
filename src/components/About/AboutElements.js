@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Container = styled.section`
+  z-index: 0;
   min-height: 692px;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
-  z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
   background: var(--trueBlack);
@@ -39,8 +39,6 @@ export const AboutContent = styled.div`
   margin-bottom: 2rem;
 `;
 
-export const VideoWrapper = styled.div``;
-
 export const InfoVideo = styled.video`
   width: 100%;
   height: 100%;
@@ -68,4 +66,10 @@ export const InfoSectionText = styled(motion.p)`
   font-size: 1.5rem;
   text-align: center;
   padding: 0.5rem;
+`;
+
+export const ImgWrap = styled(motion.div)`
+  max-width: 300px;
+  height: 100%;
+  padding: 1rem;
 `;

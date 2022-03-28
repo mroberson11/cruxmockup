@@ -2,6 +2,8 @@ import React from "react";
 import AltNav from "../AltNav";
 import FAQs from "../FAQs";
 import Footer from "../Footer";
+import Image from "next/image";
+import AboutPicture from "../../images/InfoImages/dev-productivity.svg";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
@@ -14,6 +16,7 @@ import {
   InfoSection,
   InfoSectionHeader,
   InfoSectionText,
+  ImgWrap,
 } from "./AboutElements";
 
 const About = () => {
@@ -24,19 +27,17 @@ const About = () => {
     <>
       <Container>
         <AltNav />
-        <AboutH1>About Us </AboutH1>
+        <AboutH1>About Us</AboutH1>
         <AboutWrapper>
           <AboutContent>
-            <VideoWrapper>
-              <InfoVideo
-                src={require("../../videos/BlueSpace.mp4")}
-                alt="Introduction Video"
-                type="video/mp4"
-                playsinline
-                controls
-              />
-            </VideoWrapper>
             <InfoSection>
+              <ImgWrap>
+                <Image
+                  src={AboutPicture}
+                  alt="Developer at Computer"
+                  priority={true}
+                />
+              </ImgWrap>
               <InfoSectionHeader
                 initial={initial}
                 transition={{ delay: 0.3, duration: 0.6 }}
