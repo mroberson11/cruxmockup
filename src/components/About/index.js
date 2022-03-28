@@ -31,7 +31,11 @@ const About = () => {
         <AboutWrapper>
           <AboutContent>
             <InfoSection>
-              <ImgWrap>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.1, duration: 0.6 }}
+                animate={animation}
+              >
                 <Image
                   src={AboutPicture}
                   alt="Developer at Computer"
