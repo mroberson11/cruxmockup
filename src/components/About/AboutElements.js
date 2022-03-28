@@ -63,7 +63,7 @@ export const InfoSectionHeader = styled(motion.h2)`
 `;
 
 export const InfoSectionText = styled(motion.p)`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 0.5rem;
 `;
