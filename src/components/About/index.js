@@ -1,9 +1,9 @@
 import React from "react";
+import AboutPicture from "../../images/InfoImages/dev-productivity.svg";
 import AltNav from "../AltNav";
 import FAQs from "../FAQs";
 import Footer from "../Footer";
 import Image from "next/image";
-import AboutPicture from "../../images/InfoImages/dev-productivity.svg";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {

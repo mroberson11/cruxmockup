@@ -144,21 +144,20 @@ const ContactForm = () => {
                 onChange={handleChange("phone")}
                 required
               />
-              <FormLabel>My Interests</FormLabel>
+              <FormLabel>More Information</FormLabel>
               <CheckListWrapper>
                 <SwitchItem
-                  id="switch1"
-                  htmlFor="henlo"
-                  switchLabel="I want a fast website"
+                  name="existing"
+                  switchLabel="I have an existing website"
+                />
+
+                <SwitchItem
+                  name="quote"
+                  switchLabel="I'm interested in a quote for a new website"
                 />
                 <SwitchItem
-                  htmlFor="id"
-                  switchLabel="I want an attractive website"
-                />
-                <SwitchItem switchLabel="I want more leads for my business" />
-                <SwitchItem
-                  name="option4"
-                  switchLabel="I want my website maintained for me"
+                  name="leads"
+                  switchLabel="I'm interested in social media marketing"
                 />
               </CheckListWrapper>
               <FormLabel htmlFor="for">Additional Comments</FormLabel>
