@@ -21,11 +21,11 @@ const FAQs = () => {
       {
         title: "What will my website look like?",
         content:
-          "Similar to our own but with your own personal touch of course. Each website will be altered to fit the personality, culture, and needs of the business.",
+          "Similar to ours but with your own personal touch of course. Each website will be altered to fit the personality, culture, and needs of the business.",
       },
       {
         title: "Will I have to take care of the website myself?",
-        content: `With the complexity involved in maintaining a website such as this one, it would be unreasonable to burden our clients with their own security updates, content changes, email configuration, and everything else that comes with owning a website. For this reason, we offer all of these benefits, web hosting, SSL certificates, & more for only $39.99 a month.`,
+        content: `With the complexity involved in maintaining a website such as this one, it would be unreasonable to burden our clients with their own security updates, content changes, email configuration, and everything else that comes with owning a website. For this reason, we offer all of these benefits, web hosting, SSL certificates, & more for only $49.99 a month.`,
       },
       {
         title:
