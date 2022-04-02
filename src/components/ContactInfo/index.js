@@ -1,8 +1,9 @@
 import React from "react";
 import AltNav from "../AltNav";
+import Calendar from "../../images/ContactInfo/calendar.svg";
 import Email from "../../images/ContactInfo/email.svg";
-import Image from "next/image";
 import Footer from "../Footer";
+import Image from "next/image";
 import Link from "next/link";
 import OnlineRequest from "../../images/ContactInfo/online-request.svg";
 import Text from "../../images/ContactInfo/text.svg";
@@ -27,18 +28,20 @@ const ContactInfo = () => {
         <ContactWrapper>
           <ContactCard>
             <ContactIcon>
-              <Image src={Text} alt="Text Messages" priority={true} />
+              <Image src={Calendar} alt="Contact Form" priority={true} />
             </ContactIcon>
-            <ContactH2>Shoot Us a Text</ContactH2>
+            <ContactH2>Online Consultation</ContactH2>
             <ContactP>
-              Send us a text message day or night at{" "}
-              <Link
-                href="tel: 6013451523"
-                passHref
-                style={{ textAlign: "center" }}
-              >
-                <EmphasizedP>601-345-1523</EmphasizedP>
-              </Link>
+              Schedule an Online Consultation with our{" "}
+              <EmphasizedP>
+                <Link
+                  href="https://outlook.office365.com/owa/calendar/CRUXSoftwareSolutionsConsultations@cruxsoftwaresolutions.com/bookings/"
+                  passHref
+                  style={{ textAlign: "center" }}
+                >
+                  <b>calendar</b>
+                </Link>
+              </EmphasizedP>
             </ContactP>
           </ContactCard>
           <ContactCard>
@@ -53,10 +56,30 @@ const ContactInfo = () => {
                 passHref
                 style={{ textAlign: "center" }}
               >
-                <EmphasizedA>info@cruxsoftwaresolutions.com</EmphasizedA>
+                <EmphasizedA>
+                  <br />
+                  info@cruxsoftwaresolutions.com
+                </EmphasizedA>
               </Link>
             </ContactP>
           </ContactCard>
+          <ContactCard>
+            <ContactIcon>
+              <Image src={Text} alt="Text Messages" priority={true} />
+            </ContactIcon>
+            <ContactH2>Shoot Us a Text</ContactH2>
+            <ContactP>
+              Send us a text message day or night at{" "}
+              <Link
+                href="tel: 6013451523"
+                passHref
+                style={{ textAlign: "center" }}
+              >
+                <EmphasizedP>601-345-1523</EmphasizedP>
+              </Link>
+            </ContactP>
+          </ContactCard>
+
           <ContactCard>
             <ContactIcon>
               <Image src={OnlineRequest} alt="Contact Form" priority={true} />
