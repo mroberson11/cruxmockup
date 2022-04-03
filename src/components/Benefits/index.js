@@ -39,7 +39,7 @@ const Benefits = () => {
               <Lightning />
             </BenefitIcon>
             <BenefitText>
-              A lightning fast user experience for your customers
+              Average website load times under two seconds
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
