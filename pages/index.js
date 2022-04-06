@@ -8,6 +8,7 @@ import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
 import Sidebar from "../src/components/Sidebar";
 import Services from "../src/components/Services";
+import Script from "next/script";
 import {
   homeObjOne,
   homeObjTwo,
@@ -23,6 +24,19 @@ export default function Home() {
   };
   return (
     <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-X71DLG71ZJ');
+      `}
+      </Script>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />

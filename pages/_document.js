@@ -30,20 +30,6 @@ export default class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
-
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-            strategy="afterInteractive"
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-X71DLG71ZJ');
-            `}
-          </Script>
         </Head>
         <body>
           <Main />
