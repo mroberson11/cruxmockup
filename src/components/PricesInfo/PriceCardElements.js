@@ -58,8 +58,8 @@ export const OriginalCurrency = styled.span`
   font-weight: 700;
   line-height: 4rem;
   margin-right: 0.6rem;
-  text-decoration: line-through 3px #a80501;
-  -webkit-text-decoration: line-through 3px #a80501;
+  text-decoration-line: line-through 3px #a80501;
+  -webkit-text-decoration-line: line-through 3px #a80501;
 `;
 
 export const Currency = styled.span`

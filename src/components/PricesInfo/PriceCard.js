@@ -17,7 +17,6 @@ const PriceCard = () => {
     <PriceCardContainer>
       <PlanType>Ultimate Website Package</PlanType>
       <Price>
-        <OriginalCurrency>$7,000</OriginalCurrency>
         <Currency>$3,499</Currency>
       </Price>
       <Divider />
