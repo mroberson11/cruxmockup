@@ -59,6 +59,7 @@ export const OriginalCurrency = styled.span`
   line-height: 4rem;
   margin-right: 0.6rem;
   text-decoration: line-through 3px #a80501;
+  -webkit-text-decoration: line-through 3px #a80501;
 `;
 
 export const Currency = styled.span`
