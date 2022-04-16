@@ -11,7 +11,7 @@ export const PriceCardContainer = styled.div`
     props.planType === "professional" ? "white" : colors.grayishBlue};
   width: 100%;
   width: 32.6rem;
-  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  box-shadow: 0px 20px 40px rgb(92, 224, 215, 0.5);
   border-radius: 10px;
   text-align: center;
   padding: 3rem;
@@ -44,6 +44,7 @@ export const PlanType = styled.span`
 
 export const Price = styled.p`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 7.2rem;
@@ -52,8 +53,17 @@ export const Price = styled.p`
   margin: 2.4rem 0;
 `;
 
+export const OriginalCurrency = styled.span`
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-right: 0.6rem;
+  text-decoration: line-through 3px #a80501;
+`;
+
 export const Currency = styled.span`
   font-size: 3.5rem;
+  font-weight: 800;
   line-height: 4rem;
   margin-right: 0.6rem;
 `;
@@ -68,7 +78,7 @@ export const LearnMoreButton = styled.button`
   width: 100%;
   height: 4.4rem;
   background: ${(props) =>
-    props.plan === "professional" ? "white" : gradient};
+    props.plan === "professional" ? "white" : "#5CE0D7"};
   border-radius: 6px;
   border: none;
   outline: none;
@@ -82,11 +92,9 @@ export const LearnMoreButton = styled.button`
   cursor: pointer;
   &:hover {
     border: 1px solid
-      ${(props) =>
-        props.plan === "professional" ? "white" : colors.purpleText};
+      ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
     background: none;
-    color: ${(props) =>
-      props.plan === "professional" ? "white" : colors.purpleText};
+    color: ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
   }
   @media (min-width: 1060px) {
     min-height: 4.4rem;

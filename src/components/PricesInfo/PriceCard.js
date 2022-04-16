@@ -5,6 +5,8 @@ import {
   PlanType,
   Price,
   Divider,
+  OriginalCurrency,
+  Slash,
   Currency,
   SellingPoint,
   LearnMoreButton,
@@ -15,6 +17,7 @@ const PriceCard = () => {
     <PriceCardContainer>
       <PlanType>Ultimate Website Package</PlanType>
       <Price>
+        <OriginalCurrency>$7,000</OriginalCurrency>
         <Currency>$3,499</Currency>
       </Price>
       <Divider />
@@ -48,6 +51,8 @@ const PriceCard = () => {
       <SellingPoint>
         Maintenance All Done for You with No Monthly Contracts
       </SellingPoint>
+      <Divider />
+      <SellingPoint>*Money Back Service Guarantee*</SellingPoint>
       <Divider />
       <Link href="/contact-form" passHref>
         <LearnMoreButton>LEARN MORE</LearnMoreButton>
