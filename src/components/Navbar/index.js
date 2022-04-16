@@ -117,6 +117,15 @@ const Navbar = ({ toggle }) => {
                   Contact
                 </NavLinks>
               </NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
+                <Link href="/pricing" passHref>
+                  <NavLinks>Pricing</NavLinks>
+                </Link>
+              </NavItem>
             </NavMenu>
             <NavBtn>
               <Link href="/contact-form" passHref>

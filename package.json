@@ -27,6 +27,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-icons": "^4.3.1",
     "react-intersection-observer": "^8.33.1",
+    "react-pricing": "^0.1.5",
     "react-responsive": "^9.0.0-beta.6",
     "react-scroll": "^1.8.5",
     "react-switch": "^6.0.0",
