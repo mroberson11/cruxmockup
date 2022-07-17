@@ -43,7 +43,7 @@ export default function Home() {
       <InfoSection {...homeObjOne} />
       <Benefits />
       <Services />
-      <InfoSection {...homeObjTwo} />
+      {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
       <Footer />
     </>

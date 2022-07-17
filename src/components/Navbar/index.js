@@ -85,7 +85,7 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
-              <NavItem
+              {/* <NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -100,7 +100,7 @@ const Navbar = ({ toggle }) => {
                 >
                   Why Us
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
               <NavItem
                 whileHover={{
                   scale: 1.1,
@@ -117,7 +117,7 @@ const Navbar = ({ toggle }) => {
                   Contact
                 </NavLinks>
               </NavItem>
-              <NavItem
+              {/* <NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -125,7 +125,7 @@ const Navbar = ({ toggle }) => {
                 <Link href="/pricing" passHref>
                   <NavLinks>Pricing</NavLinks>
                 </Link>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
             <NavBtn>
               <Link href="/contact-form" passHref>

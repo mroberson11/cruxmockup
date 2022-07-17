@@ -56,15 +56,15 @@ const About = () => {
                 animate={animation}
               >
                 CRUX Software Solutions is a premium web development agency
-                specializing in the creation of lightning fast websites that are
-                aesthetically pleasing & tailored to service based businesses.
-                Search Engine Optimization & Lead Generation are at the heart of
-                our service offerings. For the technical savvy, we utilize the
-                Next.js framework to create React (Javascript) applications
-                served on our partners Central Distributed Network. In
-                layman&apos;s terms, we make <i>fast</i> websites. This enhances
-                user experience, customer satisfaction, and of course lead
-                conversion.
+                specializing in the creation of e-commerce websites for small to
+                medium sized businesses. We are a Mississippi based company
+                consisting of a dynamic group of engineers with more than seven
+                years of software development experience. Whether it's
+                purchasing your website's domain name, developing your
+                e-commerce site, configuring your products, handling security
+                updates, making content changes, setting up additional payment
+                processes, running promotions, or anything in between, we do it
+                all for you.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>
@@ -83,10 +83,10 @@ const About = () => {
                 We have a passion for helping small businesses grow. We believe
                 a company&apos;s website can be its greatest digital asset &
                 marketing tool or its greatest handicap. Technology is complex.
-                So, we want to make it as simple as possible for service based
-                businesses to take advantage of the massive potential that
-                implementing a strategic sales funnel & a quality website can
-                have on their lead generation, revenue, and company growth.
+                So, we want to make it as simple as possible for any business to
+                take advantage of the massive potential that implementing an
+                online store can have on their revenue, customer satisfaction,
+                brand perception, and company growth.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>

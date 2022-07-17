@@ -157,7 +157,7 @@ const ContactForm = () => {
                 />
                 <SwitchItem
                   name="leads"
-                  switchLabel="I'm interested in social media marketing"
+                  switchLabel="I'm interested in a maintenance package"
                 />
               </CheckListWrapper>
               <FormLabel htmlFor="for">Additional Comments</FormLabel>

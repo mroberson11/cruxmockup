@@ -25,10 +25,10 @@ const Services = () => {
             </ServicesIcon>
             <ServicesH2>Website Creation</ServicesH2>
             <ServicesP>
-              Our bread & butter is designing websites that are lightning fast
-              and aestetically pleasing. Did you know that 40% of consumers will
-              wait no more than three seconds for a website to load before
-              leaving?
+              Working hand-in-hand with you, we'll design, implement, and
+              configure your dream online store. With 7+ years of software
+              engineering experience, we have the skills & tools required to
+              deliver on our promises.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
@@ -39,9 +39,9 @@ const Services = () => {
             <ServicesP>
               There&apos;s no use in having a beautifully designed website if
               there&apos;s no one to admire it. Utilizing today&apos;s latest
-              SEO techniques & dynamic ads, we will ensure potential customers
-              are able to organically discover your online content ahead of
-              industry competitors.
+              SEO techniques, we will ensure potential customers are able to
+              organically discover your online content ahead of industry
+              competitors.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>

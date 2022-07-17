@@ -39,7 +39,7 @@ const Benefits = () => {
               <Lightning />
             </BenefitIcon>
             <BenefitText>
-              Average website load times under two seconds
+              Your dream website delivered within two weeks
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
@@ -47,8 +47,7 @@ const Benefits = () => {
               <Funnel />
             </BenefitIcon>
             <BenefitText>
-              An optimized sales funnel/website resulting in more leads for your
-              business
+              Ability to sell your products 24 hours a day to the entire world
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
@@ -56,7 +55,7 @@ const Benefits = () => {
               <Leaderboard />
             </BenefitIcon>
             <BenefitText>
-              Help in becoming a market leader of your local service area
+              Help in eliminating brick & mortar overhead
             </BenefitText>
           </BenefitItem>
           <BenefitItem>

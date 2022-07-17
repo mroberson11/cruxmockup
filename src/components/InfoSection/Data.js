@@ -8,9 +8,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Software Solution Providers",
-  headline: "Web Development Agency",
+  headline: "E-commerce Developers",
   description:
-    "We are web developers who specialize in the creation of premium websites that are highly efficient. We incorporate a modern design focused on generating more leads for technically challenged service based businesses.",
+    "CRUX Software Solutions is a premium web development agency specializing in the creation of e-commerce websites (online stores) for small to medium sized businesses. From start to finish, we'll handle everything needed to make your products available for sale 24 hours a day/7 days a week/365 days a year.",
   buttonLabel: "Learn More",
   imgStart: false,
   img: pic1,
@@ -67,7 +67,7 @@ export const homeObjThree = {
   topLine: "Get in Touch",
   headline: "Start Your Journey",
   description:
-    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutionize your online presence. We are available for online appointments, calls, texts, emails, and through our online contact form.",
+    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutionize your online presence. We are available for online appointments, texts, emails, and through our online contact form.",
   buttonLabel: "Contact Information",
   imgStart: false,
   img: pic3,
