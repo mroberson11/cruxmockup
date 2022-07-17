@@ -25,7 +25,7 @@ const Services = () => {
             </ServicesIcon>
             <ServicesH2>Website Creation</ServicesH2>
             <ServicesP>
-              Working hand-in-hand with you, we'll design, implement, and
+              Working hand-in-hand with you, we&apos;ll design, implement, and
               configure your dream online store. With 7+ years of software
               engineering experience, we have the skills & tools required to
               deliver on our promises.
