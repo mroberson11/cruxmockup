@@ -12,7 +12,7 @@ export const Container = styled.div`
   overflow: hidden;
   background: linear-gradient(
     108deg,
-    rgba(69, 162, 158, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
     rgba(102, 252, 241, 1) 100%
   );
 `;
