@@ -38,14 +38,14 @@ export default function Home() {
       `}
       </Script>
 
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-MY3B0HBVF1">
+      <Script id="google-ads" src="https://www.googletagmanager.com/gtag/js?id=G-MY3B0HBVF1">
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-MY3B0HBVF1');`}
       </Script>
-      
+
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
