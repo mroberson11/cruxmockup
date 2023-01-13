@@ -35,7 +35,7 @@ const ContactInfo = () => {
               Schedule an Online Consultation with our{" "}
               <EmphasizedP>
                 <Link
-                  href="https://outlook.office365.com/owa/calendar/CRUXSoftwareSolutionsConsultations@cruxsoftwaresolutions.com/bookings/"
+                  href="https://outlook.office365.com/owa/calendar/CruxSoftwareSolutionsConsultations@cruxsoftwaresolutions.com/bookings/"
                   passHref
                   style={{ textAlign: "center" }}
                 >

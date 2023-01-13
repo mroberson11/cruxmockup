@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
+import CompanyLogo from "../../images/CompanyLogos/CruxLogoDark.png";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import Link from "next/link";

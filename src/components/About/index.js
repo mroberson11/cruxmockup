@@ -55,7 +55,7 @@ const About = () => {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
-                CRUX Software Solutions is a premium web development agency
+                Crux Software Solutions is a premium web development agency
                 specializing in the creation of e-commerce websites for small to
                 medium sized businesses. We are a Mississippi based company
                 consisting of a dynamic group of engineers with more than seven

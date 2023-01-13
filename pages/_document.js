@@ -14,13 +14,13 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="CRUX Software Solutions"
+            content="Crux Software Solutions"
             key="title"
           />
-          <meta name="title" content="CRUX Software Solutions" />
+          <meta name="title" content="Crux Software Solutions" />
           <meta
             name="description"
-            content="CRUX Software Solutions is a premium web development agency specializing in the creation of lightning fast websites that are aesthetically pleasing."
+            content="Crux Software Solutions is a premium web development agency specializing in the creation of lightning fast websites that are aesthetically pleasing."
           />
           <meta
             name="keywords"

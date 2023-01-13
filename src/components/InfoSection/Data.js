@@ -10,7 +10,7 @@ export const homeObjOne = {
   topLine: "Software Solution Providers",
   headline: "E-commerce Developers",
   description:
-    "CRUX Software Solutions is a premium web development agency specializing in the creation of e-commerce websites (online stores) for small to medium sized businesses. From start to finish, we'll handle everything needed to make your products available for sale 24 hours a day/7 days a week/365 days a year.",
+    "Crux Software Solutions is a premium web development agency specializing in the creation of e-commerce websites (online stores) for small to medium sized businesses. From start to finish, we'll handle everything needed to make your products available for sale 24 hours a day/7 days a week/365 days a year.",
   buttonLabel: "Learn More",
   imgStart: false,
   img: pic1,
@@ -27,7 +27,7 @@ export const homeObjOne = {
 //   lightText: false,
 //   lightTextDesc: false,
 //   topLine: "Our Results",
-//   headline: "The CRUX Portfolio",
+//   headline: "The Crux Portfolio",
 //   description:
 //     "Explore the results we've been able to provide for existing customers & their honest feedback",
 //   buttonLabel: "Transformations",

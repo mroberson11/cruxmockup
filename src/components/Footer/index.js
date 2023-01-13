@@ -1,5 +1,5 @@
 import React from "react";
-import CompanyLogo from "../../images/CompanyLogos/CRUXLogoDark.png";
+import CompanyLogo from "../../images/CompanyLogos/CruxLogoDark.png";
 import Image from "next/image";
 import Link from "next/link";
 import { animateScroll as scroll } from "react-scroll";
@@ -67,7 +67,7 @@ const Footer = () => {
                 </LogoContainer>
               </SocialLogo>
               <WebsiteRights>
-                CRUX ® {new Date().getFullYear()} All rights reserved.
+                Crux ® {new Date().getFullYear()} All rights reserved.
               </WebsiteRights>
 
               <SocialIcons>
