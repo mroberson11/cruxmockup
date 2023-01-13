@@ -17,12 +17,6 @@ export const PriceCardContainer = styled(motion.div)`
   text-align: center;
   padding: 1rem;
   margin: 1.6rem 0;
-  @media (min-width: 1060px) {
-    width: 30rem;
-    min-height: 300px;
-    padding: ${(props) =>
-      props.planType === "professional" ? "4.5rem 0" : "2.0rem"};
-  }
 `;
 
 export const Divider = styled.hr`
@@ -36,7 +30,7 @@ export const Divider = styled.hr`
 `;
 
 export const PlanType = styled.span`
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.8rem;
   text-align: center;
   text-transform: capitalize;
@@ -47,10 +41,10 @@ export const Price = styled.p`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 7.2rem;
-  line-height: 7.1rem;
+  font-size: 4rem;
+  line-height: 2rem;
   color: ${(props) => (props.plan === "professional" ? "white" : "#4a4d60")};
-  margin: 2.4rem 0;
+  margin: 1rem 0;
 `;
 
 export const OriginalCurrency = styled.span`
@@ -63,21 +57,22 @@ export const OriginalCurrency = styled.span`
 `;
 
 export const Currency = styled.span`
-  font-size: 36px;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1rem;
   margin-right: 0.6rem;
 `;
 
 export const SellingPoint = styled.span`
-  font-size: 1.2rem;
+  color: var(--trueBlack);
+  font-size: 14px;
   text-align: center;
-  padding: 1.2rem;
+  padding: 0.4rem;
 `;
 
 export const LearnMoreButton = styled.button`
   width: 100%;
-  height: 4.4rem;
+  height: 2rem;
   background: ${(props) =>
     props.plan === "professional" ? "white" : "#5CE0D7"};
   border-radius: 6px;
@@ -87,18 +82,15 @@ export const LearnMoreButton = styled.button`
     props.plan === "professional" ? colors.purpleText : "white"};
   font-weight: bold;
   font-size: 2rem;
-  line-height: 16px;
+  line-height: 10px;
   letter-spacing: 1.39286px;
-  margin-top: 3.2rem;
+  min-height: 3rem;
+  margin: 2rem 0;
   cursor: pointer;
   &:hover {
     border: 1px solid
       ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
     background: none;
     color: ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
-  }
-  @media (min-width: 1060px) {
-    min-height: 4.4rem;
-    margin: 3.1rem 0;
   }
 `;
