@@ -31,9 +31,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="information" onClick={toggle}>
             Contact
           </SidebarLink>
-          {/* <Link href="/pricing" passHref>
+          <Link href="/pricing" passHref>
             <SidebarLink>Pricing</SidebarLink>
-          </Link> */}
+          </Link>
         </SidebarMenu>
         <SideBtnWrap>
           <Link href="/contact-form" passHref>
