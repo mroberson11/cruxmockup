@@ -47,7 +47,7 @@ const Benefits = () => {
               <Funnel />
             </BenefitIcon>
             <BenefitText>
-              Ability to sell your products 24 hours a day to the entire world
+              Restaurant mobile ordering for faster service time
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
@@ -55,7 +55,7 @@ const Benefits = () => {
               <Leaderboard />
             </BenefitIcon>
             <BenefitText>
-              Help in eliminating brick & mortar overhead
+              Elimination of brick & mortar overhead
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
