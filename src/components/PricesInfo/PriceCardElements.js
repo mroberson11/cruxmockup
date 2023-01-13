@@ -10,14 +10,14 @@ export const PriceCardContainer = styled.div`
   color: ${(props) =>
     props.planType === "professional" ? "white" : colors.grayishBlue};
   width: 100%;
-  width: 32.6rem;
+  width: 22rem;
   box-shadow: 0px 20px 40px rgb(92, 224, 215, 0.5);
   border-radius: 10px;
   text-align: center;
   padding: 3rem;
   margin: 1.6rem 0;
   @media (min-width: 1060px) {
-    width: 35rem;
+    width: 22rem;
     min-height: ${(props) =>
       props.planType === "professional" ? "501px" : "453px"};
     padding: ${(props) =>

@@ -21,8 +21,10 @@ const PricesInfo = () => {
     <>
       <Container>
         <AltNav />
-        <PricesH1>CRUX Pricing Plan</PricesH1>
+        <PricesH1>Crux Pricing Plan</PricesH1>
         <PricesWrapper>
+          <PriceCard key={"annual"} option={"yes"} productDetails={"no"} productCost={"6969"} />
+          <PriceCard key={"annual"} option={"yes"} productDetails={"no"} />
           <PriceCard key={"annual"} option={"yes"} productDetails={"no"} />
         </PricesWrapper>
         <Footer />
