@@ -10,7 +10,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueBlack);
+  background: linear-gradient(
+    108deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(102, 252, 241, 1) 100%
+  );
 `;
 
 export const HeaderSection = styled.div`
@@ -35,15 +39,15 @@ export const DivSection = styled.div`
 
 export const PricesWrapper = styled.div`
   max-width: 1200px;
-  margin: 2em auto;
+  margin: 5rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
-    padding: 0 20px;
+  @media screen and (max-width: 1100px) {
+    flex-direction: column;
   }
 `;
 
@@ -103,5 +107,5 @@ export const PricesH1 = styled.h1`
   color: var(--trueWhite);
   font-size: 2.3rem;
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 4rem;
 `;

@@ -12,12 +12,19 @@ import {
   LearnMoreButton,
 } from "./PriceCardElements";
 
-const PriceCard = () => {
+const PriceCard = ({
+  id,
+  headline,
+  price,
+  alt
+}) => {
   return (
-    <PriceCardContainer>
-      <PlanType>Ultimate Website Package</PlanType>
+    <PriceCardContainer whileHover={{
+      scale: 1.01,
+      }}>
+      <PlanType>{headline}</PlanType>
       <Price>
-        <Currency>$3,499</Currency>
+        <Currency>{price}</Currency>
       </Price>
       <Divider />
       <SellingPoint>
@@ -40,7 +47,6 @@ const PriceCard = () => {
       <Divider />
       <SellingPoint>Online Appointment Scheduler</SellingPoint>
       <Divider />
-
       <SellingPoint>Web Hosting</SellingPoint>
       <Divider />
       <SellingPoint>SSL Certificates</SellingPoint>

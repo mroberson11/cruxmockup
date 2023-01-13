@@ -21,11 +21,11 @@ const PricesInfo = () => {
     <>
       <Container>
         <AltNav />
-        <PricesH1>Crux Pricing Plan</PricesH1>
+        {/* <PricesH1>Crux Pricing Plan</PricesH1> */}
         <PricesWrapper>
-          <PriceCard key={"annual"} option={"yes"} productDetails={"no"} productCost={"6969"} />
-          <PriceCard key={"annual"} option={"yes"} productDetails={"no"} />
-          <PriceCard key={"annual"} option={"yes"} productDetails={"no"} />
+          <PriceCard id={"price-card-one"} headline={"Standard Package"} price={"$9,997"} />
+          <PriceCard id={"price-card-two"} headline={"Elite Package"} price={"$12,599"} />
+          <PriceCard id={"price-card-three"} headline={"Ultimate Package"} price={"$22,998"} />
         </PricesWrapper>
         <Footer />
       </Container>

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { colors, gradient } from "../../color";
+import { motion } from "framer-motion";
 
-export const PriceCardContainer = styled.div`
+export const PriceCardContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,12 +15,11 @@ export const PriceCardContainer = styled.div`
   box-shadow: 0px 20px 40px rgb(92, 224, 215, 0.5);
   border-radius: 10px;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   margin: 1.6rem 0;
   @media (min-width: 1060px) {
-    width: 22rem;
-    min-height: ${(props) =>
-      props.planType === "professional" ? "501px" : "453px"};
+    width: 30rem;
+    min-height: 300px;
     padding: ${(props) =>
       props.planType === "professional" ? "4.5rem 0" : "2.0rem"};
   }
@@ -63,9 +63,9 @@ export const OriginalCurrency = styled.span`
 `;
 
 export const Currency = styled.span`
-  font-size: 3.5rem;
+  font-size: 36px;
   font-weight: 800;
-  line-height: 4rem;
+  line-height: 1rem;
   margin-right: 0.6rem;
 `;
 
@@ -99,7 +99,6 @@ export const LearnMoreButton = styled.button`
   }
   @media (min-width: 1060px) {
     min-height: 4.4rem;
-    width: 28.8rem;
     margin: 3.1rem 0;
   }
 `;
