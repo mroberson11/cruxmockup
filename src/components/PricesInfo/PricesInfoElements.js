@@ -42,12 +42,13 @@ export const PricesWrapper = styled.div`
   margin: 5rem auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   grid-gap: 16px;
   padding: 0 50px;
 
   @media screen and (max-width: 1100px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
 

@@ -1,6 +1,45 @@
-export const priceObjOne = {
-    id: "about",
-    headline: "E-commerce Developers",
-    price: "$9,997",
-    alt: "Man next to computer",
-  };
+export const sellingPointsOne = [
+  "100 Configurable Products",
+  "1 User",
+  "1 Restaurant Location",
+  "Unlimited Content Revisions",
+  "24/7 Tech Support",
+  "Customer Purchasing Analytics",
+  "Coupon Functionality",
+  "Custom Business Newsletter",
+  "Guest Checkout",
+  "Product Recommendations",
+  "Customer Reviews",
+  "Saved Payment Methods",
+  "Cross Sells / Upsells",
+  "Continual Website Backups",
+  "Customer Information Encryption",
+  "Security Patches",
+  "Money Back Guarantee",
+  "Satisfaction Guaranteed",
+  "DFY Maintenance Package",
+  "Existing POS Integration (if available)",
+];
+
+export const sellingPointsTwo = [
+  "*ALL STANDARD PACKAGE FEATURES*",
+  "200 Configurable Products",
+  "3 Users",
+  "3 Restaurant Locations",
+  "Professional Product Photographs",
+  "Employee Affiliate Program",
+  "Multiple Languages",
+];
+
+export const sellingPointsThree = [
+  "*ALL ELITE PACKAGE FEATURES*",
+  "Unlimited Products",
+  "Unlimited Users",
+  "Unlimited Restaurant Locations",
+  "Mobile Order Delivery",
+  "Curbside Delivery Tracking",
+  "Customer Loyalty Program",
+  "SEO Optimization",
+  "QuickBooks Integration",
+  "Full Page Caching",
+];
