@@ -39,7 +39,7 @@ const Benefits = () => {
               <Lightning />
             </BenefitIcon>
             <BenefitText>
-              Your dream website delivered within two weeks
+              Your dream E-commerce store delivered within two weeks
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
@@ -47,16 +47,14 @@ const Benefits = () => {
               <Funnel />
             </BenefitIcon>
             <BenefitText>
-              Restaurant mobile ordering for faster service time
+              Mobile ordering for faster restaurant service times
             </BenefitText>
           </BenefitItem>
           <BenefitItem>
             <BenefitIcon>
               <Leaderboard />
             </BenefitIcon>
-            <BenefitText>
-              Elimination of brick & mortar overhead
-            </BenefitText>
+            <BenefitText>Elimination of brick & mortar overhead</BenefitText>
           </BenefitItem>
           <BenefitItem>
             <BenefitIcon>

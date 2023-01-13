@@ -38,9 +38,9 @@ const Services = () => {
             <ServicesH2>Sale Generation</ServicesH2>
             <ServicesP>
               There&apos;s no use in having a beautifully designed website if
-              there&apos;s no one to admire and use it. Utilizing today&apos;s latest
-              SEO techniques, we will ensure potential customers are able to
-              organically discover your online content ahead of industry
+              there&apos;s no one to admire and use it. Utilizing today&apos;s
+              latest SEO techniques, we will ensure potential customers are able
+              to organically discover your online content ahead of industry
               competitors.
             </ServicesP>
           </ServicesCard>
@@ -50,7 +50,10 @@ const Services = () => {
             </ServicesIcon>
             <ServicesH2>Maintenance Packages</ServicesH2>
             <ServicesP>
-              All content changes, product updates, promotions, upcoming events, server management, and the remaining responsibilites associated with maintaining a robust e-commerce website wil be handled for you. 
+              All content changes, product updates, promotions, upcoming events,
+              server management, and the remaining responsibilites associated
+              with maintaining a robust E-commerce website wil be handled for
+              you.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>

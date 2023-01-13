@@ -56,12 +56,12 @@ const About = () => {
                 animate={animation}
               >
                 Crux Software Solutions is a premium web development agency
-                specializing in the creation of e-commerce websites for small to
+                specializing in the creation of E-commerce websites for small to
                 medium sized restaurants. We are a Mississippi based company
                 consisting of a dynamic group of engineers with more than seven
                 years of software development experience. Whether it&apos;s
                 purchasing your website&apos;s domain name, developing your
-                e-commerce site, configuring your products, handling security
+                E-commerce site, configuring your products, handling security
                 updates, making content changes, setting up additional payment
                 processes, running promotions, or anything in between, we do it
                 all for you.
