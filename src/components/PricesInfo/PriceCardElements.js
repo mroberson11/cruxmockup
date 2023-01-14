@@ -82,10 +82,9 @@ export const LearnMoreButton = styled.button`
     props.plan === "professional" ? colors.purpleText : "white"};
   font-weight: bold;
   font-size: 2rem;
-  line-height: 10px;
-  letter-spacing: 1.39286px;
+  letter-spacing: 1.4px;
   min-height: 3rem;
-  margin: 2rem 0;
+  margin: 1rem 0 0.5rem 0;
   cursor: pointer;
   &:hover {
     border: 1px solid

@@ -12,9 +12,10 @@ import {
   LearnMoreButton,
 } from "./PriceCardElements";
 
-const PriceCard = ({ id, headline, price, alt, sellingPoints }) => {
+const PriceCard = ({ headline, price, sellingPoints }) => {
   return (
     <PriceCardContainer
+      className="price-card-container"
       whileHover={{
         scale: 1.01,
       }}
@@ -23,11 +24,13 @@ const PriceCard = ({ id, headline, price, alt, sellingPoints }) => {
       <Price>
         <Currency>{price}</Currency>
       </Price>
-      {sellingPoints?.map(function (name, index) {
+      {sellingPoints?.map(function (point, index) {
         return (
           <>
             <Divider />
-            <div key={index}>{name}</div>
+            <div className="selling-point" key={index}>
+              {point}
+            </div>
           </>
         );
       })}

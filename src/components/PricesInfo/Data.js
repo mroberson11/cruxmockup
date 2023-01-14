@@ -1,7 +1,8 @@
 export const sellingPointsOne = [
-  "100 Configurable Products",
+  "50 Configurable Products",
   "1 User",
   "1 Restaurant Location",
+  "Mobile Ordering",
   "Unlimited Content Revisions",
   "24/7 Tech Support",
   "Customer Purchasing Analytics",
@@ -22,17 +23,16 @@ export const sellingPointsOne = [
 ];
 
 export const sellingPointsTwo = [
-  "*ALL STANDARD PACKAGE FEATURES*",
-  "200 Configurable Products",
+  "100 Configurable Products",
   "3 Users",
   "3 Restaurant Locations",
   "Professional Product Photographs",
   "Employee Affiliate Program",
   "Multiple Languages",
+  "*ALL STANDARD PACKAGE FEATURES*",
 ];
 
 export const sellingPointsThree = [
-  "*ALL ELITE PACKAGE FEATURES*",
   "Unlimited Products",
   "Unlimited Users",
   "Unlimited Restaurant Locations",
@@ -42,4 +42,5 @@ export const sellingPointsThree = [
   "SEO Optimization",
   "QuickBooks Integration",
   "Full Page Caching",
+  "*ALL ELITE PACKAGE FEATURES*",
 ];
