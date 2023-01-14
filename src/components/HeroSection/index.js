@@ -44,10 +44,9 @@ const HeroSection = () => {
         )}
       </HeroBg>
       <HeroContent>
-        <HeroH1>Welcome to the Future</HeroH1>
+        <HeroH1>The World is Modernizing</HeroH1>
         <HeroP>
-          Where anyone in the world can love <br />
-          your products as much as you do
+          Your Restaurant should too <br /> <i>and now it can</i>.
         </HeroP>
         <HeroBtnWrapper
           whileHover={{

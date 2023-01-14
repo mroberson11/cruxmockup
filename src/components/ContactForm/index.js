@@ -47,8 +47,8 @@ const ContactForm = () => {
       },
       phone: {
         pattern: {
-          value: "^[0-9]*$",
-          message: "Numerical digits only.",
+          value: "^\\d{3}-\\d{3}-\\d{4}$",
+          message: "Numerical digits w/ dashes only.",
         },
       },
     },
@@ -137,27 +137,36 @@ const ContactForm = () => {
                 </p>
               )}
               <FormInput
-                type="phone"
+                type="text"
                 name="phone"
-                placeholder="6011234567"
+                placeholder="601-123-4567"
                 value={data.phone || ""}
                 onChange={handleChange("phone")}
+                required
+              />
+              <FormLabel htmlFor="for">Restaurant / Company</FormLabel>
+              {errors.name && (
+                <p className="error" style={{ color: "red" }}>
+                  {errors.name}
+                </p>
+              )}
+              <FormInput
+                type="text"
+                name="company"
+                placeholder="Crux Software Solutions"
+                value={data.company || ""}
+                onChange={handleChange("company")}
                 required
               />
               <FormLabel>More Information</FormLabel>
               <CheckListWrapper>
                 <SwitchItem
                   name="existing"
-                  switchLabel="I have an existing website"
-                />
-
-                <SwitchItem
-                  name="quote"
-                  switchLabel="I'm interested in a quote for a new website"
+                  switchLabel="My restaurant has an existing website"
                 />
                 <SwitchItem
-                  name="leads"
-                  switchLabel="I'm interested in a maintenance package"
+                  name="products"
+                  switchLabel="My restaurant sells more than 100 products"
                 />
               </CheckListWrapper>
               <FormLabel htmlFor="for">Additional Comments</FormLabel>
