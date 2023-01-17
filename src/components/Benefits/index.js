@@ -81,7 +81,7 @@ const Benefits = () => {
             <BenefitIcon>
               <SearchDollar />
             </BenefitIcon>
-            <BenefitText>Decrease Buyer's Remorse</BenefitText>
+            <BenefitText>Decrease Buyer&apos;s Remorse</BenefitText>
           </BenefitItem>
           <BenefitItem>
             <BenefitIcon>
