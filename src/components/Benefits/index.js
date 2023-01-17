@@ -14,6 +14,9 @@ import {
   Checkmark,
   SearchDollar,
   BenefitText,
+  BillWave,
+  Magnet,
+  Bullseye,
 } from "./BenefitsElements";
 
 const Benefits = () => {
@@ -36,49 +39,62 @@ const Benefits = () => {
         >
           <BenefitItem>
             <BenefitIcon>
+              <BillWave />
+            </BenefitIcon>
+            <BenefitText>
+              Increase Average Total Purchase of Each Customer
+            </BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
+              <Magnet />
+            </BenefitIcon>
+            <BenefitText>Increase Customer Retention</BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
+              <Bullseye />
+            </BenefitIcon>
+            <BenefitText>Increase Order Accuracy</BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
               <Lightning />
             </BenefitIcon>
-            <BenefitText>
-              Your dream E-commerce store delivered within two weeks
-            </BenefitText>
-          </BenefitItem>
-          <BenefitItem>
-            <BenefitIcon>
-              <Funnel />
-            </BenefitIcon>
-            <BenefitText>
-              Mobile ordering for faster restaurant service times
-            </BenefitText>
-          </BenefitItem>
-          <BenefitItem>
-            <BenefitIcon>
-              <Leaderboard />
-            </BenefitIcon>
-            <BenefitText>Elimination of brick & mortar overhead</BenefitText>
+            <BenefitText>Increase Efficiency of Existing Employees</BenefitText>
           </BenefitItem>
           <BenefitItem>
             <BenefitIcon>
               <Smile />
             </BenefitIcon>
             <BenefitText>
-              Stress free website maintenance & changes all done for you
+              Increase Employee Satisfaction & Commissions
             </BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
+              <Funnel />
+            </BenefitIcon>
+            <BenefitText>Decrease Operational Bottlenecks</BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
+              <SearchDollar />
+            </BenefitIcon>
+            <BenefitText>Decrease Buyer's Remorse</BenefitText>
+          </BenefitItem>
+          <BenefitItem>
+            <BenefitIcon>
+              <Leaderboard />
+            </BenefitIcon>
+            <BenefitText>Receive Real-time Customer Feedback</BenefitText>
           </BenefitItem>
           <BenefitItem>
             <BenefitIcon>
               <Checkmark />
             </BenefitIcon>
             <BenefitText>
-              A money back service guarantee with no monthly contracts
-            </BenefitText>
-          </BenefitItem>
-          <BenefitItem>
-            <BenefitIcon>
-              <SearchDollar />
-            </BenefitIcon>
-            <BenefitText>
-              Organic traffic created through Search Engine Optimization
-              techniques
+              Satisfaction Guaranteed via Risk Free Trial
             </BenefitText>
           </BenefitItem>
         </BenefitsWrapper>

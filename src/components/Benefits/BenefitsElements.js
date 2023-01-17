@@ -7,6 +7,9 @@ import {
   FaFunnelDollar,
   FaSmile,
   FaSearchDollar,
+  FaMoneyBillWave,
+  FaMagnet,
+  FaBullseye,
 } from "react-icons/fa";
 
 export const BenefitsContainer = styled(motion.section)`
@@ -75,34 +78,50 @@ export const BenefitIcon = styled.div`
   margin-right: 10px;
 `;
 
+export const BenefitText = styled.p`
+  font-size: 1.1rem;
+`;
+
 export const Lightning = styled(BsFillLightningFill)`
   font-size: 1.5rem;
-  color: #def107;
+  color: #ffcd02;
 `;
 
 export const Funnel = styled(FaFunnelDollar)`
   font-size: 1.5rem;
-  color: #1df20e;
+  color: #80ff00;
 `;
 
 export const Leaderboard = styled(MdLeaderboard)`
   font-size: 1.5rem;
-  color: #c22ef2;
+  color: #ed0244;
 `;
 
 export const Smile = styled(FaSmile)`
   font-size: 1.5rem;
-  color: var(--cruxBlue);
+  color: #0935ee;
 `;
 
 export const Checkmark = styled(FaCheckCircle)`
   font-size: 1.5rem;
-  color: #001eff;
+  color: #02b5a0;
 `;
 export const SearchDollar = styled(FaSearchDollar)`
   font-size: 1.5rem;
   color: #f06701;
 `;
-export const BenefitText = styled.p`
-  font-size: 1.1rem;
+
+export const BillWave = styled(FaMoneyBillWave)`
+  font-size: 1.5rem;
+  color: #3afe14;
+`;
+
+export const Magnet = styled(FaMagnet)`
+  font-size: 1.5rem;
+  color: #ff3131;
+`;
+
+export const Bullseye = styled(FaBullseye)`
+  font-size: 1.5rem;
+  color: #c3732a;
 `;
