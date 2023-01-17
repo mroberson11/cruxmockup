@@ -28,12 +28,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           {/* <SidebarLink to="why" onClick={toggle}>
             Why Us
           </SidebarLink> */}
-          <SidebarLink to="information" onClick={toggle}>
-            Contact
-          </SidebarLink>
           <Link href="/pricing" passHref>
             <SidebarLink>Pricing</SidebarLink>
           </Link>
+          <SidebarLink to="information" onClick={toggle}>
+            Contact
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <Link href="/contact-form" passHref>
