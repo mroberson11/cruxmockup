@@ -75,16 +75,16 @@ export const HeroH1 = styled(motion.h1)`
 export const HeroP = styled(motion.p)`
   margin-top: 24px;
   color: var(--trueWhite);
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   @media screen and (max-width: 480px) {
-    font: 18px;
+    font: 26px;
   }
 `;
 

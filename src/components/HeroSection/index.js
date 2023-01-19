@@ -44,10 +44,8 @@ const HeroSection = () => {
         )}
       </HeroBg>
       <HeroContent>
-        <HeroH1>The World is Modernizing</HeroH1>
-        <HeroP>
-          Your Restaurant should too <br /> <i>and now it can</i>.
-        </HeroP>
+        <HeroH1>Restaurant E-Commerce</HeroH1>
+        <HeroP>Done-For-You</HeroP>
         <HeroBtnWrapper
           whileHover={{
             scale: 1.1,

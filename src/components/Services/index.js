@@ -52,7 +52,7 @@ const Services = () => {
             <ServicesP>
               All content changes, product updates, promotions, upcoming events,
               server management, and the remaining responsibilites associated
-              with maintaining a robust E-commerce website wil be handled for
+              with maintaining a robust E-Commerce website wil be handled for
               you.
             </ServicesP>
           </ServicesCard>
