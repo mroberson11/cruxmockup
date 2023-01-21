@@ -59,12 +59,14 @@ const About = () => {
                 specializing in the creation of E-Commerce websites for small to
                 medium sized restaurants. We are a Mississippi based company
                 consisting of a dynamic group of engineers with more than seven
-                years of software development experience. Whether it&apos;s
-                purchasing your website&apos;s domain name, developing your
-                E-Commerce site, configuring your products, handling security
-                updates, making content changes, setting up additional payment
-                processes, running promotions, or anything in between, we do it
-                all for you.
+                years of software development experience.
+                <br />
+                <br />
+                Whether it&apos;s purchasing your website&apos;s domain name,
+                developing your E-Commerce site, configuring your products,
+                handling security updates, making content changes, setting up
+                additional payment processes, running promotions, or anything in
+                between, we do it all for you.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>
@@ -82,11 +84,14 @@ const About = () => {
               >
                 We have a passion for helping small businesses grow. We believe
                 a company&apos;s website can be its greatest digital asset &
-                marketing tool or its greatest handicap. Technology is complex.
-                So, we want to make it as simple as possible for any business to
-                take advantage of the massive potential that implementing an
-                online store can have on their revenue, customer satisfaction,
-                brand perception, and company growth.
+                marketing tool or its greatest handicap.
+                <br />
+                <br />
+                Technology is complex. So, we want to make it as simple as
+                possible for any business to take advantage of the massive
+                potential that implementing an online store can have on their
+                revenue, customer satisfaction, brand perception, and company
+                growth.
               </InfoSectionText>
             </InfoSection>
             <InfoSection>
