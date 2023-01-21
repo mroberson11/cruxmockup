@@ -56,7 +56,7 @@ export default function Home() {
       <InfoSection {...homeObjOne} />
       <Benefits />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
       <Footer />

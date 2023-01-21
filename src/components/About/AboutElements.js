@@ -64,12 +64,12 @@ export const InfoSectionHeader = styled(motion.h2)`
 
 export const InfoSectionText = styled(motion.p)`
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
   padding: 0.5rem;
 `;
 
 export const ImgWrap = styled(motion.div)`
-  max-width: 300px;
+  max-width: 150px;
   height: 100%;
   padding: 1rem;
 `;
