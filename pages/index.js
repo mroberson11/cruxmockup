@@ -9,6 +9,7 @@ import Navbar from "../src/components/Navbar";
 import Sidebar from "../src/components/Sidebar";
 import Services from "../src/components/Services";
 import Script from "next/script";
+import Testimonials from "../src/components/Testimonials";
 import {
   homeObjOne,
   homeObjTwo,
@@ -38,7 +39,10 @@ export default function Home() {
       `}
       </Script>
 
-      <Script id="google-ads" src="https://www.googletagmanager.com/gtag/js?id=G-MY3B0HBVF1">
+      <Script
+        id="google-ads"
+        src="https://www.googletagmanager.com/gtag/js?id=G-MY3B0HBVF1"
+      >
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -52,6 +56,7 @@ export default function Home() {
       <InfoSection {...homeObjOne} />
       <Benefits />
       <Services />
+      <Testimonials />
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
       <Footer />
