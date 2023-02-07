@@ -15,6 +15,7 @@ export const sellingPointsOne = [
   "Saved Payment Methods",
   "Cross Sells / Upsells",
   "Customer Information Encryption",
+  "Full Page Caching",
   "24/7 Tech Support",
   "Continual Website Backups",
   "Security Patches",
