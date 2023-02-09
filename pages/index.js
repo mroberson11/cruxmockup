@@ -10,6 +10,7 @@ import Sidebar from "../src/components/Sidebar";
 import Services from "../src/components/Services";
 import Script from "next/script";
 import Testimonials from "../src/components/Testimonials";
+import VideoSection from "../src/components/VideoSection";
 import {
   homeObjOne,
   homeObjTwo,
@@ -59,6 +60,7 @@ export default function Home() {
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
+      <VideoSection />
       <Footer />
     </>
   );
