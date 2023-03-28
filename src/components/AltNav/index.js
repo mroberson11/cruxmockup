@@ -24,7 +24,7 @@ const AltNav = () => {
             >
               <Link href="/" passHref>
                 <LogoImg
-                  src={"../../images/CompanyLogos/CompanyLogo.png"}
+                  src={"../../images/CompanyLogos/blue-w-tagline.png"}
                   alt="Company Logo"
                 />
               </Link>

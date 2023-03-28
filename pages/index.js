@@ -60,7 +60,7 @@ export default function Home() {
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <Footer />
     </>
   );
