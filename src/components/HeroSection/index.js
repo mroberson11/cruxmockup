@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeroImage from "../../images/HeroImages/blue-milky-way.webp";
+import HeroImage from "../../images/HeroImages/crux-blue-space.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatedButton } from "../ButtonElements";
@@ -38,7 +38,7 @@ const HeroSection = () => {
           />
         ) : (
           <BackgroundPic
-            src={"../../images/HeroImages/blue-milky-way.webp"}
+            src={"../../images/HeroImages/crux-blue-space.webp"}
             alt="Blue Space Background"
           />
         )}

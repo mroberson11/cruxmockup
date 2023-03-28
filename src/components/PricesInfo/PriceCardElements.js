@@ -12,7 +12,7 @@ export const PriceCardContainer = styled(motion.div)`
     props.planType === "professional" ? "white" : colors.grayishBlue};
   width: 100%;
   width: 22rem;
-  box-shadow: 0px 20px 40px rgb(92, 224, 215, 0.5);
+  box-shadow: 0px 20px 40px rgba(26, 180, 247, 0.5);
   border-radius: 10px;
   text-align: center;
   padding: 1rem;
@@ -74,7 +74,7 @@ export const LearnMoreButton = styled.button`
   width: 100%;
   height: 2rem;
   background: ${(props) =>
-    props.plan === "professional" ? "white" : "#5CE0D7"};
+    props.plan === "professional" ? "white" : "#1AB4F7"};
   border-radius: 6px;
   border: none;
   outline: none;
@@ -88,8 +88,8 @@ export const LearnMoreButton = styled.button`
   cursor: pointer;
   &:hover {
     border: 1px solid
-      ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
+      ${(props) => (props.plan === "professional" ? "white" : "#1AB4F7")};
     background: none;
-    color: ${(props) => (props.plan === "professional" ? "white" : "#5CE0D7")};
+    color: ${(props) => (props.plan === "professional" ? "white" : "#1AB4F7")};
   }
 `;

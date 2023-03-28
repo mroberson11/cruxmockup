@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import CompanyLogo from "../../images/CompanyLogos/padded-blue-no-tagline.png";
+import CompanyLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import Link from "next/link";
@@ -90,7 +90,7 @@ const ContactForm = () => {
             <Form ref={form} onSubmit={handleSubmit}>
               <LogoWrapper
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.05,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
