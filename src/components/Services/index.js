@@ -23,12 +23,12 @@ const Services = () => {
             <ServicesIcon>
               <Image src={Icon1} alt="Pair Programming" priority={true} />
             </ServicesIcon>
-            <ServicesH2>DFY Website Creation</ServicesH2>
+            <ServicesH2>DFY Online Ordering System</ServicesH2>
             <ServicesP>
               While you sit back & relax, we&apos;ll design, implement, and
-              configure your dream online restaurant. With 7+ years of software
-              engineering experience, we have the skills & tools required to
-              deliver on our promises.
+              configure your fully managed online storefront. This includes
+              no-contact ordering, no third party fees, retention of customer
+              data, real-time receipt printing, and more.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
@@ -38,10 +38,9 @@ const Services = () => {
             <ServicesH2>Sale Generation</ServicesH2>
             <ServicesP>
               There&apos;s no use in having a beautifully designed website if
-              there&apos;s no one to admire and use it. Utilizing today&apos;s
-              latest SEO techniques, we will ensure potential customers are able
-              to organically discover your online content ahead of industry
-              competitors.
+              there&apos;s no one to admire and enjoy it. Loyalty reward
+              programs, event promotion, and one click ordering are just a few
+              of the ways we&apos;ll keep your customers coming back for more.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
