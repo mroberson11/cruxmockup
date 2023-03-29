@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import CompanyLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 import { IconContext } from "react-icons/lib";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { SocialIcons, SocialIconLink } from "../Footer/FooterElements.js";
@@ -23,10 +24,7 @@ const AltNav = () => {
               }}
             >
               <Link href="/" passHref>
-                <LogoImg
-                  src={"../../images/CompanyLogos/padded-blue-no-tagline.png"}
-                  alt="Company Logo"
-                />
+                <LogoImg src={CompanyLogo.src} alt="Company Logo" />
               </Link>
             </NavLogo>
             <NavMenu>

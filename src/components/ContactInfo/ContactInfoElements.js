@@ -92,14 +92,14 @@ export const ContactP = styled.p`
 export const EmphasizedP = styled.p`
   font-size: 1.1em;
   text-align: center;
-  color: #00ffef;
+  color: var(--faqText);
   cursor: pointer;
 `;
 
 export const EmphasizedA = styled.a`
   font-size: 1.1em;
   text-align: center;
-  color: #00ffef;
+  color: var(--faqText);
   cursor: pointer;
   text-decoration: none;
 `;
