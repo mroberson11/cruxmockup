@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import HeroImage from "../../images/HeroImages/crux-blue-space.webp";
+import HeroDesktop from "../../images/HeroImages/mix-burn.webp";
+import HeroMobile from "../../images/HeroImages/mix-burn-mobile.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatedButton } from "../ButtonElements";
@@ -31,14 +32,16 @@ const HeroSection = () => {
       <HeroBg>
         {isDesktopOrLaptop ? (
           <Image
-            src={HeroImage}
-            alt="Green Space Background"
+            src={HeroDesktop}
+            alt="Blue Space Background"
             layout="fill"
             type="image/webp"
           />
         ) : (
           <BackgroundPic
-            src={"../../images/HeroImages/crux-blue-space.webp"}
+            // src={"../../images/HeroImages/blue-milky-way.webp"}
+            // src={"../../images/HeroImages/crux-blue-space.webp"}
+            src={HeroMobile.src}
             alt="Blue Space Background"
           />
         )}
