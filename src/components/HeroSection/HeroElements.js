@@ -60,31 +60,31 @@ export const HeroContent = styled.div`
 `;
 export const HeroH1 = styled(motion.h1)`
   color: var(--trueWhite);
-  font-size: 48px;
-  text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 48px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font: 32px;
-  }
-`;
-
-export const HeroP = styled(motion.p)`
-  margin-top: 24px;
-  color: var(--trueWhite);
   font-size: 32px;
   text-align: center;
-  max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
   }
 
   @media screen and (max-width: 480px) {
-    font: 26px;
+    font: 24px;
+  }
+`;
+
+export const HeroP = styled(motion.p)`
+  margin-top: 24px;
+  color: var(--trueWhite);
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font: 22px;
   }
 `;
 
