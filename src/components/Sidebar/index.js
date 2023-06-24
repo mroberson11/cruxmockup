@@ -28,9 +28,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           {/* <SidebarLink to="why" onClick={toggle}>
             Why Us
           </SidebarLink> */}
-          <Link href="/pricing" passHref>
+          {/* <Link href="/pricing" passHref>
             <SidebarLink>Pricing</SidebarLink>
-          </Link>
+          </Link> */}
           <SidebarLink to="information" onClick={toggle}>
             Contact
           </SidebarLink>
