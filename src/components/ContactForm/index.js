@@ -144,7 +144,7 @@ const ContactForm = () => {
                 onChange={handleChange("phone")}
                 required
               />
-              <FormLabel htmlFor="for">Restaurant / Company</FormLabel>
+              <FormLabel htmlFor="for">Company Name</FormLabel>
               {errors.name && (
                 <p className="error" style={{ color: "red" }}>
                   {errors.name}
@@ -162,11 +162,11 @@ const ContactForm = () => {
               <CheckListWrapper>
                 <SwitchItem
                   name="existing"
-                  switchLabel="My restaurant has an existing website"
+                  switchLabel="My business has an existing website"
                 />
                 <SwitchItem
                   name="products"
-                  switchLabel="My restaurant sells more than 100 products"
+                  switchLabel="My business sells more than 100 products"
                 />
               </CheckListWrapper>
               <FormLabel htmlFor="for">Additional Comments</FormLabel>

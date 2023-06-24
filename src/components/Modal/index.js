@@ -56,7 +56,7 @@ const Modal = ({ handleClose, text }) => {
             reaching out to us. We know your time is valuable which is why
             we&apos;re committed to responding within a 24 hour time frame
             barring any technical difficulties. If your inquiry is urgent,
-            please contact us via 601-345-1523.{" "}
+            please contact us via 601-927-1778.{" "}
           </ModalText>
         </ModalContent>
       </motion.div>

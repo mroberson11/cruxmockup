@@ -10,7 +10,7 @@ export const homeObjOne = {
   topLine: "Software Solution Providers",
   headline: "E-Commerce Developers",
   description:
-    "Crux Software Solutions is a premium web development agency specializing in the creation of E-Commerce websites for small to medium sized restaurants. From start to finish, we'll handle everything needed to showcase your company's menu, enable mobile ordering, run promotions, and so much more.",
+    "Crux Software Solutions is a premium web development agency specializing in the creation of E-Commerce websites for small to medium sized businesses. From start to finish, we'll handle everything needed to showcase your company's products, enable mobile ordering, run promotions, and so much more.",
   buttonLabel: "Learn More",
   imgStart: false,
   img: pic1,

@@ -48,7 +48,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>DFY Online Storefronts & Mobile Ordering</HeroH1>
-        <HeroP>for Restaurants</HeroP>
+        <HeroP>for Small and Medium Businesses</HeroP>
         <HeroBtnWrapper
           whileHover={{
             scale: 1.1,

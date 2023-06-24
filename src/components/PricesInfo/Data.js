@@ -1,7 +1,7 @@
 export const sellingPointsOne = [
   "25 Configurable Products",
   "1 Administrative User",
-  "1 Restaurant Location",
+  "1 Business Location",
   "1 Personal Web Developer",
   "1 Thermal Printer",
   "Mobile Ordering",
@@ -27,7 +27,7 @@ export const sellingPointsOne = [
 export const sellingPointsTwo = [
   "50 Configurable Products",
   "3 Administritive Users",
-  "2 Restaurant Locations",
+  "2 Business Locations",
   "2 Personal Web Developers",
   "Professional Product Photographs",
   "Employee Affiliate Program",
@@ -38,7 +38,7 @@ export const sellingPointsTwo = [
 export const sellingPointsThree = [
   "100 Configurable Products",
   "5 Administrative Users",
-  "5 Restaurant Locations",
+  "5 Business Locations",
   "3 Personal Web Developers",
   "Curbside Delivery Tracking",
   "Customer Loyalty Program",

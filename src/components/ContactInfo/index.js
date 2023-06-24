@@ -75,7 +75,7 @@ const ContactInfo = () => {
                 passHref
                 style={{ textAlign: "center" }}
               >
-                <EmphasizedP>601-345-1523</EmphasizedP>
+                <EmphasizedP>601-927-1778</EmphasizedP>
               </Link>
             </ContactP>
           </ContactCard>

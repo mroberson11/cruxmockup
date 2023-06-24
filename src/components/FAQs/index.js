@@ -6,7 +6,7 @@ const FAQs = () => {
     rows: [
       {
         title: "How do I get started?",
-        content: `You can fill out our contact form to have a representive reach out to you within 24 hours, or you can text/email us at 601-345-1523/info@cruxsoftwaresolutions.com`,
+        content: `You can fill out our contact form to have a representive reach out to you within 24 hours, or you can text/email us at 601-927-1778/info@cruxsoftwaresolutions.com`,
       },
       {
         title: "What if I don't get results?",
