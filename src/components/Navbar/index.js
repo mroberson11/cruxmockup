@@ -136,17 +136,21 @@ const Navbar = ({ toggle }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
-                    color: "#fffffff",
+                    color: "var(--trueWhite)",
                     display: "flex",
                     alignItems: "center",
                     textDecoration: "none",
                     padding: "0 1rem",
                     height: "100%",
                     cursor: "pointer",
-                    fontFamily: "Iceberg",
+                    fontFamily: "var(--defaultFont)",
                   }}
-                  onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-                  onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+                  onMouseEnter={(e) =>
+                    (e.target.style.color = "var(--trueWhite)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.target.style.color = "var(--trueWhite)")
+                  }
                 >
                   Shop
                 </a>

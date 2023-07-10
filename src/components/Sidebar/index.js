@@ -34,6 +34,26 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="information" onClick={toggle}>
             Contact
           </SidebarLink>
+          <a
+            href="https://cruxsoftwaresolutions.tech/"
+            onClick={toggle}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "1.5rem",
+              textSecoration: "none",
+              listStyle: "none",
+              transition: "0.2s ease-in-out",
+              textDecoration: "none",
+              color: "var(--trueWhite)",
+              cursor: "pointer",
+            }}
+            onMouseEnter={(e) => (e.target.style.color = "var(--cruxBlue")}
+            onMouseLeave={(e) => (e.target.style.color = "var(--trueWhite")}
+          >
+            Shop
+          </a>
         </SidebarMenu>
         <SideBtnWrap>
           <Link href="/contact-form" passHref>
