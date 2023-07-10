@@ -126,6 +126,31 @@ const Navbar = ({ toggle }) => {
                   Contact
                 </NavLinks>
               </NavItem>
+              <NavItem
+                whileHover={{
+                  scale: 1.1,
+                }}
+              >
+                <a
+                  href="https://cruxsoftwaresolutions.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: "#fffffff",
+                    display: "flex",
+                    alignItems: "center",
+                    textDecoration: "none",
+                    padding: "0 1rem",
+                    height: "100%",
+                    cursor: "pointer",
+                    fontFamily: "Iceberg",
+                  }}
+                  onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
+                  onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+                >
+                  Shop
+                </a>
+              </NavItem>
             </NavMenu>
             <NavBtn>
               <Link href="/contact-form" passHref>
