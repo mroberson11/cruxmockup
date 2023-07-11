@@ -133,7 +133,6 @@ const Navbar = ({ toggle }) => {
               >
                 <a
                   href="https://cruxsoftwaresolutions.tech/"
-                  target="_blank"
                   rel="noopener noreferrer"
                   style={{
                     color: "var(--trueWhite)",
