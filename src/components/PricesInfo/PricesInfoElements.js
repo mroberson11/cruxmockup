@@ -79,7 +79,7 @@ export const PricesIcon = styled.div`
 `;
 
 export const PricesH2 = styled.h2`
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   margin-bottom: 10px;
   text-align: center;
 `;

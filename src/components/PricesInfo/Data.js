@@ -1,10 +1,10 @@
 export const sellingPointsOne = [
-  "25 Configurable Products",
-  "1 Administrative User",
-  "1 Business Location",
-  "1 Personal Web Developer",
-  "1 Thermal Printer",
-  "Mobile Ordering",
+  "Company Branded Online Store",
+  "Unlimited Products",
+  "Unlimited Administrative Users",
+  "No Setup Fees",
+  "No Longterm Contracts",
+  "3-Day Development Time",
   "Unlimited Content Revisions",
   "Customer Purchasing Analytics",
   "Coupon Functionality",
@@ -16,12 +16,12 @@ export const sellingPointsOne = [
   "Cross Sells / Upsells",
   "Customer Information Encryption",
   "Full Page Caching",
-  "24/7 Tech Support",
   "Continual Website Backups",
   "Security Patches",
+  "24/7 Tech Support",
   "Money Back Guarantee",
   "Satisfaction Guaranteed",
-  "DFY Maintenance Package",
+  ,
 ];
 
 export const sellingPointsTwo = [

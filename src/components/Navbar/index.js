@@ -85,7 +85,7 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
-              {/* <NavItem
+              <NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -93,7 +93,7 @@ const Navbar = ({ toggle }) => {
                 <Link href="/pricing" passHref>
                   <NavLinks>Pricing</NavLinks>
                 </Link>
-              </NavItem> */}
+              </NavItem>
               {/* <NavItem
                 whileHover={{
                   scale: 1.1,

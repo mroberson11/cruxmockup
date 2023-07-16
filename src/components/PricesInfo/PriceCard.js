@@ -28,7 +28,11 @@ const PriceCard = ({ headline, price, sellingPoints }) => {
         return (
           <>
             <Divider />
-            <div className="selling-point" key={index}>
+            <div
+              style={{ fontSize: "20px" }}
+              className="selling-point"
+              key={index}
+            >
               {point}
             </div>
           </>

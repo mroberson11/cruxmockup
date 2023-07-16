@@ -30,7 +30,7 @@ export const Divider = styled.hr`
 `;
 
 export const PlanType = styled.span`
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2.8rem;
   text-align: center;
   text-transform: capitalize;
@@ -65,7 +65,7 @@ export const Currency = styled.span`
 
 export const SellingPoint = styled.span`
   color: var(--trueBlack);
-  font-size: 14px;
+  font-size: 22px;
   text-align: center;
   padding: 0.4rem;
 `;
