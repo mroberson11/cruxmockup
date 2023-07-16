@@ -91,7 +91,7 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </SocialIconLink>
-                <SocialIconLink
+                {/* <SocialIconLink
                   href="https://www.youtube.com"
                   target="_blank"
                   aria-label="Youtube"
@@ -100,7 +100,7 @@ const Footer = () => {
                   }}
                 >
                   <FaYoutube />
-                </SocialIconLink>
+                </SocialIconLink> */}
               </SocialIcons>
             </SocialMediaWrap>
           </SocialMedia>

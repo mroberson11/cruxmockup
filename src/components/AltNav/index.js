@@ -49,7 +49,7 @@ const AltNav = () => {
                 >
                   <FaInstagram />
                 </SocialIconLink>
-                <SocialIconLink
+                {/* <SocialIconLink
                   href="https://www.youtube.com"
                   target="_blank"
                   aria-label="Youtube"
@@ -58,7 +58,7 @@ const AltNav = () => {
                   }}
                 >
                   <FaYoutube />
-                </SocialIconLink>
+                </SocialIconLink> */}
               </SocialIcons>
             </NavMenu>
           </NavbarContainer>
