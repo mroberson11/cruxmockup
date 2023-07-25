@@ -43,7 +43,7 @@ const PriceCard = ({ headline, price, sellingPoints }) => {
         href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
         passHref
       >
-        <LearnMoreButton>LEARN MORE</LearnMoreButton>
+        <LearnMoreButton>CLAIM FREE TRIAL</LearnMoreButton>
       </Link>
     </PriceCardContainer>
   );

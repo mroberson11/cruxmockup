@@ -8,9 +8,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Software Solution Providers",
-  headline: "E-Commerce Developers",
+  headline: "E-Commerce Web Devs",
   description:
-    "Crux Software Solutions is a Mississippi based web development agency specializing in the creation of E-Commerce websites for small businesses. From start to finish, we'll handle everything needed to showcase your company's products, enable mobile ordering, run promotions, and so much more.",
+    "We're a Mississippi based web development agency specializing in the creation of E-Commerce websites for small businesses. From start to finish, we'll handle everything needed to showcase your company's products, enable mobile ordering, run promotions, and so much more.",
   buttonLabel: "View Pricing",
   imgStart: false,
   img: pic1,
