@@ -53,7 +53,7 @@ const Navbar = ({ toggle }) => {
               <FaBars />
             </MobileIcon>
             <NavMenu>
-              <NavItem
+              {/* <NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -68,7 +68,7 @@ const Navbar = ({ toggle }) => {
                 >
                   About
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
               <NavItem
                 whileHover={{
                   scale: 1.1,
@@ -115,16 +115,9 @@ const Navbar = ({ toggle }) => {
                   scale: 1.1,
                 }}
               >
-                <NavLinks
-                  to="information"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Contact
-                </NavLinks>
+                <Link href="/contact-info" passHref>
+                  <NavLinks>Contact</NavLinks>
+                </Link>
               </NavItem>
               <NavItem
                 whileHover={{
@@ -156,9 +149,11 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <Link href="/contact-form" passHref>
+              <Link
+                href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
+                passHref
+              >
                 <NavBtnLink
-                  to="/contact"
                   duration={500}
                   exact="true"
                   offset={-80}
@@ -167,7 +162,7 @@ const Navbar = ({ toggle }) => {
                   }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  Get Started
+                  Claim Free Trial
                 </NavBtnLink>
               </Link>
             </NavBtn>

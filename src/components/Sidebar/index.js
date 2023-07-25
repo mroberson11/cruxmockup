@@ -19,9 +19,9 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          {/* <SidebarLink to="about" onClick={toggle}>
             About
-          </SidebarLink>
+          </SidebarLink> */}
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
@@ -31,9 +31,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/pricing" passHref>
             <SidebarLink>Pricing</SidebarLink>
           </Link>
-          <SidebarLink to="information" onClick={toggle}>
-            Contact
-          </SidebarLink>
+          <Link href="/contact-info" passHref>
+            <SidebarLink>Contact</SidebarLink>
+          </Link>
           <a
             href="https://cruxsoftwaresolutions.tech/"
             onClick={toggle}
@@ -56,8 +56,11 @@ const Sidebar = ({ isOpen, toggle }) => {
           </a>
         </SidebarMenu>
         <SideBtnWrap>
-          <Link href="/contact-form" passHref>
-            <SidebarRoute>Get Started</SidebarRoute>
+          <Link
+            href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
+            passHref
+          >
+            <SidebarRoute>Claim Free Trial</SidebarRoute>
           </Link>
         </SideBtnWrap>
       </SidebarWrapper>

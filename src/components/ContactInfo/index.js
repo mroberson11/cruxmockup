@@ -67,11 +67,11 @@ const ContactInfo = () => {
             <ContactIcon>
               <Image src={Text} alt="Text Messages" priority={true} />
             </ContactIcon>
-            <ContactH2>Shoot Us a Text</ContactH2>
+            <ContactH2>Give Us a Call</ContactH2>
             <ContactP>
-              Send us a text message day or night at{" "}
+              Speak to a real human at{" "}
               <Link
-                href="tel: 6013451523"
+                href="tel: 6019271778"
                 passHref
                 style={{ textAlign: "center" }}
               >

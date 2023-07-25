@@ -88,8 +88,15 @@ export const HeroP = styled(motion.p)`
   }
 `;
 
+export const HeroBtnContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const HeroBtnWrapper = styled(motion.div)`
-  margin-top: 32px;
+  margin: 32px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

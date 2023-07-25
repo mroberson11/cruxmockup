@@ -11,6 +11,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
+  HeroBtnContainer,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
@@ -49,36 +50,54 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Your Stress-Free Path to E-Commerce Success</HeroH1>
         <HeroP>DFY Online Stores for Small Businesses</HeroP>
-        <HeroBtnWrapper
-          whileHover={{
-            scale: 1.1,
-          }}
-        >
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
-            passHref
+        <HeroBtnContainer>
+          <HeroBtnWrapper
+            whileHover={{
+              scale: 1.1,
+            }}
           >
-            <AnimatedButton
-              to="contact"
-              onMouseEnter={onHover}
-              onMouseLeave={onHover}
-              primary="true"
-              dark="true"
-              duration={500}
-              exact="true"
-              offset={-80}
-              whileTap={{ scale: 0.9 }}
-              animate={{
-                rotate: [0, 0, 360, 0, 0],
-              }}
-              transition={{ duration: 3 }}
+            <Link href="/demo" passHref>
+              <AnimatedButton
+                primary="false"
+                dark="false"
+                duration={500}
+                exact="true"
+                offset={-80}
+                whileTap={{ scale: 0.9 }}
+                transition={{ duration: 3 }}
+              >
+                View Demos
+              </AnimatedButton>
+            </Link>
+          </HeroBtnWrapper>
+          <HeroBtnWrapper
+            whileHover={{
+              scale: 1.1,
+            }}
+          >
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
+              passHref
             >
-              Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-            </AnimatedButton>
-          </Link>
-        </HeroBtnWrapper>
+              <AnimatedButton
+                onMouseEnter={onHover}
+                onMouseLeave={onHover}
+                primary="true"
+                dark="true"
+                duration={500}
+                exact="true"
+                offset={-80}
+                whileTap={{ scale: 0.9 }}
+                transition={{ duration: 3 }}
+                style={{ background: "var(--trueWhite)" }}
+              >
+                Free Trial {hover ? <ArrowForward /> : <ArrowRight />}
+              </AnimatedButton>
+            </Link>
+          </HeroBtnWrapper>
+        </HeroBtnContainer>
       </HeroContent>
     </HeroContainer>
   );

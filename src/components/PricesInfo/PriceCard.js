@@ -39,7 +39,10 @@ const PriceCard = ({ headline, price, sellingPoints }) => {
         );
       })}
       <Divider />
-      <Link href="/contact-form" passHref>
+      <Link
+        href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
+        passHref
+      >
         <LearnMoreButton>LEARN MORE</LearnMoreButton>
       </Link>
     </PriceCardContainer>
