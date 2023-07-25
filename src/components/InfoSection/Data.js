@@ -67,7 +67,7 @@ export const homeObjThree = {
   topLine: "Get in Touch",
   headline: "Start Your Journey",
   description:
-    "Get in touch with us today in order to learn how we can customize a solution that is guaranteed to meet your needs & revolutionize your online presence. We are available for online appointments, texts, emails, and through our online contact form.",
+    "Step into the future of online retail with Crux Software Solutions by your side. Together, we'll elevate your business to new heights, making your mark in the digital world with style and success.",
   buttonLabel: "Contact Information",
   imgStart: false,
   img: pic3,
