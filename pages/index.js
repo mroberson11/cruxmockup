@@ -9,6 +9,7 @@ import Navbar from "../src/components/Navbar";
 import Sidebar from "../src/components/Sidebar";
 import Services from "../src/components/Services";
 import Script from "next/script";
+import ScrollUp from "../src/components/ScrollUp";
 import Testimonials from "../src/components/Testimonials";
 import VideoSection from "../src/components/VideoSection";
 import {
@@ -61,6 +62,7 @@ export default function Home() {
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
       {/* <VideoSection /> */}
+      {/* <ScrollUp /> */}
       <Footer />
     </>
   );

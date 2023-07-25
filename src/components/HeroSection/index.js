@@ -47,14 +47,19 @@ const HeroSection = () => {
         )}
       </HeroBg>
       <HeroContent>
-        <HeroH1>DFY Online Storefronts & Mobile Ordering</HeroH1>
-        <HeroP>for Small and Medium Businesses</HeroP>
+        <HeroH1>Your Stress-Free Path to E-Commerce Success</HeroH1>
+        <HeroP>DFY Online Stores for Small Businesses</HeroP>
         <HeroBtnWrapper
           whileHover={{
             scale: 1.1,
           }}
         >
-          <Link href="/contact-form" passHref>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
+            passHref
+          >
             <AnimatedButton
               to="contact"
               onMouseEnter={onHover}
