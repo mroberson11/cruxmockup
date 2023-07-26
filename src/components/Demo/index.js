@@ -26,7 +26,7 @@ const Demo = () => {
     <>
       <Container>
         <AltNav />
-        <DemoH1>e-Commerce Demo Sites</DemoH1>
+        <DemoH1>E-Commerce Demo Sites</DemoH1>
         <DemoWrapper>
           <DemoContent>
             <InfoSection>
