@@ -1,19 +1,20 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ScrollButton = styled.button`
+export const ScrollButton = styled(motion.div)`
   position: fixed;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   bottom: 20px;
   right: 20px;
-  background-color: var(--cruxBlue);
-#   padding: 10px 15px;
+  background-color: var(--trueWhite);
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  display: flex:
+  display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 
 export const ArrowUp = styled.span`

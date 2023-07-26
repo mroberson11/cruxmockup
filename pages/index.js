@@ -62,7 +62,7 @@ export default function Home() {
       {/* <InfoSection {...homeObjTwo} /> */}
       <InfoSection {...homeObjThree} />
       {/* <VideoSection /> */}
-      {/* <ScrollUp /> */}
+      <ScrollUp />
       <Footer />
     </>
   );
