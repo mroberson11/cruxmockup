@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
   background: #ffffff;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  overflow: hidden;
 `;
 
 export const Container = styled.div`
