@@ -19,7 +19,7 @@ import {
 } from "./HeroElements";
 
 const HeroSection = () => {
-  const isDesktopOrLaptop = useMediaQuery({
+  const isDesktop = useMediaQuery({
     query: "(min-width: 700px)",
   });
   const [hover, setHover] = useState(false);
@@ -31,7 +31,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        {isDesktopOrLaptop ? (
+        {isDesktop ? (
           <Image
             src={HeroDesktop}
             alt="Blue Space Background"
@@ -39,12 +39,7 @@ const HeroSection = () => {
             type="image/webp"
           />
         ) : (
-          <BackgroundPic
-            // src={"../../images/HeroImages/blue-milky-way.webp"}
-            // src={"../../images/HeroImages/crux-blue-space.webp"}
-            src={HeroMobile.src}
-            alt="Blue Space Background"
-          />
+          <BackgroundPic src={HeroMobile.src} alt="Blue Space Background" />
         )}
       </HeroBg>
       <HeroContent>

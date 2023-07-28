@@ -30,7 +30,9 @@
     "react-pricing": "^0.1.5",
     "react-responsive": "^9.0.0-beta.6",
     "react-scroll": "^1.8.5",
+    "react-slick": "^0.29.0",
     "react-switch": "^6.0.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {

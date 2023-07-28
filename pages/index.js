@@ -4,6 +4,7 @@ import Footer from "../src/components/Footer";
 import Head from "next/head";
 import HeroSection from "../src/components/HeroSection";
 import Image from "next/image";
+import LogoCarousel from "../src/components/LogoCarousel";
 import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
 import Sidebar from "../src/components/Sidebar";
@@ -55,6 +56,7 @@ export default function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <LogoCarousel />
       <InfoSection {...homeObjOne} />
       <Benefits />
       <Services />
