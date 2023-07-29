@@ -37,6 +37,7 @@ const LogoCarousel = () => {
     draggable: false,
     pauseOnHover: false,
     touchMove: false,
+    useTransform: false,
   };
 
   return (
