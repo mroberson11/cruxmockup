@@ -59,11 +59,15 @@ const Footer = () => {
                 whileHover={{
                   scale: 1.1,
                 }}
-                to="/"
-                onClick={toggleHome}
               >
                 <LogoContainer>
-                  <Image src={CompanyLogo} alt="Company Logo" priority={true} />
+                  <FooterLink href="/">
+                    <Image
+                      src={CompanyLogo}
+                      alt="Company Logo"
+                      priority={true}
+                    />
+                  </FooterLink>
                 </LogoContainer>
               </SocialLogo>
               <WebsiteRights>

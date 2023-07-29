@@ -73,7 +73,6 @@ export const SellingPoint = styled.span`
 
 export const LearnMoreButton = styled.button`
   width: 100%;
-  height: 2rem;
   background: ${(props) =>
     props.plan === "professional" ? "white" : "#1AB4F7"};
   border-radius: 6px;
@@ -87,6 +86,7 @@ export const LearnMoreButton = styled.button`
   min-height: 3rem;
   margin: 1rem 0 0.5rem 0;
   cursor: pointer;
+  transition: background-color 1s;
   &:hover {
     border: 1px solid
       ${(props) => (props.plan === "professional" ? "white" : "#1AB4F7")};
