@@ -5,6 +5,8 @@ export const MainContainer = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
   overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 `;
 
 export const Container = styled.div`

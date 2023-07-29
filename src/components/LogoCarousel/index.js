@@ -33,6 +33,10 @@ const LogoCarousel = () => {
     speed: isDesktop ? 10000 : 6000,
     autoplaySpeed: 0,
     cssEase: "linear",
+    swipe: false,
+    draggable: false,
+    pauseOnHover: false,
+    touchMove: false,
   };
 
   return (
