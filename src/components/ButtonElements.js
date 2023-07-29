@@ -30,7 +30,7 @@ export const AnimatedButton = styled(motion.button)`
   background: ${({ primary }) =>
     primary ? "var(--cruxBlue)" : "var(--trueBlack)"};
   var(--trueWhite)-space: nowrap;
-  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+  padding: ${({ big }) => (big ? "14px 48px" : "12px 15px")};
   color: ${({ dark }) => (dark ? "var(--trueBlack)" : "var(--trueWhite)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;

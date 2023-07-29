@@ -96,7 +96,7 @@ export const HeroBtnContainer = styled.div`
 `;
 
 export const HeroBtnWrapper = styled(motion.div)`
-  margin: 32px 10px 10px 10px;
+  margin: 32px 8px 8px 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
