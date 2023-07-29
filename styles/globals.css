@@ -13,6 +13,11 @@
   src: url("./Iceberg-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
