@@ -39,9 +39,7 @@ const LogoCarousel = () => {
     <MainContainer>
       <Heading>Join the Elite</Heading>
       <Subheading>
-        Utilize the same E-Commerce systems as the
-        <br />
-        largest players in the game.
+        Utilize the same E-Commerce systems as the largest players in the game.
       </Subheading>
       <Slider {...settings}>
         <Container>

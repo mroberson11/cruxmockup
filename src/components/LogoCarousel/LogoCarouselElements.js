@@ -34,10 +34,10 @@ export const Heading = styled.h1`
 `;
 
 export const Subheading = styled.h4`
+  max-width: 400px;
   font-size: 16px;
   color: #000000;
   text-align: center;
   letter-spacing: 1.2px;
-  margin-top: 5px;
-  margin-bottom: 1rem;
+  margin: 5px auto 1rem auto;
 `;
