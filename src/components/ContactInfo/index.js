@@ -56,10 +56,7 @@ const ContactInfo = () => {
                 passHref
                 style={{ textAlign: "center" }}
               >
-                <EmphasizedA>
-                  <br />
-                  info@cruxsoftwaresolutions.com
-                </EmphasizedA>
+                <EmphasizedA>info@cruxsoftwaresolutions.com</EmphasizedA>
               </Link>
             </ContactP>
           </ContactCard>

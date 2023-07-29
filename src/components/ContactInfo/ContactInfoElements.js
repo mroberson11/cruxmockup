@@ -39,12 +39,15 @@ export const ContactWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
+  justify-content: center;
   grid-gap: 16px;
   padding: 0 50px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
     padding: 0 20px;
+    align-items: center; /* Center on smaller screens */
+    justify-content: center; /* Center on smaller screens */
   }
 
   @media screen and (max-width: 560px) {
@@ -59,10 +62,13 @@ export const ContactCard = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  min-height: 275px;
+  height: 275px;
+  max-width: 280px;
   padding: 30px;
   box-shadow: 0 4px 4px 0px rgba(102, 252, 241, 0.5);
   transition: all 0.2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
 
   &:hover {
     transform: scale(1.04);
@@ -78,14 +84,16 @@ export const ContactIcon = styled.div`
 `;
 
 export const ContactH2 = styled.h2`
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
   text-align: center;
 `;
 
 export const ContactP = styled.p`
-  font-size: 1.1em;
+  font-size: 1rem;
   text-align: center;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   color: var(--trueBlack);
 `;
 
