@@ -56,11 +56,12 @@ export const FooterLinkTitle = styled.h1`
 `;
 
 export const FooterLink = styled.a`
+  font-family: "Montserrat";
   color: var(--trueWhite);
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 20px;
-  cursore: pointer;
+  cursor: pointer;
 
   &:hover {
     color: var(--cruxBlue);

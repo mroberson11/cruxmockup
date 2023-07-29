@@ -20,6 +20,14 @@
   font-family: "Iceberg";
 }
 
+p,
+button,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+}
+
 .backdrop {
   z-index: 3;
   position: absolute;
