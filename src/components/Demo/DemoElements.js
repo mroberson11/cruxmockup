@@ -19,6 +19,8 @@ export const DemoH1 = styled.h1`
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 `;
 export const DemoWrapper = styled.div`
   display: grid;
