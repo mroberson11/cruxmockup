@@ -64,6 +64,7 @@ export const Currency = styled.span`
 `;
 
 export const SellingPoint = styled.span`
+  font-family: "Montserrat";
   color: var(--trueBlack);
   font-size: 22px;
   text-align: center;
@@ -81,7 +82,7 @@ export const LearnMoreButton = styled.button`
   color: ${(props) =>
     props.plan === "professional" ? colors.purpleText : "white"};
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 1.4px;
   min-height: 3rem;
   margin: 1rem 0 0.5rem 0;
