@@ -5,10 +5,8 @@ import CruxPizzeria from "../../images/DemoImages/pizza-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import Footer from "../Footer";
 import Image from "next/image";
-import Link from "next/link";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
-import { LogoImg } from "./DemoElements";
 import {
   Container,
   DemoH1,
@@ -52,7 +50,6 @@ const Demo = () => {
                   href="https://c1347f319e.nxcli.net"
                   target="_blank"
                   rel="noopener noreferrer"
-                  passHref
                 >
                   <Image src={CruxBBQ} alt="Crux BBQ" priority={true} />
                 </a>
@@ -80,7 +77,6 @@ const Demo = () => {
                   href="https://e43e510d46.nxcli.net"
                   target="_blank"
                   rel="noopener noreferrer"
-                  passHref
                 >
                   <Image
                     src={CruxPizzeria}
@@ -111,7 +107,6 @@ const Demo = () => {
                   href="https://56e20ef9aa.nxcli.net"
                   target="_blank"
                   rel="noopener noreferrer"
-                  passHref
                 >
                   <Image
                     src={CruxFastFood}
