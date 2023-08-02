@@ -95,7 +95,13 @@ const ContactForm = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <Link href="/" passHref>
-                  <Image src={CompanyLogo} alt="Company Logo" priority={true} />
+                  <Image
+                    src={CompanyLogo}
+                    height="100px"
+                    width="150px"
+                    alt="Company Logo"
+                    priority={true}
+                  />
                 </Link>
               </LogoWrapper>
               <FormH1>
@@ -144,22 +150,22 @@ const ContactForm = () => {
                 onChange={handleChange("phone")}
                 required
               />
-              <FormLabel htmlFor="for">Company Name</FormLabel>
+              {/* <FormLabel htmlFor="for">Company Name</FormLabel>
               {errors.name && (
                 <p className="error" style={{ color: "red" }}>
                   {errors.name}
                 </p>
-              )}
-              <FormInput
+              )} */}
+              {/* <FormInput
                 type="text"
                 name="company"
                 placeholder="Crux Software Solutions"
                 value={data.company || ""}
                 onChange={handleChange("company")}
                 required
-              />
-              <FormLabel>More Information</FormLabel>
-              <CheckListWrapper>
+              /> */}
+              {/* <FormLabel>More Information</FormLabel> */}
+              {/* <CheckListWrapper>
                 <SwitchItem
                   name="existing"
                   switchLabel="My business has an existing website"
@@ -168,7 +174,7 @@ const ContactForm = () => {
                   name="products"
                   switchLabel="My business sells more than 100 products"
                 />
-              </CheckListWrapper>
+              </CheckListWrapper> */}
               <FormLabel htmlFor="for">Additional Comments</FormLabel>
               <FormComments type="comments" name="comments" />
               {recaptchaVerified ? (

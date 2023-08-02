@@ -144,5 +144,7 @@ export const SubmitText = styled.span`
 `;
 
 export const LogoWrapper = styled(motion.div)`
-  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2rem;
 `;
