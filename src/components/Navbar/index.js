@@ -149,10 +149,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <Link
-                href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
-                passHref
-              >
+              <Link href="/contact-form" passHref>
                 <NavBtnLink
                   duration={500}
                   exact="true"

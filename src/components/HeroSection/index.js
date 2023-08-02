@@ -70,12 +70,7 @@ const HeroSection = () => {
               scale: 1.1,
             }}
           >
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
-              passHref
-            >
+            <Link href="/contact-form" passHref>
               <AnimatedButton
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}

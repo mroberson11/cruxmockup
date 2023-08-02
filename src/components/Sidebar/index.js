@@ -56,10 +56,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </a>
         </SidebarMenu>
         <SideBtnWrap>
-          <Link
-            href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
-            passHref
-          >
+          <Link href="/contact-form" passHref>
             <SidebarRoute>Claim Free Trial</SidebarRoute>
           </Link>
         </SideBtnWrap>
