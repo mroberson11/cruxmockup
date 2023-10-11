@@ -28,6 +28,9 @@ export default function Home() {
   };
   return (
     <>
+      <Head>
+        <title>Crux Software Solutions</title>
+      </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
         strategy="afterInteractive"

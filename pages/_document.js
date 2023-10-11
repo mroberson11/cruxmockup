@@ -8,7 +8,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <Favicon />
-          <title>Crux Software Solutions</title>
           <meta
             name="google-site-verification"
             content="aTOluMyzrlfVjo8rtl8BYY8kUq1CYpCB4DPcRVoRQms"
