@@ -1,7 +1,9 @@
 import React from "react";
 import AltNav from "../AltNav";
+import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-hero-section.png";
 import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
 import CruxPizza from "../../images/DemoImages/pizza-hero-section.png";
+import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Footer from "../Footer";
@@ -37,7 +39,7 @@ const Portfolio = () => {
                 transition={{ delay: 0.1, duration: 0.6 }}
                 animate={animation}
               >
-                Crux Pizza Co.
+                Borthwick Ballistics
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
@@ -48,9 +50,17 @@ const Portfolio = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <Link href="https://e43e510d46.nxcli.net/" passHref>
-                  <Image src={CruxPizza} alt="Crux Pizza Co." priority={true} />
-                </Link>
+                <a
+                  href="https://borthwickballisticsllc.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={BorthwickBallistics}
+                    alt="Borthwick Ballistics"
+                    priority={true}
+                  />
+                </a>
               </ImgWrap>
             </InfoSection>
             <InfoSection>
@@ -70,16 +80,19 @@ const Portfolio = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <Link href="https://fbccrystalsprings.com" passHref>
+                <a
+                  href="https://fbccrystalsprings.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image
                     src={FBCCS}
                     alt="FBC Crystal Springs"
                     priority={true}
                   />
-                </Link>
+                </a>
               </ImgWrap>
             </InfoSection>
-
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
@@ -97,13 +110,17 @@ const Portfolio = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <Link href="https://meadowsridgebacks.com" passHref>
+                <a
+                  href="https://meadowsridgebacks.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image
                     src={MeadowsRidgebacks}
                     alt="Meadows Ridgebacks"
                     priority={true}
                   />
-                </Link>
+                </a>
               </ImgWrap>
             </InfoSection>
 
@@ -124,13 +141,69 @@ const Portfolio = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <Link href="https://56e20ef9aa.nxcli.net" passHref>
+                <a
+                  href="https://56e20ef9aa.nxcli.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image
                     src={CruxFastFood}
                     alt="Crux Fast Food"
                     priority={true}
                   />
-                </Link>
+                </a>
+              </ImgWrap>
+            </InfoSection>
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 1.5, duration: 0.6 }}
+                animate={animation}
+              >
+                Crux Pizza Co.
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 1.9, duration: 0.6 }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://e43e510d46.nxcli.net/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={CruxPizza} alt="Crux Pizza Co." priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 1.8, duration: 0.6 }}
+                animate={animation}
+              >
+                Crux BBQ
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 2.3, duration: 0.6 }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://c1347f319e.nxcli.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={CruxBBQ} alt="Crux BBQ" priority={true} />
+                </a>
               </ImgWrap>
             </InfoSection>
           </PortfolioContent>
