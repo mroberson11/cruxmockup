@@ -5,6 +5,7 @@ import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
 import CruxPizza from "../../images/DemoImages/pizza-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import FBCCS from "../../images/DemoImages/fbc-cs.png";
+import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Footer from "../Footer";
 import Image from "next/image";
@@ -69,6 +70,32 @@ const Portfolio = () => {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
+                Jennie Roberson Portfolio
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.7, duration: 0.6 }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://jennieroberson.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={Jennie} alt="Jennie Roberson" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 0.5, duration: 0.6 }}
+                animate={animation}
+              >
                 FBC Crystal Springs
               </InfoSectionHeader>
               <ImgWrap
@@ -96,14 +123,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.9, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
                 Meadows Ridgebacks
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 1.1, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: 0.6 }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -127,14 +154,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 1.3, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
                 Crux Fast Food
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 1.5, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: 0.6 }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -157,14 +184,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 1.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
                 Crux Pizza Co.
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 1.9, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: 0.6 }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -183,14 +210,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 1.8, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: 0.6 }}
                 animate={animation}
               >
                 Crux BBQ
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 2.3, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: 0.6 }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
