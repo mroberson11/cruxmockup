@@ -39,12 +39,9 @@ const PriceCard = ({ headline, price, sellingPoints }) => {
         );
       })}
       <Divider />
-      <Link
-        href="https://outlook.office365.com/owa/calendar/CruxConsultations@cruxsoftwaresolutions.com/bookings/"
-        passHref
-      >
-        <LearnMoreButton>CLAIM FREE TRIAL</LearnMoreButton>
-      </Link>
+      {/* <Link href="tel:6019271778" passHref>
+        <LearnMoreButton>CALL NOW</LearnMoreButton>
+      </Link> */}
     </PriceCardContainer>
   );
 };

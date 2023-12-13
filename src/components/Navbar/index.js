@@ -149,7 +149,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <Link href="/contact-form" passHref>
+              <Link href="tel:6019271778" passHref>
                 <NavBtnLink
                   duration={500}
                   exact="true"
@@ -159,7 +159,7 @@ const Navbar = ({ toggle }) => {
                   }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  Claim Free Trial
+                  Call Now
                 </NavBtnLink>
               </Link>
             </NavBtn>

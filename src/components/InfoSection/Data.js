@@ -8,9 +8,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Software Solution Providers",
-  headline: "E-Commerce Web Devs",
+  headline: "Our Process",
   description:
-    "We're a Mississippi based web development agency specializing in the creation of E-Commerce websites for small businesses. From start to finish, we'll handle everything needed to showcase your company's products, enable mobile ordering, run promotions, and so much more.",
+    "Step 1: Committment-Free Consultation Call \n Step 2: Requirements Gathering & Onboarding \n Step 3: Website Development \n Step 4: Website Review & Finalization \n Step 5: Satisfaction Guaranteed or Your Money Back",
   buttonLabel: "View Pricing",
   imgStart: false,
   img: pic1,

@@ -1,4 +1,20 @@
 export const sellingPointsOne = [
+  "Website Design",
+  "Website Development",
+  "Unlimited Pages",
+  "Copywriting",
+  "Online Contact Forms",
+  "Online Booking Forms",
+  "Free Stock Photos & Videos",
+  "SEO Optimization",
+  "Full Page Caching",
+  "Three Free Months of Maintenance",
+  "No Hidden Fees",
+  "Money Back Guarantee",
+  "Satisfaction Guaranteed",
+];
+
+export const sellingPointsTwo = [
   "Company Branded Online Store",
   "Unlimited Products",
   "Unlimited Administrative Users",
@@ -24,25 +40,14 @@ export const sellingPointsOne = [
   ,
 ];
 
-export const sellingPointsTwo = [
-  "50 Configurable Products",
-  "3 Administritive Users",
-  "2 Business Locations",
-  "2 Personal Web Developers",
-  "Professional Product Photographs",
-  "Employee Affiliate Program",
-  "Multiple Languages",
-  "*ALL STANDARD PACKAGE FEATURES*",
-];
-
 export const sellingPointsThree = [
-  "100 Configurable Products",
-  "5 Administrative Users",
-  "5 Business Locations",
-  "3 Personal Web Developers",
-  "Curbside Delivery Tracking",
-  "Customer Loyalty Program",
-  "SEO Optimization",
-  "Existing POS Integration (if available)",
-  "*ALL ELITE PACKAGE FEATURES*",
+  "24/7 Tech Support",
+  "Unlimited Content Revisions",
+  "Unlimited Plugin Additions",
+  "Continual Website Backups",
+  "Plugin Updates",
+  "Security Patches",
+  "Web Hosting Renewal",
+  "Domain Renewal",
+  "SSL Certificate Renewal",
 ];

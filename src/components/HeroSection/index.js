@@ -43,15 +43,15 @@ const HeroSection = () => {
         )}
       </HeroBg>
       <HeroContent>
-        <HeroH1>Your Stress-Free Path to E-Commerce Success</HeroH1>
-        <HeroP>DFY Online Stores for Small Businesses</HeroP>
+        <HeroH1>Your Stress-Free Path to Online Notoriety</HeroH1>
+        <HeroP>DFY Service & E-Commerce Websites</HeroP>
         <HeroBtnContainer>
           <HeroBtnWrapper
             whileHover={{
               scale: 1.1,
             }}
           >
-            <Link href="/demo" passHref>
+            <Link href="/portfolio" passHref>
               <AnimatedButton
                 primary="false"
                 dark="false"
@@ -61,7 +61,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 3 }}
               >
-                View Demos
+                View Portfolio
               </AnimatedButton>
             </Link>
           </HeroBtnWrapper>
@@ -70,7 +70,7 @@ const HeroSection = () => {
               scale: 1.1,
             }}
           >
-            <Link href="/contact-form" passHref>
+            <Link href="tel:6019271778" passHref>
               <AnimatedButton
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
@@ -83,7 +83,7 @@ const HeroSection = () => {
                 transition={{ duration: 3 }}
                 style={{ background: "var(--trueWhite)" }}
               >
-                Free Trial {hover ? <ArrowForward /> : <ArrowRight />}
+                Call Now {hover ? <ArrowForward /> : <ArrowRight />}
               </AnimatedButton>
             </Link>
           </HeroBtnWrapper>

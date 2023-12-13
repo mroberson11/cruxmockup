@@ -23,24 +23,22 @@ const Services = () => {
             <ServicesIcon>
               <Image src={Icon1} alt="Pair Programming" priority={true} />
             </ServicesIcon>
-            <ServicesH2>DFY Online Ordering System</ServicesH2>
+            <ServicesH2>Service Based Websites</ServicesH2>
             <ServicesP>
-              While you sit back & relax, we&apos;ll design, implement, and
-              configure your fully managed online storefront. This includes
-              no-contact ordering, no third party fees, retention of customer
-              data, real-time receipt printing, and more.
+              Our Service Based packages include unlimited web pages, contact
+              forms, booking forms, customer reviews, SEO optimization, and
+              more.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon>
               <Image src={Icon2} alt="Sale Generation" priority={true} />
             </ServicesIcon>
-            <ServicesH2>Sale Generation</ServicesH2>
+            <ServicesH2>E-Commerce Websites</ServicesH2>
             <ServicesP>
-              There&apos;s no use in having a beautifully designed website if
-              there&apos;s no one to admire and enjoy it. Loyalty reward
-              programs, event promotion, and one click ordering are just a few
-              of the ways we&apos;ll keep your customers coming back for more.
+              Our E-Commerce packages include no-contact ordering, no third
+              party fees, retention of customer data, real-time receipt
+              printing, and much more.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
@@ -51,8 +49,7 @@ const Services = () => {
             <ServicesP>
               All content changes, product updates, promotions, upcoming events,
               server management, and the remaining responsibilites associated
-              with maintaining a robust E-Commerce website will be handled for
-              you.
+              with maintaining a robust website can be handled for you.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>

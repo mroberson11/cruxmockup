@@ -38,6 +38,8 @@ const InfoSection = ({
 }) => {
   const animation = useAnimation();
   const { ref, initial } = useMyAnimation({ animation });
+  const steps = description.split("\n");
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id} ref={ref}>
@@ -70,7 +72,12 @@ const InfoSection = ({
                   transition={{ delay: 0.7, duration: 0.6 }}
                   animate={animation}
                 >
-                  {description}
+                  {steps.map((step, index) => (
+                    <React.Fragment key={index}>
+                      {step}
+                      <br />
+                    </React.Fragment>
+                  ))}
                 </Subtitle>
                 <BtnWrap>
                   <Link href={pageLink} passHref>

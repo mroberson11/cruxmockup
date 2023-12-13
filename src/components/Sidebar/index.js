@@ -56,8 +56,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           </a>
         </SidebarMenu>
         <SideBtnWrap>
-          <Link href="/contact-form" passHref>
-            <SidebarRoute>Claim Free Trial</SidebarRoute>
+          <Link href="tel:6019271778" passHref>
+            <SidebarRoute>Call Now</SidebarRoute>
           </Link>
         </SideBtnWrap>
       </SidebarWrapper>
