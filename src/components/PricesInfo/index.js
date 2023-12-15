@@ -29,13 +29,13 @@ const PricesInfo = () => {
           <PriceCard
             id={"price-card-one"}
             headline={"Service Pro"}
-            price={"$1,250"}
+            price={"$2,499"}
             sellingPoints={sellingPointsOne}
           />
           <PriceCard
             id={"price-card-two"}
             headline={"E-Commerce Pro"}
-            price={"$299 /month"}
+            price={"$399 /month"}
             sellingPoints={sellingPointsTwo}
           />
           <PriceCard
