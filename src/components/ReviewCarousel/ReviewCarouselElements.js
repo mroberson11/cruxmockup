@@ -27,7 +27,7 @@ export const ReviewArticle = styled(motion.article)`
 
 export const Heading = styled.h1`
   font-size: 36px;
-  color: #000000;
+  color: var(--trueBlack);
   text-align: center;
   letter-spacing: 1px;
   padding-top: 2rem;
@@ -103,7 +103,7 @@ export const Button = styled.button`
   transition: var(--transition);
   cursor: pointer;
 
-  &:hover {
-    color: var(--cruxBlue);
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
   }
 `;

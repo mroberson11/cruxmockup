@@ -50,25 +50,23 @@ const Reviews = () => {
         <Button onClick={prevPerson}>
           <FaChevronLeft />
         </Button>
-        <motion.div
+        <ReviewArticle
           key={index}
-          initial={{ opacity: 0, x: "100%" }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: "-100%" }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
         >
-          <ReviewArticle>
-            <ImgContainer>
-              <PersonImg src={image} alt={name} />
-              <QuoteIcon>
-                <FaQuoteRight />
-              </QuoteIcon>
-            </ImgContainer>
-            <Author>{name}</Author>
-            <Job>{job}</Job>
-            <Info>{text}</Info>
-          </ReviewArticle>
-        </motion.div>
+          <ImgContainer>
+            <PersonImg src={image} alt={name} />
+            <QuoteIcon>
+              <FaQuoteRight />
+            </QuoteIcon>
+          </ImgContainer>
+          <Author>{name}</Author>
+          <Job>{job}</Job>
+          <Info>{text}</Info>
+        </ReviewArticle>
 
         <Button onClick={nextPerson}>
           <FaChevronRight />
