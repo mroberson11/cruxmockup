@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import {
   Container,
   ContainerWrapper,
@@ -49,17 +50,26 @@ const Reviews = () => {
         <Button onClick={prevPerson}>
           <FaChevronLeft />
         </Button>
-        <ReviewArticle>
-          <ImgContainer>
-            <PersonImg src={image} alt={name} />
-            <QuoteIcon>
-              <FaQuoteRight />
-            </QuoteIcon>
-          </ImgContainer>
-          <Author>{name}</Author>
-          <Job>{job}</Job>
-          <Info>{text}</Info>
-        </ReviewArticle>
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, x: "100%" }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: "-100%" }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
+        >
+          <ReviewArticle>
+            <ImgContainer>
+              <PersonImg src={image} alt={name} />
+              <QuoteIcon>
+                <FaQuoteRight />
+              </QuoteIcon>
+            </ImgContainer>
+            <Author>{name}</Author>
+            <Job>{job}</Job>
+            <Info>{text}</Info>
+          </ReviewArticle>
+        </motion.div>
+
         <Button onClick={nextPerson}>
           <FaChevronRight />
         </Button>

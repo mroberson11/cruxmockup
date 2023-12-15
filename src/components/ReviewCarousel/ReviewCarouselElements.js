@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   background: var(--trueWhite);
@@ -6,7 +7,7 @@ export const Container = styled.div`
 
 export const ContainerWrapper = styled.div`
   min-height: 450px;
-  max-width: 50em;
+  max-width: 55em;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -14,14 +15,13 @@ export const ContainerWrapper = styled.div`
   justify-content: space-around;
 `;
 
-export const ReviewArticle = styled.article`
-  max-width: 25em;
+export const ReviewArticle = styled(motion.article)`
+  max-width: 30em;
   margin: 2rem;
   background: var(--trueWhite);
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: var(--dropShadow);
-  transition: var(--transition);
   text-align: center;
 `;
 
@@ -40,6 +40,17 @@ export const ImgContainer = styled.div`
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
+
+  ::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--cruxBlue);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
 `;
 
 export const PersonImg = styled.img`
@@ -77,7 +88,7 @@ export const Job = styled.p`
 `;
 
 export const Info = styled.p`
-  max-width: 20em;
+  max-width: 25em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.75rem;
