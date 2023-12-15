@@ -7,6 +7,7 @@ import Image from "next/image";
 import LogoCarousel from "../src/components/LogoCarousel";
 import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
+import ReviewCarousel from "../src/components/ReviewCarousel";
 import Sidebar from "../src/components/Sidebar";
 import Services from "../src/components/Services";
 import Script from "next/script";
@@ -65,6 +66,7 @@ export default function Home() {
       <Services />
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
+      <ReviewCarousel />
       <InfoSection {...homeObjThree} />
       {/* <VideoSection /> */}
       <ScrollUp />

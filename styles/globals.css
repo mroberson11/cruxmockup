@@ -4,9 +4,11 @@
   --cruxBlue: #1ab4f7;
   --faqText: #00ccf4;
   --darkBlue: #101522;
+  --transition: all 0.3s ease-in-out;
 
   --defaultFont: "Iceberg";
   background: #010606;
+  --dropShadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 @font-face {
