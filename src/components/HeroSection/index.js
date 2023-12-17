@@ -92,9 +92,10 @@ const HeroSection = () => {
         <Column2>
           <VideoBg
             autoPlay
-            loop
+            loop={true}
+            controls={false}
             muted
-            playsinline
+            playsInline
             src={require("../../videos/seo-animation.mp4")}
             type="video/mp4"
           />

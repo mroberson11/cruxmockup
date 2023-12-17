@@ -17,7 +17,7 @@ export const ServiceH1 = styled.h1`
   color: var(--trueBlack);
   font-size: 2.3em;
   text-align: center;
-  margin-top: 7rem;
+  margin: 7rem auto 0 auto;
 `;
 export const ServiceWrapper = styled.div`
   display: grid;
