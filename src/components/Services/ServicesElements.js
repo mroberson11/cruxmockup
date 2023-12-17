@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const ServicesContainer = styled.div`
+export const ServicesContainer = styled(motion.div)`
   min-height: 600px;
   display: flex;
   flex-direction: column;
@@ -10,7 +11,7 @@ export const ServicesContainer = styled.div`
   background: var(--trueWhite);
 
   @media screen and (max-width: 768px) {
-    height: 1400px;
+    min-height: 1400px;
   }
 `;
 
@@ -33,7 +34,7 @@ export const ServicesWrapper = styled.div`
   }
 `;
 
-export const ServicesCard = styled.div`
+export const ServicesCard = styled(motion.div)`
   background: var(--trueWhite);
   display: flex;
   flex-direction: column;

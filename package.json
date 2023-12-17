@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
+    "animated-number-react": "^0.1.2",
     "babel-plugin-styled-components": "^2.0.5",
     "framer-motion": "^6.2.8",
     "next": "12.1.0",
@@ -26,6 +27,7 @@
     "react-form-validator-core": "^1.1.1",
     "react-google-recaptcha": "^2.1.0",
     "react-icons": "^4.3.1",
+    "react-in-viewport": "^1.0.0-alpha.30",
     "react-intersection-observer": "^8.33.1",
     "react-pricing": "^0.1.5",
     "react-responsive": "^9.0.0-beta.6",
@@ -33,7 +35,8 @@
     "react-slick": "^0.29.0",
     "react-switch": "^6.0.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "eslint": "8.9.0",

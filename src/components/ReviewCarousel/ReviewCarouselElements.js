@@ -17,12 +17,19 @@ export const ContainerWrapper = styled.div`
 
 export const ReviewArticle = styled(motion.article)`
   max-width: 30em;
-  margin: 2rem;
+  min-width: 250px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   background: var(--trueWhite);
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: var(--dropShadow);
   text-align: center;
+
+  @media screen and (max-width: 480px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -31,6 +38,10 @@ export const Heading = styled.h1`
   text-align: center;
   letter-spacing: 1px;
   padding-top: 2rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
 `;
 
 export const ImgContainer = styled.div`
@@ -92,18 +103,4 @@ export const Info = styled.p`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.75rem;
-`;
-
-export const Button = styled.button`
-  color: var(--cruxBlue);
-  font-size: 3rem;
-  background: transparent;
-  border-color: transparent;
-  margin: 0 0.5rem;
-  transition: var(--transition);
-  cursor: pointer;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
 `;

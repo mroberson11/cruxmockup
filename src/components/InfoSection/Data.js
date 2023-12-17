@@ -65,9 +65,9 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Get in Touch",
-  headline: "Start Your Journey",
+  headline: "Still on the Fence?",
   description:
-    "Step into the future of online retail with Crux Software Solutions by your side. Together, we'll elevate your business to new heights, making your mark in the digital world with style and success.",
+    "We understand not everyone enjoys talking on the phone. So, we've made it as convenient as possible to contact us with any method you prefer.",
   buttonLabel: "Contact Information",
   imgStart: false,
   img: pic3,

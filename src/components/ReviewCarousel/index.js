@@ -1,5 +1,11 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React from "react";
+import { Pagination, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
 import {
   Container,
   ContainerWrapper,
@@ -11,66 +17,46 @@ import {
   Author,
   Job,
   Info,
-  Button,
 } from "./ReviewCarouselElements";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
 import people from "./Data";
 
 const Reviews = () => {
-  const [index, setIndex] = useState(0);
-  const { name, job, image, text } = people[index];
-
-  const checkNumber = (number) => {
-    if (number > people.length - 1) {
-      return 0;
-    } else if (number < 0) {
-      return people.length - 1;
-    }
-    return number;
-  };
-
-  const nextPerson = () => {
-    setIndex((index) => {
-      let newIndex = index + 1;
-      return checkNumber(newIndex);
-    });
-  };
-
-  const prevPerson = () => {
-    setIndex((index) => {
-      let newIndex = index - 1;
-      return checkNumber(newIndex);
-    });
-  };
-
   return (
     <Container>
       <Heading>Customer Feedback</Heading>
       <ContainerWrapper>
-        <Button onClick={prevPerson}>
-          <FaChevronLeft />
-        </Button>
-        <ReviewArticle
-          key={index}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.8 }}
-          transition={{ duration: 0.7, ease: "easeInOut" }}
+        <Swiper
+          modules={[Pagination, Autoplay]}
+          autoplay
+          spaceBetween={50}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
         >
-          <ImgContainer>
-            <PersonImg src={image} alt={name} />
-            <QuoteIcon>
-              <FaQuoteRight />
-            </QuoteIcon>
-          </ImgContainer>
-          <Author>{name}</Author>
-          <Job>{job}</Job>
-          <Info>{text}</Info>
-        </ReviewArticle>
-
-        <Button onClick={nextPerson}>
-          <FaChevronRight />
-        </Button>
+          {people.map((review, index) => (
+            <SwiperSlide
+              key={index}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <ReviewArticle
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 0.7, ease: "easeInOut" }}
+              >
+                <ImgContainer>
+                  <PersonImg src={review.image} alt={review.name} />
+                  <QuoteIcon>
+                    <FaQuoteRight />
+                  </QuoteIcon>
+                </ImgContainer>
+                <Author>{review.name}</Author>
+                <Job>{review.job}</Job>
+                <Info>{review.text}</Info>
+              </ReviewArticle>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </ContainerWrapper>
     </Container>
   );

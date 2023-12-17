@@ -19,6 +19,7 @@ import {
   homeObjThree,
   homeObjFour,
 } from "../src/components/InfoSection/Data";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,14 @@ export default function Home() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
     <>
       <Head>
@@ -56,6 +65,7 @@ export default function Home() {
         gtag('config', 'G-MY3B0HBVF1');`}
       </Script>
 
+      {/* <motion.div className="progress-bar" style={{ scaleX }} /> */}
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />

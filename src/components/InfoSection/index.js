@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatedButton } from "../ButtonElements";
@@ -16,7 +16,6 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  Img,
 } from "./InfoElements";
 
 const InfoSection = ({

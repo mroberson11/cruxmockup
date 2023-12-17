@@ -55,7 +55,11 @@ const Navbar = ({ toggle }) => {
               </LogoContainer>
             </NavLogo>
             <MobileIcon onClick={toggle}>
-              <FaBars />
+              <FaBars
+                style={{
+                  color: scrollNav ? "var(--trueBlack)" : "var(--trueWhite)",
+                }}
+              />
             </MobileIcon>
             <NavMenu>
               {/* <NavItem

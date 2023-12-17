@@ -25,7 +25,12 @@ const SiteGallery = () => {
         <SiteGalleryH1>Our Portfolio</SiteGalleryH1>
         <SiteGalleryWrapper>
           <SiteGalleryContent>
-            <InfoSection className="borthwick">
+            <InfoSection
+              className="borthwick"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://borthwickballisticsllc.com"
@@ -40,7 +45,12 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection className="jennie">
+            <InfoSection
+              className="jennie"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://jennieroberson.com"
@@ -51,7 +61,12 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection className="fbc">
+            <InfoSection
+              className="fbc"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://fbccrystalsprings.com"
@@ -66,7 +81,12 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection className="meadows">
+            <InfoSection
+              className="meadows"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://meadowsridgebacks.com"
@@ -81,7 +101,12 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection className="cruxFastFood">
+            <InfoSection
+              className="cruxFastFood"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://56e20ef9aa.nxcli.net"
@@ -96,7 +121,12 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection className="cruxBbq">
+            <InfoSection
+              className="cruxBbq"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
               <ImgWrap>
                 <a
                   href="https://c1347f319e.nxcli.net"

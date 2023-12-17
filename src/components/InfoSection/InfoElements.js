@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 export const InfoContainer = styled.section`
   color: var(--trueWhite);
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "var(--trueBlack)")};
+  background: ${({ lightBg }) =>
+    lightBg ? "var(--trueWhite)" : "var(--trueBlack)"};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;

@@ -4,6 +4,8 @@ import Image from "next/image";
 import Icon1 from "../../images/InfoImages/pair-programming.svg";
 import Icon2 from "../../images/InfoImages/seo.svg";
 import Icon3 from "../../images/InfoImages/maintenance.svg";
+import { useAnimation } from "framer-motion";
+import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
   ServicesContainer,
   ServicesH1,
@@ -17,12 +19,18 @@ import {
 import { AnimatedButton } from "../ButtonElements";
 
 const Services = () => {
+  const animation = useAnimation();
+  const { ref, initial } = useMyAnimation({ animation });
   return (
     <>
-      <ServicesContainer id="services">
+      <ServicesContainer id="services" ref={ref}>
         <ServicesH1>Our Services</ServicesH1>
         <ServicesWrapper>
-          <ServicesCard>
+          <ServicesCard
+            initial={initial}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            animate={animation}
+          >
             <ServicesIcon>
               <Image src={Icon1} alt="Pair Programming" priority={true} />
             </ServicesIcon>
@@ -50,7 +58,11 @@ const Services = () => {
               </AnimatedButton>
             </Link>
           </ServicesCard>
-          <ServicesCard>
+          <ServicesCard
+            initial={initial}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            animate={animation}
+          >
             <ServicesIcon>
               <Image src={Icon2} alt="Sale Generation" priority={true} />
             </ServicesIcon>
@@ -80,7 +92,11 @@ const Services = () => {
               </AnimatedButton>
             </Link>
           </ServicesCard>
-          <ServicesCard>
+          <ServicesCard
+            initial={initial}
+            transition={{ delay: 0.7, duration: 0.8 }}
+            animate={animation}
+          >
             <ServicesIcon>
               <Image src={Icon3} alt="Maintenance" priority={true} />
             </ServicesIcon>

@@ -4,13 +4,17 @@ import { motion } from "framer-motion";
 export const Container = styled.div`
   min-height: 600px;
   background: var(--trueWhite);
-  padding: 2rem 0;
+  padding: 3rem 0;
 `;
 
 export const SiteGalleryH1 = styled.h1`
   color: var(--trueBlack);
   font-size: 2.5rem;
   text-align: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
 `;
 
 export const SiteGalleryWrapper = styled.div`
@@ -26,15 +30,25 @@ export const SiteGalleryWrapper = styled.div`
 `;
 
 export const SiteGalleryContent = styled.div`
+  max-width: 1280px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1rem;
+  margin: 0 auto 2rem auto;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
-export const InfoSection = styled.div`
-  margin-top: 2rem;
+export const InfoSection = styled(motion.div)`
+  margin-top: 0.5rem;
 `;
 
 export const InfoSectionHeader = styled(motion.h2)`
@@ -43,6 +57,9 @@ export const InfoSectionHeader = styled(motion.h2)`
 `;
 
 export const ImgWrap = styled(motion.div)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 550px;
   height: 100%;
   padding: 1rem;
