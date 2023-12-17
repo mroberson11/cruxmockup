@@ -62,7 +62,6 @@ export default function Home() {
       <HeroSection />
       <Services />
       <LogoCarousel />
-      <InfoSection {...homeObjOne} />
       <Benefits />
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}

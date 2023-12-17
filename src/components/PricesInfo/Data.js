@@ -6,7 +6,7 @@ export const sellingPointsOne = [
   "Online Contact Forms",
   "Online Booking Forms",
   "Free Stock Photos & Videos",
-  "SEO Optimization",
+  "Search Engine Optimization",
   "Full Page Caching",
   "Three Free Months of Maintenance",
   "No Hidden Fees",

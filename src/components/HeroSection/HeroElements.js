@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 import { motion } from "framer-motion";
+import { AnimatedButton } from "../ButtonElements";
 
 export const HeroContainer = styled.div`
   background: var(--trueBlack);

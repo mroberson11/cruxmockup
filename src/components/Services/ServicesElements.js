@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const ServicesContainer = styled.div`
   min-height: 600px;
@@ -9,10 +10,6 @@ export const ServicesContainer = styled.div`
   background: var(--trueWhite);
 
   @media screen and (max-width: 768px) {
-    height: 1400px;
-  }
-
-  @media screen and (max-width: 480px) {
     height: 1400px;
   }
 `;
@@ -43,7 +40,7 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  min-height: 300px;
+  min-height: 420px;
   padding: 30px;
   box-shadow: var(--dropShadow);
   transition: all 0.2s ease-in-out;
@@ -64,7 +61,7 @@ export const ServicesIcon = styled.div`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: var(--trueBlack);
-  margin-bottom: 50px;
+  margin: 2rem;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -79,4 +76,9 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
+`;
+
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
 `;

@@ -21,8 +21,8 @@ const FAQs = () => {
   };
 
   const styles = {
-    titleTextColor: "var(--faqText)",
-    rowTitleColor: "var(--faqText)",
+    titleTextColor: "var(--linkBlue)",
+    rowTitleColor: "var(--linkBlue)",
   };
 
   const config = {
