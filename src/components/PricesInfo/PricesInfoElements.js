@@ -10,11 +10,14 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: linear-gradient(
-    108deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(26, 180, 247, 1) 100%
-  );
+  background: var(--trueWhite);
+`;
+
+export const ContactH1 = styled.h1`
+  color: var(--trueBlack);
+  font-size: 2.3em;
+  text-align: center;
+  margin-top: 7rem;
 `;
 
 export const HeaderSection = styled.div`
@@ -39,7 +42,7 @@ export const DivSection = styled.div`
 
 export const PricesWrapper = styled.div`
   max-width: 1200px;
-  margin: 5rem auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -62,7 +65,7 @@ export const PricesCard = styled.div`
   min-height: 275px;
   max-width: 300px;
   padding: 30px;
-  box-shadow: 0 4px 4px 0px rgba(102, 252, 241, 0.5);
+  box-shadow: var(--dropShadow);
   transition: all 0.2s ease-in-out;
 
   &:hover {

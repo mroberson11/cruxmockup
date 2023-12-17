@@ -3,42 +3,31 @@ import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 import { motion } from "framer-motion";
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: var(--trueBlack);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
-  position: relative;
+  min-height: 800px;
   z-index: 1;
 
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6),
-        100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    z-index: 2;
+  @media screen and (max-width: 768px) {
+    min-height: 1100px;
   }
 `;
 
 export const HeroBg = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  background-image: url("https://assets-global.website-files.com/62f35224774781301ab36d72/62fa09f2e0ceedfd0ca467be_Backgroun%20Home%202%20%20Blue%20(1).png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
 `;
 
 export const VideoBg = styled.video`
@@ -55,20 +44,43 @@ export const HeroContent = styled.div`
   position: absolute;
   padding: 8px 24px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
-export const HeroH1 = styled(motion.h1)`
-  color: var(--trueWhite);
-  font-size: 32px;
-  text-align: center;
+
+export const Column1 = styled.div`
+  max-width: 45%;
+  text-align: left;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+`;
+
+export const Column2 = styled.div`
+  max-width: 45%;
+  min-height: 350px;
+  margin-left: 3rem;
 
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
   }
+`;
 
-  @media screen and (max-width: 480px) {
-    font: 24px;
+export const HeroH1 = styled(motion.h1)`
+  color: var(--trueWhite);
+  font-size: 46px;
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+    text-align: center;
   }
 `;
 
@@ -76,11 +88,12 @@ export const HeroP = styled(motion.p)`
   margin-top: 24px;
   color: var(--trueWhite);
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
+    text-align: center;
   }
 
   @media screen and (max-width: 480px) {
@@ -91,12 +104,15 @@ export const HeroP = styled(motion.p)`
 export const HeroBtnContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const HeroBtnWrapper = styled(motion.div)`
-  margin: 32px 8px 8px 8px;
+  margin: 32px 12px 8px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;

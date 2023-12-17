@@ -26,8 +26,8 @@ const Services = () => {
             <ServicesH2>Service Based Websites</ServicesH2>
             <ServicesP>
               Our Service Based packages include unlimited web pages, contact
-              forms, booking forms, customer reviews, SEO optimization, and
-              more.
+              forms, booking forms, customer reviews, Search Engine
+              Optimization, and more.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>

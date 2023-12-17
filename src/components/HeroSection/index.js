@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import HeroDesktop from "../../images/HeroImages/mix-burn.webp";
-import HeroMobile from "../../images/HeroImages/mix-burn-mobile.webp";
-import Image from "next/image";
 import Link from "next/link";
 import { AnimatedButton } from "../ButtonElements";
 import { useMediaQuery } from "react-responsive";
@@ -15,7 +12,9 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-  BackgroundPic,
+  Column1,
+  Column2,
+  VideoBg,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -31,7 +30,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        {isDesktop ? (
+        {/* {isDesktop ? (
           <Image
             src={HeroDesktop}
             alt="Blue Space Background"
@@ -40,54 +39,66 @@ const HeroSection = () => {
           />
         ) : (
           <BackgroundPic src={HeroMobile.src} alt="Blue Space Background" />
-        )}
+        )} */}
       </HeroBg>
       <HeroContent>
-        <HeroH1>Your Stress-Free Path to Online Notoriety</HeroH1>
-        <HeroP>DFY Service & E-Commerce Websites</HeroP>
-        <HeroBtnContainer>
-          <HeroBtnWrapper
-            whileHover={{
-              scale: 1.1,
-            }}
-          >
-            <Link href="/portfolio" passHref>
-              <AnimatedButton
-                primary="false"
-                dark="false"
-                duration={500}
-                exact="true"
-                offset={-80}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 3 }}
-              >
-                View Portfolio
-              </AnimatedButton>
-            </Link>
-          </HeroBtnWrapper>
-          <HeroBtnWrapper
-            whileHover={{
-              scale: 1.1,
-            }}
-          >
-            <Link href="tel:6019271778" passHref>
-              <AnimatedButton
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                primary="true"
-                dark="true"
-                duration={500}
-                exact="true"
-                offset={-80}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 3 }}
-                style={{ background: "var(--trueWhite)" }}
-              >
-                Call Now {hover ? <ArrowForward /> : <ArrowRight />}
-              </AnimatedButton>
-            </Link>
-          </HeroBtnWrapper>
-        </HeroBtnContainer>
+        <Column1>
+          <HeroH1>Stop Giving Free Business to Your Competitors</HeroH1>
+          <HeroP>Rank #1 for Local Google Searches within 30 Days</HeroP>
+          <HeroBtnContainer>
+            <HeroBtnWrapper
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <Link href="/portfolio" passHref>
+                <AnimatedButton
+                  primary="false"
+                  dark="false"
+                  duration={500}
+                  exact="true"
+                  offset={-80}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ duration: 3 }}
+                >
+                  View Portfolio
+                </AnimatedButton>
+              </Link>
+            </HeroBtnWrapper>
+            <HeroBtnWrapper
+              whileHover={{
+                scale: 1.1,
+              }}
+            >
+              <Link href="tel:6019271778" passHref>
+                <AnimatedButton
+                  onMouseEnter={onHover}
+                  onMouseLeave={onHover}
+                  primary="true"
+                  dark="true"
+                  duration={500}
+                  exact="true"
+                  offset={-80}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ duration: 3 }}
+                  style={{ background: "var(--trueWhite)" }}
+                >
+                  Call Now {hover ? <ArrowForward /> : <ArrowRight />}
+                </AnimatedButton>
+              </Link>
+            </HeroBtnWrapper>
+          </HeroBtnContainer>
+        </Column1>
+        <Column2>
+          <VideoBg
+            autoPlay
+            loop
+            muted
+            playsinline
+            src={require("../../videos/seo-animation.mp4")}
+            type="video/mp4"
+          />
+        </Column2>
       </HeroContent>
     </HeroContainer>
   );

@@ -7,6 +7,7 @@ import { sellingPointsOne, sellingPointsTwo, sellingPointsThree } from "./Data";
 import PriceCard from "./PriceCard";
 import {
   Container,
+  ContactH1,
   PricesWrapper,
   PricesCard,
   PricesIcon,
@@ -24,7 +25,7 @@ const PricesInfo = () => {
     <>
       <Container>
         <AltNav />
-        {/* <PricesH1>Crux Pricing Plan</PricesH1> */}
+        <ContactH1>Services Pricing</ContactH1>
         <PricesWrapper>
           <PriceCard
             id={"price-card-one"}

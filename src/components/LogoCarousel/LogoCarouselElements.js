@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  background: #ffffff;
+  background: var(--trueWhite);
   padding-top: 1rem;
   padding-bottom: 1rem;
   overflow: hidden;
@@ -29,7 +29,7 @@ export const ImageWrapper = styled.div`
 
 export const Heading = styled.h1`
   font-size: 36px;
-  color: #000000;
+  color: var(--trueBlack);
   text-align: center;
   letter-spacing: 1px;
   margin-top: 1rem;
@@ -38,7 +38,7 @@ export const Heading = styled.h1`
 export const Subheading = styled.h4`
   max-width: 400px;
   font-size: 16px;
-  color: #000000;
+  color: var(--trueBlack);
   text-align: center;
   letter-spacing: 1.2px;
   margin: 5px auto 1rem auto;

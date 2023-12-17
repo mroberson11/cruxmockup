@@ -1,5 +1,5 @@
 import React from "react";
-import CompanyLogo from "../../images/CompanyLogos/padded-blue-no-tagline.png";
+import WhiteLogo from "../../images/CompanyLogos/white-no-tagline.png";
 import Image from "next/image";
 import Link from "next/link";
 import { animateScroll as scroll } from "react-scroll";
@@ -62,11 +62,7 @@ const Footer = () => {
               >
                 <LogoContainer>
                   <FooterLink href="/">
-                    <Image
-                      src={CompanyLogo}
-                      alt="Company Logo"
-                      priority={true}
-                    />
+                    <Image src={WhiteLogo} alt="Company Logo" priority={true} />
                   </FooterLink>
                 </LogoContainer>
               </SocialLogo>

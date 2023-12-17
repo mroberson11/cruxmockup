@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import CompanyLogo from "../../images/CompanyLogos/padded-blue-no-tagline.png";
+import WhiteLogo from "../../images/CompanyLogos/white-no-tagline.png";
+import BlackLogo from "../../images/CompanyLogos/black-no-tagline.png";
 import Image from "next/image";
 import Link from "next/link";
 import { animateScroll as scroll } from "react-scroll";
@@ -46,7 +47,11 @@ const Navbar = ({ toggle }) => {
                   scale: 1.1,
                 }}
               >
-                <Image src={CompanyLogo} alt="Company Logo" priority={true} />
+                <Image
+                  src={scrollNav ? BlackLogo : WhiteLogo}
+                  alt="Company Logo"
+                  priority={true}
+                />
               </LogoContainer>
             </NavLogo>
             <MobileIcon onClick={toggle}>
@@ -75,6 +80,7 @@ const Navbar = ({ toggle }) => {
                 }}
               >
                 <NavLinks
+                  scrollNav={scrollNav}
                   to="services"
                   smooth={true}
                   duration={500}
@@ -91,7 +97,7 @@ const Navbar = ({ toggle }) => {
                 }}
               >
                 <Link href="/pricing" passHref>
-                  <NavLinks>Pricing</NavLinks>
+                  <NavLinks scrollNav={scrollNav}>Pricing</NavLinks>
                 </Link>
               </NavItem>
               {/* <NavItem
@@ -116,7 +122,7 @@ const Navbar = ({ toggle }) => {
                 }}
               >
                 <Link href="/contact-info" passHref>
-                  <NavLinks>Contact</NavLinks>
+                  <NavLinks scrollNav={scrollNav}>Contact</NavLinks>
                 </Link>
               </NavItem>
               <NavItem
@@ -128,7 +134,7 @@ const Navbar = ({ toggle }) => {
                   href="https://cruxsoftwaresolutions.tech/"
                   rel="noopener noreferrer"
                   style={{
-                    color: "var(--trueWhite)",
+                    color: scrollNav ? "var(--trueBlack)" : "var(--trueWhite)",
                     display: "flex",
                     alignItems: "center",
                     textDecoration: "none",

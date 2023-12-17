@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  min-height: 700px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--trueBlack);
+  background: var(--trueWhite);
 
   @media screen and (max-width: 768px) {
     height: 1400px;
@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
   border-radius: 10px;
   min-height: 300px;
   padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--dropShadow);
   transition: all 0.2s ease-in-out;
 
   &:hover {
@@ -63,7 +63,7 @@ export const ServicesIcon = styled.div`
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: var(--trueWhite);
+  color: var(--trueBlack);
   margin-bottom: 50px;
 
   @media screen and (max-width: 480px) {

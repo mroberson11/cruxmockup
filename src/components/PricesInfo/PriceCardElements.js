@@ -12,7 +12,7 @@ export const PriceCardContainer = styled(motion.div)`
     props.planType === "professional" ? "white" : colors.grayishBlue};
   width: 100%;
   width: 22rem;
-  box-shadow: 0px 20px 40px rgba(26, 180, 247, 0.5);
+  box-shadow: var(--dropShadow);
   border-radius: 10px;
   text-align: center;
   padding: 1rem;

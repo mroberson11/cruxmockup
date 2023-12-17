@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
-    scrollNav ? "var(--trueBlack)" : "transparent"};
+    scrollNav ? "var(--trueWhite)" : "transparent"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -74,7 +74,8 @@ export const NavItem = styled(motion.li)`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: var(--trueWhite);
+  color: ${({ scrollNav }) =>
+    scrollNav ? "var(--trueBlack)" : "var(--trueWhite)"};
   display: flex;
   align-items: center;
   text-decoration: none;

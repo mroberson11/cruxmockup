@@ -11,11 +11,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueBlack);
+  background: var(--trueWhite);
 `;
 
 export const PortfolioH1 = styled.h1`
-  color: var(--trueWhite);
+  color: var(--trueBlack);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
@@ -37,6 +37,7 @@ export const PortfolioContent = styled.div`
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  box-shadow: var(--dropShadow);
 `;
 
 export const InfoSection = styled.div`

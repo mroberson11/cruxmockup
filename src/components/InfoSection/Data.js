@@ -4,9 +4,9 @@ import pic3 from "../../images/InfoImages/contact-us.svg";
 
 export const homeObjOne = {
   id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Software Solution Providers",
   headline: "Our Process",
   description:
@@ -15,9 +15,9 @@ export const homeObjOne = {
   imgStart: false,
   img: pic1,
   alt: "Man next to computer",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
   pageLink: "pricing",
 };
 
@@ -61,9 +61,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "information",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Get in Touch",
   headline: "Start Your Journey",
   description:
@@ -72,8 +72,8 @@ export const homeObjThree = {
   imgStart: false,
   img: pic3,
   alt: "Contact image",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
   pageLink: "contact-info",
 };
