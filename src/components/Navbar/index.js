@@ -125,7 +125,7 @@ const Navbar = ({ toggle }) => {
                   <NavLinks scrollNav={scrollNav}>Contact</NavLinks>
                 </Link>
               </NavItem>
-              <NavItem
+              {/* <NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -152,7 +152,7 @@ const Navbar = ({ toggle }) => {
                 >
                   Shop
                 </a>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
             <NavBtn>
               <Link href="tel:6019271778" passHref>

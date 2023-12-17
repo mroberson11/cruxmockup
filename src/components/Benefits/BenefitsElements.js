@@ -125,3 +125,7 @@ export const Bullseye = styled(FaBullseye)`
   font-size: 1.5rem;
   color: #c3732a;
 `;
+
+export const BtnWrapper = styled(motion.div)`
+  margin: 2rem;
+`;

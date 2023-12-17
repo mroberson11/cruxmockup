@@ -9,7 +9,6 @@ import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Footer from "../Footer";
 import Image from "next/image";
-import Link from "next/link";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {

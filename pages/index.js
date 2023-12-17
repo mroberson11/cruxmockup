@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Benefits from "../src/components/Benefits";
 import Footer from "../src/components/Footer";
 import Head from "next/head";
 import HeroSection from "../src/components/HeroSection";
 import Image from "next/image";
-import LogoCarousel from "../src/components/LogoCarousel";
 import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
 import ReviewCarousel from "../src/components/ReviewCarousel";
@@ -61,8 +59,6 @@ export default function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <Services />
-      <LogoCarousel />
-      <Benefits />
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <ReviewCarousel />

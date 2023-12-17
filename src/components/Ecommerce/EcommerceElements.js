@@ -13,15 +13,10 @@ export const Container = styled.div`
   background: var(--trueWhite);
 `;
 
-export const ServiceH1 = styled.h1`
-  color: var(--trueBlack);
-  font-size: 2.3em;
-  text-align: center;
-  margin-top: 7rem;
-`;
-export const ServiceWrapper = styled.div`
+export const EcommerceWrapper = styled.div`
   display: grid;
   width: 100%;
+  margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;

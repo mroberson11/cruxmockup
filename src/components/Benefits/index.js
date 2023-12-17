@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
+import { AnimatedButton } from "../ButtonElements";
+import Link from "next/link";
 import {
   BenefitsContainer,
   BenefitsWrapper,
@@ -17,6 +19,7 @@ import {
   BillWave,
   Magnet,
   Bullseye,
+  BtnWrapper,
 } from "./BenefitsElements";
 
 const Benefits = () => {
@@ -98,6 +101,29 @@ const Benefits = () => {
             </BenefitText>
           </BenefitItem>
         </BenefitsWrapper>
+        <BtnWrapper
+          whileHover={{
+            scale: 1.1,
+          }}
+        >
+          <Link href="/demo" passHref>
+            <AnimatedButton
+              primary="true"
+              dark="true"
+              duration={500}
+              exact="true"
+              offset={-80}
+              whileTap={{ scale: 0.9 }}
+              transition={{ duration: 3 }}
+              style={{
+                background: "var(--cruxBlue)",
+                color: "var(--trueWhite)",
+              }}
+            >
+              View Demo Sites
+            </AnimatedButton>
+          </Link>
+        </BtnWrapper>
       </BenefitsContainer>
     </>
   );

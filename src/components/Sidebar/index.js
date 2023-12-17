@@ -34,7 +34,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/contact-info" passHref>
             <SidebarLink>Contact</SidebarLink>
           </Link>
-          <a
+          {/* <a
             href="https://cruxsoftwaresolutions.tech/"
             onClick={toggle}
             style={{
@@ -53,7 +53,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             onMouseLeave={(e) => (e.target.style.color = "var(--trueWhite")}
           >
             Shop
-          </a>
+          </a> */}
         </SidebarMenu>
         <SideBtnWrap>
           <Link href="tel:6019271778" passHref>
