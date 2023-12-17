@@ -26,7 +26,7 @@ export const ReviewArticle = styled(motion.article)`
 `;
 
 export const Heading = styled.h1`
-  font-size: 36px;
+  font-size: 2.5rem;
   color: var(--trueBlack);
   text-align: center;
   letter-spacing: 1px;

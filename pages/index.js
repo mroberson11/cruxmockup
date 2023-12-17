@@ -7,6 +7,7 @@ import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
 import ReviewCarousel from "../src/components/ReviewCarousel";
 import Sidebar from "../src/components/Sidebar";
+import SiteGallery from "../src/components/SiteGallery";
 import Services from "../src/components/Services";
 import Script from "next/script";
 import ScrollUp from "../src/components/ScrollUp";
@@ -59,6 +60,7 @@ export default function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <Services />
+      <SiteGallery />
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
       <ReviewCarousel />
