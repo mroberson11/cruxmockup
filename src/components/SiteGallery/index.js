@@ -1,14 +1,11 @@
 import React from "react";
 import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-hero-section.png";
 import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
-import CruxPizza from "../../images/DemoImages/pizza-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Image from "next/image";
-import { useAnimation } from "framer-motion";
-import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
   Container,
   SiteGalleryH1,
