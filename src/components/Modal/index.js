@@ -1,12 +1,13 @@
+import React from "react";
 import Image from "next/image";
 import Backdrop from "../Backdrop";
-import Icon1 from "../../../public/videos/AnimatedCheckmark.gif";
 import { motion } from "framer-motion";
 import {
   ModalContent,
   ModalHeading,
   ImageWrapper,
   ModalText,
+  CloseButton,
 } from "./ModalElements";
 
 const dropIn = {
@@ -29,7 +30,14 @@ const dropIn = {
     opacity: 0,
   },
 };
-const Modal = ({ handleClose, text }) => {
+
+const Modal = ({
+  handleClose,
+  imageSrc,
+  imageAlt,
+  modalHeading,
+  modalText,
+}) => {
   return (
     <Backdrop onClick={handleClose}>
       <motion.div
@@ -41,23 +49,18 @@ const Modal = ({ handleClose, text }) => {
         exit="exit"
       >
         <ModalContent>
+          <CloseButton onClick={handleClose}>&times;</CloseButton>
           <ImageWrapper>
             <Image
-              src={Icon1}
-              alt="Animated Checkmark"
+              src={imageSrc}
+              alt={imageAlt}
               width="150px"
               height="120px"
               priority={true}
             />
           </ImageWrapper>
-          <ModalHeading>Thank You!</ModalHeading>
-          <ModalText>
-            Your form submission was successful! We sincerely appreciate you
-            reaching out to us. We know your time is valuable which is why
-            we&apos;re committed to responding within a 24 hour time frame
-            barring any technical difficulties. If your inquiry is urgent,
-            please contact us via 601-927-1778.{" "}
-          </ModalText>
+          <ModalHeading>{modalHeading}</ModalHeading>
+          <ModalText>{modalText}</ModalText>
         </ModalContent>
       </motion.div>
     </Backdrop>

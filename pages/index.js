@@ -5,6 +5,7 @@ import HeroSection from "../src/components/HeroSection";
 import Image from "next/image";
 import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
+import OfferPopup from "../src/components/OfferPopup";
 import ReviewCarousel from "../src/components/ReviewCarousel";
 import Sidebar from "../src/components/Sidebar";
 import SiteGallery from "../src/components/SiteGallery";
@@ -53,7 +54,6 @@ export default function Home() {
         gtag('config', 'G-X71DLG71ZJ');
       `}
       </Script>
-
       <Script
         id="google-ads"
         src="https://www.googletagmanager.com/gtag/js?id=G-MY3B0HBVF1"
@@ -64,10 +64,10 @@ export default function Home() {
 
         gtag('config', 'G-MY3B0HBVF1');`}
       </Script>
-
       {/* <motion.div className="progress-bar" style={{ scaleX }} /> */}
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <Navbar toggle={toggle} />\
+      <OfferPopup />
       <HeroSection />
       <Services />
       <SiteGallery />

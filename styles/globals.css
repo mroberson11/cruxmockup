@@ -58,7 +58,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--trueBlack);
+  background: #000000;
   color: var(--trueWhite);
 }
 
