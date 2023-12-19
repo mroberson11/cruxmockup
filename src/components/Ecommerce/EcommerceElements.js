@@ -10,7 +10,7 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const EcommerceWrapper = styled.div`

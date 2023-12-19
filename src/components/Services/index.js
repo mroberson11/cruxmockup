@@ -50,7 +50,7 @@ const Services = () => {
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 3 }}
                 style={{
-                  background: "var(--trueWhite)",
+                  background: "var(--offWhite)",
                   color: "var(--linkBlue)",
                 }}
               >
@@ -82,7 +82,7 @@ const Services = () => {
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 3 }}
                 style={{
-                  background: "var(--trueWhite)",
+                  background: "var(--offWhite)",
                   color: "var(--linkBlue)",
                   position: "relative",
                   top: "1rem",
@@ -116,7 +116,7 @@ const Services = () => {
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 3 }}
                 style={{
-                  background: "var(--trueWhite)",
+                  background: "var(--offWhite)",
                   color: "var(--linkBlue)",
                 }}
               >

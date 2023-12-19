@@ -118,7 +118,7 @@ const Maintenance = () => {
                 transition={{ duration: 3 }}
                 style={{
                   background: "var(--cruxBlue)",
-                  color: "var(--trueWhite)",
+                  color: "var(--offWhite)",
                 }}
               >
                 View Pricing

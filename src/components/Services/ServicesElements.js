@@ -8,7 +8,7 @@ export const ServicesContainer = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 
   @media screen and (max-width: 768px) {
     min-height: 1400px;
@@ -35,7 +35,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled(motion.div)`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -61,7 +61,7 @@ export const ServicesIcon = styled.div`
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   margin: 2rem;
 
   @media screen and (max-width: 480px) {

@@ -1,6 +1,6 @@
 :root {
-  --trueWhite: #f9f9f9;
-  --trueBlack: #010606;
+  --offWhite: #f9f9f9;
+  --offBlack: #010606;
   --cruxBlue: #1ab4f7;
   --linkBlue: #00ccf4;
   --darkBlue: #101522;
@@ -59,19 +59,19 @@ h4 {
   flex-direction: column;
   align-items: center;
   background: #000000;
-  color: var(--trueWhite);
+  color: var(--offWhite);
 }
 
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
-  background: var(--trueBlack);
+  background: var(--offBlack);
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: var(--trueBlack);
+  background: var(--offBlack);
 }
 
 /* Handle */

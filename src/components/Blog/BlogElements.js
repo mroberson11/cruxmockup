@@ -15,7 +15,7 @@ export const Container = styled.section`
 `;
 
 export const BlogH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 40px;
   text-align: center;
   margin-top: 7rem;
@@ -31,7 +31,7 @@ export const BlogWrapper = styled.div`
 `;
 
 export const BlogContent = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   border-radius: 10px;
   width: clamp(250px, 90vw, 900px);
   padding: 1rem;
@@ -59,7 +59,7 @@ export const BlogSection = styled.div`
 
 export const BlogSectionHeader = styled(motion.h2)`
   font-size: 28px;
-  color: (--trueBlack);
+  color: (--offBlack);
   margin-bottom: 0.5rem;
 `;
 

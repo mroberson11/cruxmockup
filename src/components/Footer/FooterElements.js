@@ -41,7 +41,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 200px;
   box-sizing: border-box;
-  color: var(--trueWhite);
+  color: var(--offWhite);
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -57,7 +57,7 @@ export const FooterLinkTitle = styled.h1`
 
 export const FooterLink = styled.a`
   font-family: "Montserrat";
-  color: var(--trueWhite);
+  color: var(--offWhite);
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 20px;
@@ -86,7 +86,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(motion.div)`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -98,7 +98,7 @@ export const SocialLogo = styled(motion.div)`
 `;
 
 export const WebsiteRights = styled.small`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   margin-bottom: 16px;
 `;
 
@@ -110,6 +110,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled(motion.a)`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 24px;
 `;

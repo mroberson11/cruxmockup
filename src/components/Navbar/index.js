@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
   };
   return (
     <>
-      <IconContext.Provider value={{ color: "var(--trueWhite)" }}>
+      <IconContext.Provider value={{ color: "var(--offWhite)" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
@@ -57,7 +57,7 @@ const Navbar = ({ toggle }) => {
             <MobileIcon onClick={toggle}>
               <FaBars
                 style={{
-                  color: scrollNav ? "var(--trueBlack)" : "var(--trueWhite)",
+                  color: scrollNav ? "var(--offBlack)" : "var(--offWhite)",
                 }}
               />
             </MobileIcon>
@@ -138,7 +138,7 @@ const Navbar = ({ toggle }) => {
                   href="https://cruxsoftwaresolutions.tech/"
                   rel="noopener noreferrer"
                   style={{
-                    color: scrollNav ? "var(--trueBlack)" : "var(--trueWhite)",
+                    color: scrollNav ? "var(--offBlack)" : "var(--offWhite)",
                     display: "flex",
                     alignItems: "center",
                     textDecoration: "none",
@@ -148,10 +148,10 @@ const Navbar = ({ toggle }) => {
                     fontFamily: "var(--defaultFont)",
                   }}
                   onMouseEnter={(e) =>
-                    (e.target.style.color = "var(--trueWhite)")
+                    (e.target.style.color = "var(--offWhite)")
                   }
                   onMouseLeave={(e) =>
-                    (e.target.style.color = "var(--trueWhite)")
+                    (e.target.style.color = "var(--offWhite)")
                   }
                 >
                   Shop

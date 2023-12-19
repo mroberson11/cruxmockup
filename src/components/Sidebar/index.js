@@ -46,11 +46,11 @@ const Sidebar = ({ isOpen, toggle }) => {
               listStyle: "none",
               transition: "0.2s ease-in-out",
               textDecoration: "none",
-              color: "var(--trueWhite)",
+              color: "var(--offWhite)",
               cursor: "pointer",
             }}
             onMouseEnter={(e) => (e.target.style.color = "var(--cruxBlue")}
-            onMouseLeave={(e) => (e.target.style.color = "var(--trueWhite")}
+            onMouseLeave={(e) => (e.target.style.color = "var(--offWhite")}
           >
             Shop
           </a> */}

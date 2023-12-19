@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 export const Button = styled(LinkS)`
   border-radius: 50px;
   background: ${({ primary }) =>
-    primary ? "var(--cruxBlue)" : "var(--trueBlack)"};
-  var(--trueWhite)-space: nowrap;
+    primary ? "var(--cruxBlue)" : "var(--offBlack)"};
+  var(--offWhite)-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "var(--trueBlack)" : "var(--trueWhite)")};
+  color: ${({ dark }) => (dark ? "var(--offBlack)" : "var(--offWhite)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -21,17 +21,17 @@ export const Button = styled(LinkS)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) =>
-      primary ? "var(--trueWhite)" : "var(--cruxBlue)"};
+      primary ? "var(--offWhite)" : "var(--cruxBlue)"};
   }
 `;
 
 export const AnimatedButton = styled(motion.button)`
   border-radius: 50px;
   background: ${({ primary }) =>
-    primary ? "var(--cruxBlue)" : "var(--trueBlack)"};
-  var(--trueWhite)-space: nowrap;
+    primary ? "var(--cruxBlue)" : "var(--offBlack)"};
+  var(--offWhite)-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 15px")};
-  color: ${({ dark }) => (dark ? "var(--trueBlack)" : "var(--trueWhite)")};
+  color: ${({ dark }) => (dark ? "var(--offBlack)" : "var(--offWhite)")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -43,6 +43,6 @@ export const AnimatedButton = styled(motion.button)`
 
   &:hover {
     background: ${({ primary }) =>
-      primary ? "var(--trueWhite)" : "var(--cruxBlue)"};
+      primary ? "var(--offWhite)" : "var(--cruxBlue)"};
   }
 `;

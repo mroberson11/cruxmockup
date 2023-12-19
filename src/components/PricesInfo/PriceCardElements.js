@@ -65,7 +65,7 @@ export const Currency = styled.span`
 
 export const SellingPoint = styled.span`
   font-family: "Montserrat";
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 22px;
   text-align: center;
   padding: 0.4rem;

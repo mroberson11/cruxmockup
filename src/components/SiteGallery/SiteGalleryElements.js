@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 export const Container = styled.div`
   min-height: 600px;
-  background: var(--trueWhite);
+  background: var(--offWhite);
   padding: 3rem 0;
 `;
 
 export const SiteGalleryH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 2.5rem;
   text-align: center;
 

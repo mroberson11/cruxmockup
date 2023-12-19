@@ -11,11 +11,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueBlack);
+  background: var(--offBlack);
 `;
 
 export const DemoH1 = styled.h1`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
@@ -33,7 +33,7 @@ export const DemoWrapper = styled.div`
 `;
 
 export const DemoContent = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   border-radius: 10px;
   width: clamp(250px, 90vw, 900px);
   padding: 1rem;

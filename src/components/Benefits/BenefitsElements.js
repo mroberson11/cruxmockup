@@ -27,7 +27,7 @@ export const BenefitsContainer = styled(motion.section)`
 
 export const Heading = styled(motion.h1)`
   font-size: 2.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   margin-bottom: 1.5rem;
 
   @media screen and (max-width: 480px) {
@@ -55,7 +55,7 @@ export const BenefitsWrapper = styled(motion.div)`
 `;
 
 export const BenefitItem = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: row;
   align-items: center;

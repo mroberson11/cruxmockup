@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
-    scrollNav ? "var(--trueWhite)" : "transparent"};
+    scrollNav ? "var(--offWhite)" : "transparent"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.div`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -53,7 +53,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: var(--trueWhite);
+    color: var(--offWhite);
   }
 `;
 
@@ -75,7 +75,7 @@ export const NavItem = styled(motion.li)`
 
 export const NavLinks = styled(LinkS)`
   color: ${({ scrollNav }) =>
-    scrollNav ? "var(--trueBlack)" : "var(--trueWhite)"};
+    scrollNav ? "var(--offBlack)" : "var(--offWhite)"};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -103,7 +103,7 @@ export const NavBtnLink = styled(motion.button)`
   background: var(--cruxBlue);
   white-space: nowrap;
   padding: 10px 22px;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 16px;
   outline: none;
   border: none;
@@ -112,7 +112,7 @@ export const NavBtnLink = styled(motion.button)`
   font-family: var(--defaultFont);
 
   &:hover {
-    background: var(--trueWhite);
+    background: var(--offWhite);
   }
 `;
 

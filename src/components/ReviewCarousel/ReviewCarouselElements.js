@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Container = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const ContainerWrapper = styled.div`
@@ -20,7 +20,7 @@ export const ReviewArticle = styled(motion.article)`
   min-width: 250px;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  background: var(--trueWhite);
+  background: var(--offWhite);
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: var(--dropShadow);
@@ -34,7 +34,7 @@ export const ReviewArticle = styled(motion.article)`
 
 export const Heading = styled.h1`
   font-size: 2.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   text-align: center;
   letter-spacing: 1px;
   padding-top: 2rem;
@@ -84,7 +84,7 @@ export const QuoteIcon = styled.span`
   border-radius: 50%;
   transform: translateY(25%);
   background: var(--cruxBlue);
-  color: var(--trueWhite);
+  color: var(--offWhite);
 `;
 
 export const Author = styled.h4`

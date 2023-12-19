@@ -59,7 +59,7 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 export const HeroH1 = styled(motion.h1)`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 48px;
   text-align: center;
 
@@ -74,7 +74,7 @@ export const HeroH1 = styled(motion.h1)`
 
 export const VideoP = styled(motion.p)`
   margin-top: 24px;
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 32px;
   text-align: center;
   max-width: 600px;

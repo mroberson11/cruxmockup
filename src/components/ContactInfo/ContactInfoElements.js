@@ -10,23 +10,23 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const HeaderSection = styled.div`
   z-index: 2;
   min-height: 80px;
   top: 0;
-  background: var(--trueBlack);
+  background: var(--offBlack);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: var(--dropShadow);
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const DivSection = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   margin-top: 10px;
@@ -56,7 +56,7 @@ export const ContactWrapper = styled.div`
 `;
 
 export const ContactCard = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +94,7 @@ export const ContactP = styled.p`
   text-align: center;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const EmphasizedP = styled.p`
@@ -112,7 +112,7 @@ export const EmphasizedA = styled.a`
   text-decoration: none;
 `;
 export const ContactH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;

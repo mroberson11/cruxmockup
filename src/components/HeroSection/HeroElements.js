@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { AnimatedButton } from "../ButtonElements";
 
 export const HeroContainer = styled.div`
-  background: var(--trueBlack);
+  background: var(--offBlack);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@ export const Column2 = styled.div`
 `;
 
 export const HeroH1 = styled(motion.h1)`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 46px;
   text-align: left;
 
@@ -87,7 +87,7 @@ export const HeroH1 = styled(motion.h1)`
 
 export const HeroP = styled(motion.p)`
   margin-top: 24px;
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 24px;
   text-align: left;
   max-width: 600px;

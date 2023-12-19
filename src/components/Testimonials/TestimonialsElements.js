@@ -39,7 +39,7 @@ export const TestimonialsWrapper = styled.div`
 export const TestimonialsCard = styled.div`
   min-height: 300px;
   max-width: 350px;
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -71,7 +71,7 @@ export const TestimonialsIcon = styled.div`
 
 export const TestimonialsH1 = styled.h1`
   font-size: 2.5rem;
-  color: var(--trueWhite);
+  color: var(--offWhite);
   margin-bottom: 50px;
 
   @media screen and (max-width: 480px) {
@@ -81,20 +81,20 @@ export const TestimonialsH1 = styled.h1`
 
 export const TestimonialsP = styled.p`
   font-size: 1rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-style: italic;
   text-align: left;
 `;
 
 export const TestimonialsCustomer = styled.p`
   font-size: 1.1rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-weight: 800;
   margin-top: 2.5rem;
 `;
 
 export const TestimonialsCompany = styled.p`
   font-size: 1rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   margin-top: 5px;
 `;

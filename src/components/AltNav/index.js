@@ -15,8 +15,8 @@ import {
 const AltNav = () => {
   return (
     <>
-      <IconContext.Provider value={{ color: "var(--trueWhite)" }}>
-        <Nav style={{ background: "var(--trueBlack)" }}>
+      <IconContext.Provider value={{ color: "var(--offWhite)" }}>
+        <Nav style={{ background: "var(--offBlack)" }}>
           <NavbarContainer>
             <NavLogo
               whileHover={{

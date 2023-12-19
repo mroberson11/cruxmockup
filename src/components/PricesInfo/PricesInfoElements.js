@@ -10,11 +10,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const ContactH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
@@ -24,16 +24,16 @@ export const HeaderSection = styled.div`
   z-index: 2;
   min-height: 80px;
   top: 0;
-  background: var(--trueBlack);
+  background: var(--offBlack);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 4px 0px rgba(102, 252, 241, 0.4);
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const DivSection = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   margin-top: 10px;
@@ -56,7 +56,7 @@ export const PricesWrapper = styled.div`
 `;
 
 export const PricesCard = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,7 +90,7 @@ export const PricesH2 = styled.h2`
 export const PricesP = styled.p`
   font-size: 1.1em;
   text-align: center;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const EmphasizedP = styled.p`
@@ -108,7 +108,7 @@ export const EmphasizedA = styled.a`
   text-decoration: none;
 `;
 export const PricesH1 = styled.h1`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   font-size: 2.3rem;
   text-align: center;
   margin-top: 4rem;

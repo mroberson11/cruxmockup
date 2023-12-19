@@ -10,11 +10,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const ServiceH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 2.3em;
   text-align: center;
   margin: 7rem 2rem 0 2rem;

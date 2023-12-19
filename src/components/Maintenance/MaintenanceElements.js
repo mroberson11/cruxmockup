@@ -18,7 +18,7 @@ export const Container = styled.div`
   min-height: 692px;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const MaintenanceContainer = styled(motion.section)`
@@ -37,7 +37,7 @@ export const MaintenanceContainer = styled(motion.section)`
 
 export const Heading = styled(motion.h1)`
   font-size: 2.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
   margin-bottom: 1.5rem;
 
   @media screen and (max-width: 480px) {
@@ -65,7 +65,7 @@ export const MaintenanceWrapper = styled(motion.div)`
 `;
 
 export const MaintenanceItem = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,47 +94,47 @@ export const MaintenanceText = styled.p`
 
 export const Server = styled(FaServer)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Globe = styled(FaGlobe)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const SSL = styled(FaExpeditedssl)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Database = styled(FaDatabase)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Image = styled(FaFileImage)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const PuzzlePiece = styled(FaPuzzlePiece)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Handshake = styled(FaHandsHelping)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Shield = styled(FaShieldAlt)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const Tags = styled(FaTags)`
   font-size: 1.5rem;
-  color: var(--trueBlack);
+  color: var(--offBlack);
 `;
 
 export const BtnWrapper = styled(motion.div)`

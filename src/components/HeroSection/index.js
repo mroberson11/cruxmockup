@@ -81,7 +81,7 @@ const HeroSection = () => {
                   offset={-80}
                   whileTap={{ scale: 0.9 }}
                   transition={{ duration: 3 }}
-                  style={{ background: "var(--trueWhite)" }}
+                  style={{ background: "var(--offWhite)" }}
                 >
                   Call Now {hover ? <ArrowForward /> : <ArrowRight />}
                 </AnimatedButton>

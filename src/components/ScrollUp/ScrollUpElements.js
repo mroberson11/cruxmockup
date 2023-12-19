@@ -7,7 +7,7 @@ export const ScrollButton = styled(motion.div)`
   width: 55px;
   bottom: 20px;
   right: 20px;
-  background-color: var(--trueWhite);
+  background-color: var(--offWhite);
   border: none;
   border-radius: 50%;
   cursor: pointer;

@@ -11,11 +11,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: scroll;
   overflow-x: hidden;
-  background: var(--trueWhite);
+  background: var(--offWhite);
 `;
 
 export const PortfolioH1 = styled.h1`
-  color: var(--trueBlack);
+  color: var(--offBlack);
   font-size: 2.3em;
   text-align: center;
   margin-top: 7rem;
@@ -31,7 +31,7 @@ export const PortfolioWrapper = styled.div`
 `;
 
 export const PortfolioContent = styled.div`
-  background: var(--trueWhite);
+  background: var(--offWhite);
   border-radius: 10px;
   width: clamp(250px, 90vw, 900px);
   padding: 1rem;

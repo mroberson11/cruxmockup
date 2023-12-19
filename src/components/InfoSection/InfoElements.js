@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const InfoContainer = styled.section`
-  color: var(--trueWhite);
+  color: var(--offWhite);
   background: ${({ lightBg }) =>
-    lightBg ? "var(--trueWhite)" : "var(--trueBlack)"};
+    lightBg ? "var(--offWhite)" : "var(--offBlack)"};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -69,7 +69,7 @@ export const Heading = styled(motion.h1)`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "var(--trueBlack)")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "var(--offBlack)")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -82,7 +82,7 @@ export const Subtitle = styled(motion.p)`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) =>
-    darkText ? "var(--trueBlack)" : "var(--trueWhite)"};
+    darkText ? "var(--offBlack)" : "var(--offWhite)"};
 `;
 
 export const BtnWrap = styled.div`
