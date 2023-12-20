@@ -8,7 +8,7 @@ const Backdrop = ({ children, onClick }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      style={{ position: "sticky", height: "100vh", zIndex: "15" }}
+      style={{ position: "sticky", minHeight: "100vh", zIndex: "15" }}
     >
       {children}
     </motion.div>

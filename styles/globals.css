@@ -1,4 +1,6 @@
 :root {
+  background: #010606;
+
   --offWhite: #f9f9f9;
   --offBlack: #010606;
   --cruxBlue: #1ab4f7;
@@ -7,7 +9,6 @@
   --transition: all 0.3s ease-in-out;
 
   --defaultFont: "Iceberg";
-  background: #010606;
   --dropShadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -50,7 +51,7 @@ h4 {
 
 .modal {
   width: clamp(50%, 700px, 90%);
-  height: min(50%, 450px);
+  min-height: min(50%, 950px);
   z-index: 3;
   margin: auto;
   padding: 0 2rem;
@@ -60,6 +61,7 @@ h4 {
   align-items: center;
   background: #000000;
   color: var(--offWhite);
+  box-shadow: var(--dropShadow);
 }
 
 /* width */
