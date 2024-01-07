@@ -36,9 +36,9 @@ const Services = () => {
             </ServicesIcon>
             <ServicesH2>Search Engine Optimization</ServicesH2>
             <ServicesP>
-              Are you the first business result that appears when your customers
-              search for your service? If not, we can make sure you are through
-              an optimized website & Google Business listing.
+              Are you the first business result that appears when potential
+              customers search for your service? If not, we can make sure you
+              are through an optimized website & Google Business listing.
             </ServicesP>
             <Link href="/pricing" passHref>
               <AnimatedButton
