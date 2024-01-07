@@ -13,15 +13,10 @@ export const Container = styled.div`
   background: var(--offWhite);
 `;
 
-export const ServiceH1 = styled.h1`
-  color: var(--offBlack);
-  font-size: 2.3em;
-  text-align: center;
-  margin: 7rem 2rem 0 2rem;
-`;
-export const ServiceWrapper = styled.div`
+export const ProcessWrapper = styled.div`
   display: grid;
   width: 100%;
+  margin-top: 2.5rem;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;

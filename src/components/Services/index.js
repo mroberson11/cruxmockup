@@ -32,13 +32,13 @@ const Services = () => {
             animate={animation}
           >
             <ServicesIcon>
-              <Image src={Icon1} alt="Pair Programming" priority={true} />
+              <Image src={Icon2} alt="Lead Generation" priority={true} />
             </ServicesIcon>
-            <ServicesH2>Service Based Websites</ServicesH2>
+            <ServicesH2>Search Engine Optimization</ServicesH2>
             <ServicesP>
-              Our Service Based packages include unlimited web pages, contact
-              forms, booking forms, customer reviews, Search Engine
-              Optimization, and more.
+              Are you the first business result that appears when your customers
+              search for your service? If not, we can make sure you are through
+              an optimized website & Google Business listing.
             </ServicesP>
             <Link href="/service" passHref>
               <AnimatedButton
@@ -64,7 +64,7 @@ const Services = () => {
             animate={animation}
           >
             <ServicesIcon>
-              <Image src={Icon2} alt="Sale Generation" priority={true} />
+              <Image src={Icon1} alt="Pair Programming" priority={true} />
             </ServicesIcon>
             <ServicesH2>E-Commerce Websites</ServicesH2>
             <ServicesP>

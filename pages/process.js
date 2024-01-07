@@ -1,10 +1,10 @@
 import React from "react";
 import CruxHead from "../src/components/CruxHead";
-import Service from "../src/components/Service";
+import Service from "../src/components/Process";
 const ServicePage = () => {
   return (
     <>
-      <CruxHead title="Service Based Websites" />
+      <CruxHead title="Our Process" />
       <Service />
     </>
   );

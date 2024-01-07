@@ -10,7 +10,7 @@ export const homeObjOne = {
   topLine: "Software Solution Providers",
   headline: "Our Process",
   description:
-    "Step 1: Committment-Free Consultation Call \n Step 2: Requirements Gathering & Onboarding \n Step 3: Website Development \n Step 4: Website Review & Finalization \n Step 5: Satisfaction Guaranteed or Your Money Back",
+    "Step 1: Committment-Free Consultation Call \n Step 2: Requirements Gathering & Onboarding \n Step 3: Website Development \n Step 4: Website Review & Finalization \n Step 5: Google Business Optimization \n Step 6: Analytics Tracking & Website Optimization \n Step 7: Satisfaction Guaranteed or Your Money Back",
   buttonLabel: "View Pricing",
   imgStart: false,
   img: pic1,

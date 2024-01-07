@@ -2,11 +2,11 @@ import React from "react";
 import AltNav from "../AltNav";
 import Breadcrumb from "../Breadcrumb";
 import Footer from "../Footer";
-import { Container, ServiceH1, ServiceWrapper } from "./ServiceElements";
+import { Container, ProcessWrapper } from "./ProcessElements";
 import InfoSection from "../InfoSection";
 import { homeObjOne } from "../InfoSection/Data";
 
-const Service = () => {
+const Process = () => {
   return (
     <>
       <Container>
@@ -19,14 +19,13 @@ const Service = () => {
           listClasses="hover:underline mx-2 font-bold"
           capitalizeLinks
         /> */}
-        <ServiceH1>Service Based Websites</ServiceH1>
-        <ServiceWrapper>
+        <ProcessWrapper>
           <InfoSection {...homeObjOne} />
-        </ServiceWrapper>
+        </ProcessWrapper>
         <Footer />
       </Container>
     </>
   );
 };
 
-export default Service;
+export default Process;
