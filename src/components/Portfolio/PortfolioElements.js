@@ -51,6 +51,7 @@ export const InfoSection = styled.div`
 
 export const InfoSectionHeader = styled(motion.h2)`
   font-size: 2rem;
+  text-align: center;
   margin-bottom: 0.5rem;
 `;
 
