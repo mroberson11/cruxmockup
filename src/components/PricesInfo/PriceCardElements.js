@@ -32,6 +32,7 @@ export const Divider = styled.hr`
 export const PlanType = styled.span`
   font-size: 2rem;
   line-height: 2.8rem;
+  padding: 0 1rem;
   text-align: center;
   text-transform: capitalize;
 `;
@@ -43,6 +44,7 @@ export const Price = styled.p`
   justify-content: center;
   font-size: 4rem;
   line-height: 2rem;
+  letter-height: 20px;
   color: ${(props) => (props.plan === "professional" ? "white" : "#4a4d60")};
   margin: 1rem 0;
 `;
@@ -60,7 +62,6 @@ export const Currency = styled.span`
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 1rem;
-  margin-right: 0.6rem;
 `;
 
 export const SellingPoint = styled.span`

@@ -4,7 +4,7 @@ import PricesInfo from "../src/components/PricesInfo";
 const PricesInfoPage = () => {
   return (
     <>
-      <CruxHead title="Pricing" />
+      <CruxHead title="Services Pricing" />
       <PricesInfo />
     </>
   );

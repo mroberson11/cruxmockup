@@ -29,20 +29,20 @@ const PricesInfo = () => {
         <PricesWrapper>
           <PriceCard
             id={"price-card-one"}
-            headline={"Service Pro"}
-            price={"$2,499"}
+            headline={"Digital Lead Accelerator"}
+            price={"$899 /month"}
             sellingPoints={sellingPointsOne}
           />
           <PriceCard
             id={"price-card-two"}
-            headline={"E-Commerce Pro"}
+            headline={"Online Sales Generator"}
             price={"$399 /month"}
             sellingPoints={sellingPointsTwo}
           />
           <PriceCard
             id={"price-card-three"}
-            headline={"Service Pro Maintenance Package"}
-            price={"$49.99 /month"}
+            headline={"Digital Support Pro"}
+            price={"Free with any Plan"}
             sellingPoints={sellingPointsThree}
           />
         </PricesWrapper>

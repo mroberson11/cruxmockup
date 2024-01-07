@@ -40,7 +40,7 @@ const Services = () => {
               search for your service? If not, we can make sure you are through
               an optimized website & Google Business listing.
             </ServicesP>
-            <Link href="/service" passHref>
+            <Link href="/pricing" passHref>
               <AnimatedButton
                 primary="true"
                 dark="true"
