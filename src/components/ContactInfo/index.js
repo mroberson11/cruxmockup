@@ -1,5 +1,6 @@
 import React from "react";
 import AltNav from "../AltNav";
+import CruxHead from "../CruxHead";
 import Calendar from "../../images/ContactInfo/calendar.svg";
 import Email from "../../images/ContactInfo/email.svg";
 import Footer from "../Footer";
@@ -22,6 +23,7 @@ import {
 const ContactInfo = () => {
   return (
     <>
+      <CruxHead title="Contact Information" />
       <Container>
         <AltNav />
         <ContactH1>Contact Information</ContactH1>

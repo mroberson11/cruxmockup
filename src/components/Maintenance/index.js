@@ -1,5 +1,6 @@
 import React from "react";
 import AltNav from "../AltNav";
+import CruxHead from "../CruxHead";
 import Footer from "../Footer";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
@@ -30,6 +31,7 @@ const Maintenance = () => {
   const { ref, initial } = useMyAnimation({ animation });
   return (
     <>
+      <CruxHead title="Website Maintenance" />
       <Container>
         <AltNav />
         <MaintenanceContainer ref={ref}>

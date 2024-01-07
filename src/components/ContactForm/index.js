@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import CruxHead from "../CruxHead";
 import CompanyLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
@@ -82,6 +83,7 @@ const ContactForm = () => {
 
   return (
     <>
+      <CruxHead title="Contact Form" />
       <Container>
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}

@@ -1,5 +1,6 @@
 import React from "react";
 import AltNav from "../AltNav";
+import CruxHead from "../CruxHead";
 import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
 import CruxPizzeria from "../../images/DemoImages/pizza-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
@@ -23,6 +24,7 @@ const Demo = () => {
 
   return (
     <>
+      <CruxHead title="E-Commerce Demos"></CruxHead>
       <Container>
         <AltNav />
         <DemoH1>E-Commerce Demo Sites</DemoH1>

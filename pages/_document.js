@@ -17,14 +17,13 @@ export default class MyDocument extends Document {
             content="Crux Software Solutions"
             key="title"
           />
-          <meta name="title" content="Crux Software Solutions" />
           <meta
             name="description"
-            content="Crux Software Solutions is a premium web development agency specializing in the creation of lightning fast websites that are aesthetically pleasing."
+            content="Crux Software Solutions is a Mississippi based agency specializing in SEO services to increase organic lead generation for small businesses through website development & optimization."
           />
           <meta
             name="keywords"
-            content="Web Design, Web Agency, Lead Generation"
+            content="SEO, SEO services, SEO near me, Web Design, Web Agency, Lead Generation"
           />
           <meta name="robots" content="index, follow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

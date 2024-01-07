@@ -9,6 +9,7 @@ import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Footer from "../Footer";
 import Image from "next/image";
+import CruxHead from "../CruxHead";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
@@ -27,6 +28,7 @@ const Portfolio = () => {
 
   return (
     <>
+      <CruxHead title="Our Portfolio" />
       <Container>
         <AltNav />
         <PortfolioH1>Crux Portfolio</PortfolioH1>
