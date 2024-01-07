@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import CompanyLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 import { IconContext } from "react-icons/lib";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaMobileAlt } from "react-icons/fa";
 import { SocialIcons, SocialIconLink } from "../Footer/FooterElements.js";
 import {
   Nav,
@@ -49,16 +49,16 @@ const AltNav = () => {
                 >
                   <FaInstagram />
                 </SocialIconLink>
-                {/* <SocialIconLink
-                  href="https://www.youtube.com"
+                <SocialIconLink
+                  href="tel:6019271778"
                   target="_blank"
-                  aria-label="Youtube"
+                  aria-label="Call Now"
                   whileHover={{
                     scale: 1.1,
                   }}
                 >
-                  <FaYoutube />
-                </SocialIconLink> */}
+                  <FaMobileAlt />
+                </SocialIconLink>
               </SocialIcons>
             </NavMenu>
           </NavbarContainer>
