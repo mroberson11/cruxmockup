@@ -7,6 +7,7 @@ import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
+import Northolt from "../../images/DemoImages/northolt-rfc.png";
 import Footer from "../Footer";
 import Image from "next/image";
 import CruxHead from "../CruxHead";
@@ -25,6 +26,7 @@ import {
 const Portfolio = () => {
   const animation = useAnimation();
   const { ref, initial } = useMyAnimation({ animation });
+  let tDuration = 0.6;
 
   return (
     <>
@@ -38,14 +40,14 @@ const Portfolio = () => {
               <InfoSectionHeader
                 ref={ref}
                 initial={initial}
-                transition={{ delay: 0.1, duration: 0.6 }}
+                transition={{ delay: 0.1, duration: tDuration }}
                 animate={animation}
               >
                 Borthwick Ballistics
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.3, duration: 0.6 }}
+                transition={{ delay: 0.3, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -65,17 +67,45 @@ const Portfolio = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
+
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
+                animate={animation}
+              >
+                Northolt RFC
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.7, duration: tDuration }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://northoltrugbyfootballclub.co.uk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={Northolt} alt="Northolt RFC" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 Jennie Roberson Portfolio
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -94,14 +124,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 FBC Crystal Springs
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -124,14 +154,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 Meadows Ridgebacks
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -155,14 +185,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 Crux Fast Food
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -185,14 +215,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 Crux Pizza Co.
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
@@ -211,14 +241,14 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 initial={initial}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
                 Crux BBQ
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
-                transition={{ delay: 0.7, duration: 0.6 }}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,
