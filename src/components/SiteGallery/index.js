@@ -5,6 +5,7 @@ import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
+import Northolt from "../../images/DemoImages/northolt-rfc.png";
 import Image from "next/image";
 import {
   Container,
@@ -22,6 +23,22 @@ const SiteGallery = () => {
         <SiteGalleryH1>Our Portfolio</SiteGalleryH1>
         <SiteGalleryWrapper>
           <SiteGalleryContent>
+            <InfoSection
+              className="northolt"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
+              <ImgWrap>
+                <a
+                  href="https://northoltrugbyfootballclub.co.uk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={Northolt} alt="Northolt RFC" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
             <InfoSection
               className="borthwick"
               whileHover={{
@@ -98,7 +115,7 @@ const SiteGallery = () => {
                 </a>
               </ImgWrap>
             </InfoSection>
-            <InfoSection
+            {/* <InfoSection
               className="cruxFastFood"
               whileHover={{
                 scale: 1.025,
@@ -117,7 +134,7 @@ const SiteGallery = () => {
                   />
                 </a>
               </ImgWrap>
-            </InfoSection>
+            </InfoSection> */}
             <InfoSection
               className="cruxBbq"
               whileHover={{
