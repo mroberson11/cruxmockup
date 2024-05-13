@@ -23,7 +23,7 @@ import {
 const ContactInfo = () => {
   return (
     <>
-      <CruxHead title="Contact Information" />
+      <CruxHead title="Contact Information | Mississippi Web Design" />
       <Container>
         <AltNav />
         <ContactH1>Contact Information</ContactH1>

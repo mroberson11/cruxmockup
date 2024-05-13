@@ -9,7 +9,7 @@ import Benefits from "../Benefits";
 const Ecommerce = () => {
   return (
     <>
-      <CruxHead title="E-Commerce Websites" />
+      <CruxHead title="E-Commerce Websites | Mississippi Web Design" />
       <Container>
         <AltNav />
         <EcommerceWrapper>

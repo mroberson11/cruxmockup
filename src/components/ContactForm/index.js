@@ -83,7 +83,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <CruxHead title="Contact Form" />
+      <CruxHead title="Contact Form | Mississippi Web Design" />
       <Container>
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}

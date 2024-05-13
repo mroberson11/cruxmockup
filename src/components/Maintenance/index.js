@@ -31,7 +31,7 @@ const Maintenance = () => {
   const { ref, initial } = useMyAnimation({ animation });
   return (
     <>
-      <CruxHead title="Website Maintenance" />
+      <CruxHead title="Website Maintenance | Mississippi Web Design" />
       <Container>
         <AltNav />
         <MaintenanceContainer ref={ref}>

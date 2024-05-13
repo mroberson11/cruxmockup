@@ -24,7 +24,7 @@ const Services = () => {
   return (
     <>
       <ServicesContainer id="services" ref={ref}>
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>Website Development Services</ServicesH1>
         <ServicesWrapper>
           <ServicesCard
             initial={initial}

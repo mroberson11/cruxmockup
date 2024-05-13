@@ -67,7 +67,7 @@ const Footer = () => {
                 </LogoContainer>
               </SocialLogo>
               <WebsiteRights>
-                Crux ® {new Date().getFullYear()} All rights reserved.
+                Crux ® {new Date().getFullYear()} | Starkville, MS
               </WebsiteRights>
 
               <SocialIcons>

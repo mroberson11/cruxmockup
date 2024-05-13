@@ -24,7 +24,7 @@ const Demo = () => {
 
   return (
     <>
-      <CruxHead title="E-Commerce Demos"></CruxHead>
+      <CruxHead title="E-Commerce Demos | Mississippi Web Design"></CruxHead>
       <Container>
         <AltNav />
         <DemoH1>E-Commerce Demo Sites</DemoH1>

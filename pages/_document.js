@@ -14,16 +14,16 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="Crux Software Solutions"
+            content="Crux Software Solutions - Mississippi Web Design"
             key="title"
           />
           <meta
             name="description"
-            content="Crux Software Solutions is a Mississippi based agency specializing in SEO services to increase organic lead generation for small businesses through website development & optimization."
+            content="Crux Software Solutions is a Mississippi based agency specializing in SEO services to increase organic lead generation for small businesses through website design, website development, & optimization."
           />
           <meta
             name="keywords"
-            content="SEO, SEO services, SEO near me, Web Design, Web Agency, Lead Generation"
+            content="Web Design, Website Designer Mississippi, Website Developer, SEO, SEO services, SEO near me, Web Design, Web Agency, Lead Generation"
           />
           <meta name="robots" content="index, follow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
