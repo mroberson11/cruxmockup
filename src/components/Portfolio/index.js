@@ -8,6 +8,7 @@ import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Northolt from "../../images/DemoImages/northolt-rfc.png";
+import SAE from "../../images/DemoImages/sae-hero-section.png";
 import Footer from "../Footer";
 import Image from "next/image";
 import CruxHead from "../CruxHead";
@@ -43,11 +44,38 @@ const Portfolio = () => {
                 transition={{ delay: 0.1, duration: tDuration }}
                 animate={animation}
               >
-                Borthwick Ballistics
+                Mississippi Theta
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
                 transition={{ delay: 0.3, duration: tDuration }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://msstatesae.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={SAE} alt="SAE" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 0.5, duration: tDuration }}
+                animate={animation}
+              >
+                Borthwick Ballistics
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.7, duration: tDuration }}
                 animate={animation}
                 whileHover={{
                   scale: 1.02,

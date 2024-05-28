@@ -6,6 +6,7 @@ import FBCCS from "../../images/DemoImages/fbc-cs.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Northolt from "../../images/DemoImages/northolt-rfc.png";
+import SAE from "../../images/DemoImages/sae-hero-section.png";
 import Image from "next/image";
 import {
   Container,
@@ -23,6 +24,22 @@ const SiteGallery = () => {
         <SiteGalleryH1>Our Portfolio</SiteGalleryH1>
         <SiteGalleryWrapper>
           <SiteGalleryContent>
+            <InfoSection
+              className="sae"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
+              <ImgWrap>
+                <a
+                  href="https://msstatesae.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={SAE} alt="SAE" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
             <InfoSection
               className="northolt"
               whileHover={{
@@ -134,7 +151,7 @@ const SiteGallery = () => {
                   />
                 </a>
               </ImgWrap>
-            </InfoSection> */}
+            </InfoSection>
             <InfoSection
               className="cruxBbq"
               whileHover={{
@@ -150,7 +167,7 @@ const SiteGallery = () => {
                   <Image src={CruxBBQ} alt="Crux BBQ" priority={true} />
                 </a>
               </ImgWrap>
-            </InfoSection>
+            </InfoSection> */}
           </SiteGalleryContent>
         </SiteGalleryWrapper>
       </Container>
