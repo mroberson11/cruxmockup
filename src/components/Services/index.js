@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Icon1 from "../../images/InfoImages/pair-programming.svg";
+import Icon1 from "../../images/InfoImages/man-next-to-laptop.svg";
 import Icon2 from "../../images/InfoImages/seo.svg";
-import Icon3 from "../../images/InfoImages/maintenance.svg";
+import Icon3 from "../../images/InfoImages/pair-programming.svg";
+import Icon4 from "../../images/InfoImages/maintenance.svg";
 import { useAnimation } from "framer-motion";
 import { useMyAnimation } from "../../hooks/useMyAnimation";
 import {
@@ -29,6 +30,40 @@ const Services = () => {
           <ServicesCard
             initial={initial}
             transition={{ delay: 0.3, duration: 0.8 }}
+            animate={animation}
+          >
+            <ServicesIcon>
+              <Image src={Icon1} alt="Website Development" priority={true} />
+            </ServicesIcon>
+            <ServicesH2>Custom Websites</ServicesH2>
+            <ServicesP>
+              We specialize in creating custom websites tailored to your unique
+              needs and business goals. Get an online quote today to start your
+              journey towards a stunning, high-performance website.
+            </ServicesP>
+            <Link href="/contact-form" passHref>
+              <AnimatedButton
+                primary="true"
+                dark="true"
+                duration={500}
+                exact="true"
+                offset={-80}
+                whileTap={{ scale: 0.9 }}
+                transition={{ duration: 3 }}
+                style={{
+                  background: "var(--offWhite)",
+                  color: "var(--linkBlue)",
+                  position: "relative",
+                  top: "1rem",
+                }}
+              >
+                Learn More {<ArrowForward />}
+              </AnimatedButton>
+            </Link>
+          </ServicesCard>
+          <ServicesCard
+            initial={initial}
+            transition={{ delay: 0.5, duration: 0.8 }}
             animate={animation}
           >
             <ServicesIcon>
@@ -60,11 +95,11 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard
             initial={initial}
-            transition={{ delay: 0.5, duration: 0.8 }}
+            transition={{ delay: 0.7, duration: 0.8 }}
             animate={animation}
           >
             <ServicesIcon>
-              <Image src={Icon1} alt="Pair Programming" priority={true} />
+              <Image src={Icon3} alt="Pair Programming" priority={true} />
             </ServicesIcon>
             <ServicesH2>E-Commerce Websites</ServicesH2>
             <ServicesP>
@@ -94,11 +129,11 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard
             initial={initial}
-            transition={{ delay: 0.7, duration: 0.8 }}
+            transition={{ delay: 0.9, duration: 0.8 }}
             animate={animation}
           >
             <ServicesIcon>
-              <Image src={Icon3} alt="Maintenance" priority={true} />
+              <Image src={Icon4} alt="Maintenance" priority={true} />
             </ServicesIcon>
             <ServicesH2>Maintenance Packages</ServicesH2>
             <ServicesP>

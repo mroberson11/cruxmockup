@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const ServicesContainer = styled(motion.div)`
-  min-height: 600px;
+  min-height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,17 +20,86 @@ export const ServicesWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 100px) {
+  & > div:nth-child(1) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-bottom: -200px;
+  }
+
+  & > div:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  & > div:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  & > div:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: -200px;
+  }
+
+  @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+
+    & > div:nth-child(1) {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+      margin-bottom: 0;
+    }
+
+    & > div:nth-child(2) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    & > div:nth-child(3) {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    & > div:nth-child(4) {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+      margin-top: 0;
+    }
   }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
     padding: 0 20px;
+
+    & > div:nth-child(1) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      margin-bottom: 0;
+    }
+
+    & > div:nth-child(2) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    & > div:nth-child(3) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+
+    & > div:nth-child(4) {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+      margin-top: 0;
+    }
   }
 `;
 
@@ -49,7 +118,7 @@ export const ServicesCard = styled(motion.div)`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursore: pointer;
+    cursor: pointer;
   }
 `;
 
