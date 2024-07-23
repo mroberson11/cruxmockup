@@ -12,11 +12,11 @@ import {
   LogoImg,
 } from "./AltNavElements.js";
 
-const AltNav = () => {
+const AltNav = ({ bgColor = "var(--offBlack)" }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "var(--offWhite)" }}>
-        <Nav style={{ background: "var(--offBlack)" }}>
+        <Nav style={{ backgroundColor: bgColor }}>
           <NavbarContainer>
             <NavLogo
               whileHover={{
@@ -64,7 +64,6 @@ const AltNav = () => {
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
-      ;
     </>
   );
 };

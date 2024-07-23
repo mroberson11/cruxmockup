@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import AltNav from "../AltNav";
 import CruxHead from "../CruxHead";
 import CompanyLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 import emailjs from "@emailjs/browser";
@@ -85,12 +86,13 @@ const ContactForm = () => {
     <>
       <CruxHead title="Contact Form | Mississippi Web Design" />
       <Container>
+        <AltNav bgColor={"transparent"} />
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}
 
           <FormContent>
             <Form ref={form} onSubmit={handleSubmit}>
-              <LogoWrapper
+              {/* <LogoWrapper
                 whileHover={{
                   scale: 1.05,
                 }}
@@ -105,7 +107,7 @@ const ContactForm = () => {
                     priority={true}
                   />
                 </Link>
-              </LogoWrapper>
+              </LogoWrapper> */}
               <FormH1>
                 Submit your contact information to have a representative reach
                 out within 24 hours.

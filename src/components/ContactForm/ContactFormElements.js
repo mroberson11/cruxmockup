@@ -23,6 +23,7 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   overflow-y: scroll;
+  margin-top: 4rem;
 
   @media screen and (max-width: 400px) {
     height: 80%;
@@ -75,8 +76,8 @@ export const Form = styled.form`
 `;
 
 export const FormH1 = styled.h1`
-  margin-bottom: 40px;
   color: var(--offWhite);
+  padding: 1rem;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
