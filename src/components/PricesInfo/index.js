@@ -1,26 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import AltNav from "../AltNav";
 import Footer from "../Footer";
-import Image from "next/image";
 import Link from "next/link";
+import { AnimatedButton } from "../ButtonElements";
 import { sellingPointsOne, sellingPointsTwo, sellingPointsThree } from "./Data";
 import PriceCard from "./PriceCard";
 import {
   Container,
   ContactH1,
   PricesWrapper,
-  PricesCard,
-  PricesIcon,
-  PricesH1,
-  PricesH2,
-  PricesP,
-  EmphasizedP,
-  EmphasizedA,
+  BtnWrapper,
 } from "./PricesInfoElements";
+import { ArrowForward, ArrowRight } from "../HeroSection/HeroElements";
 
 const PricesInfo = () => {
-  const points = ["low cost", "maintenance"];
-
+  const [hover, setHover] = useState(false);
+  const onHover = () => {
+    setHover(!hover);
+  };
   return (
     <>
       <Container>
@@ -46,6 +43,28 @@ const PricesInfo = () => {
             sellingPoints={sellingPointsThree}
           />
         </PricesWrapper>
+        <BtnWrapper
+          whileHover={{
+            scale: 1.1,
+          }}
+        >
+          <Link href="/contact-form" passHref>
+            <AnimatedButton
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="false"
+              duration={500}
+              exact="true"
+              offset={-80}
+              whileTap={{ scale: 0.9 }}
+              transition={{ duration: 3 }}
+              style={{ background: "var(--cruxBlue)" }}
+            >
+              Custom Website Quote {hover ? <ArrowForward /> : <ArrowRight />}
+            </AnimatedButton>
+          </Link>
+        </BtnWrapper>
         <Footer />
       </Container>
     </>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -42,7 +43,7 @@ export const DivSection = styled.div`
 
 export const PricesWrapper = styled.div`
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 2rem auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -112,4 +113,15 @@ export const PricesH1 = styled.h1`
   font-size: 2.3rem;
   text-align: center;
   margin-top: 4rem;
+`;
+
+export const BtnWrapper = styled(motion.div)`
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  max-width: 300px;
+  padding: 10px;
+  margin: 0 auto 1rem auto;
 `;
