@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 export const Container = styled.div`
   min-height: 692px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 0;
+  // position: fixed;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // top: 0;
+  // z-index: 0;
   overflow: hidden;
   background: linear-gradient(
     108deg,
@@ -23,7 +23,7 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   overflow-y: scroll;
-  margin-top: 4rem;
+  margin-top: 7rem;
 
   @media screen and (max-width: 400px) {
     height: 80%;

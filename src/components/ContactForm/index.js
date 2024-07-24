@@ -86,7 +86,7 @@ const ContactForm = () => {
     <>
       <CruxHead title="Contact Form | Mississippi Web Design" />
       <Container>
-        <AltNav bgColor={"transparent"} />
+        <AltNav bgColor="transparent" />
         <FormWrap>
           {successfulSubmission ? <Success /> : console.log()}
 
