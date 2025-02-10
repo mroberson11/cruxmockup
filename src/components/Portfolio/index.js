@@ -4,7 +4,7 @@ import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-he
 import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
 import CruxPizza from "../../images/DemoImages/pizza-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
-import FBCCS from "../../images/DemoImages/fbc-cs.png";
+import PiKapp from "../../images/DemoImages/pi-kapp.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Northolt from "../../images/DemoImages/northolt-rfc.png";
@@ -155,7 +155,7 @@ const Portfolio = () => {
                 transition={{ delay: 0.5, duration: tDuration }}
                 animate={animation}
               >
-                FBC Crystal Springs
+                Pi Kappa Phi Iota Nu
               </InfoSectionHeader>
               <ImgWrap
                 initial={initial}
@@ -167,13 +167,13 @@ const Portfolio = () => {
                 }}
               >
                 <a
-                  href="https://fbccrystalsprings.com"
+                  href="https://msstatepikappaphi.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={FBCCS}
-                    alt="FBC Crystal Springs"
+                    src={PiKapp}
+                    alt="Pi Kappa Phi Iota Nu"
                     priority={true}
                   />
                 </a>

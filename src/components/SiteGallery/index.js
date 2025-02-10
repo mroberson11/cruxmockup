@@ -2,7 +2,7 @@ import React from "react";
 import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-hero-section.png";
 import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
 import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
-import FBCCS from "../../images/DemoImages/fbc-cs.png";
+import PiKapp from "../../images/DemoImages/pi-kapp.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Northolt from "../../images/DemoImages/northolt-rfc.png";
@@ -93,20 +93,20 @@ const SiteGallery = () => {
               </ImgWrap>
             </InfoSection>
             <InfoSection
-              className="fbc"
+              className="pikapp"
               whileHover={{
                 scale: 1.025,
               }}
             >
               <ImgWrap>
                 <a
-                  href="https://fbccrystalsprings.com"
+                  href="https://msstatepikappaphi.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={FBCCS}
-                    alt="FBC Crystal Springs"
+                    src={PiKapp}
+                    alt="MIssissippi State Pi Kappa Alpha"
                     priority={true}
                   />
                 </a>
