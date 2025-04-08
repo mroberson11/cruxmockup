@@ -18,7 +18,8 @@ export const PortfolioH1 = styled.h1`
   color: var(--offBlack);
   font-size: 2.3em;
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
 `;
 export const PortfolioWrapper = styled.div`
   display: grid;

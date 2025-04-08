@@ -1,7 +1,8 @@
 import React from "react";
+import iSpy from "../../images/DemoImages/ispyms.png";
+import HeIsWorthy from "../../images/DemoImages/he-is-worthy.png";
+import CharlieFromStarkville from "../../images/DemoImages/charlie-from-starkville.png";
 import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-hero-section.png";
-import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
-import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import PiKapp from "../../images/DemoImages/pi-kapp.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
@@ -24,6 +25,59 @@ const SiteGallery = () => {
         <SiteGalleryH1>Our Portfolio</SiteGalleryH1>
         <SiteGalleryWrapper>
           <SiteGalleryContent>
+            <InfoSection
+              className="ispy"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
+              <ImgWrap>
+                <a
+                  href="https://ispyms.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={iSpy} alt="iSpy MS" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+            <InfoSection
+              className="heisworthy"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
+              <ImgWrap>
+                <a
+                  href="https://heisworthy.net/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={HeIsWorthy} alt="He Is Worthy" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+            <InfoSection
+              className="charlie"
+              whileHover={{
+                scale: 1.025,
+              }}
+            >
+              <ImgWrap>
+                <a
+                  href="https://charliefromstarkville.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={CharlieFromStarkville}
+                    alt="Charlie From Starkville"
+                    priority={true}
+                  />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
             <InfoSection
               className="sae"
               whileHover={{

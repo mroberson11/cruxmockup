@@ -1,14 +1,14 @@
 import React from "react";
 import AltNav from "../AltNav";
 import BorthwickBallistics from "../../images/DemoImages/borthwick-ballistics-hero-section.png";
-import CruxFastFood from "../../images/DemoImages/fast-food-hero-section.png";
-import CruxPizza from "../../images/DemoImages/pizza-hero-section.png";
-import CruxBBQ from "../../images/DemoImages/bbq-hero-section.png";
 import PiKapp from "../../images/DemoImages/pi-kapp.png";
 import Jennie from "../../images/DemoImages/jennie-roberson.png";
 import MeadowsRidgebacks from "../../images/DemoImages/meadows-ridgebacks.png";
 import Northolt from "../../images/DemoImages/northolt-rfc.png";
 import SAE from "../../images/DemoImages/sae-hero-section.png";
+import iSpy from "../../images/DemoImages/ispyms.png";
+import HeIsWorthy from "../../images/DemoImages/he-is-worthy.png";
+import CharlieFromStarkville from "../../images/DemoImages/charlie-from-starkville.png";
 import Footer from "../Footer";
 import Image from "next/image";
 import CruxHead from "../CruxHead";
@@ -40,6 +40,91 @@ const Portfolio = () => {
             <InfoSection>
               <InfoSectionHeader
                 ref={ref}
+                initial={initial}
+                transition={{ delay: 0.1, duration: tDuration }}
+                animate={animation}
+              >
+                iSpy MS
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.3, duration: tDuration }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://ispyms.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={iSpy} alt="iSpy MS" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 0.1, duration: tDuration }}
+                animate={animation}
+              >
+                He Is Worthy
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.3, duration: tDuration }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://heisworthy.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={HeIsWorthy} alt="He Is Worthy" priority={true} />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
+            <InfoSection>
+              <InfoSectionHeader
+                initial={initial}
+                transition={{ delay: 0.1, duration: tDuration }}
+                animate={animation}
+              >
+                Charlie From Starkville
+              </InfoSectionHeader>
+              <ImgWrap
+                initial={initial}
+                transition={{ delay: 0.3, duration: tDuration }}
+                animate={animation}
+                whileHover={{
+                  scale: 1.02,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <a
+                  href="https://charliefromstarkville.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={CharlieFromStarkville}
+                    alt="Charlie From Starkville"
+                    priority={true}
+                  />
+                </a>
+              </ImgWrap>
+            </InfoSection>
+
+            <InfoSection>
+              <InfoSectionHeader
                 initial={initial}
                 transition={{ delay: 0.1, duration: tDuration }}
                 animate={animation}
