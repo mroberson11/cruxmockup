@@ -84,8 +84,8 @@ const Navbar = ({ toggle }) => {
                   scale: 1.1,
                 }}
               >
-                <Link href="/pricing" passHref>
-                  <NavLinks scrollNav={scrollNav}>Pricing</NavLinks>
+                <Link href="/portfolio" passHref>
+                  <NavLinks scrollNav={scrollNav}>Portfolio</NavLinks>
                 </Link>
               </NavItem>
               {/* <NavItem

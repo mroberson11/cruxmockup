@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "cruxsoftware.com",
-  "Id": "a0f9390c-2ea8-4c79-b5f7-0bb79f9f6f46"
-}
