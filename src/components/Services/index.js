@@ -75,7 +75,7 @@ const Services = () => {
               customers search for your service? If not, we can make sure you
               are through an optimized website & Google Business listing.
             </ServicesP>
-            <Link href="/pricing" passHref>
+            <Link href="/contact-form" passHref>
               <AnimatedButton
                 primary="true"
                 dark="true"
@@ -107,7 +107,7 @@ const Services = () => {
               party fees, retention of customer data, real-time receipt
               printing, and much more.
             </ServicesP>
-            <Link href="/ecommerce" passHref>
+            <Link href="/contact-form" passHref>
               <AnimatedButton
                 primary="true"
                 dark="true"

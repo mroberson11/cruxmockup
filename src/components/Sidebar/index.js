@@ -22,8 +22,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
-          <Link href="/pricing" passHref>
-            <SidebarLink>Pricing</SidebarLink>
+          <Link href="/portfolio" passHref>
+            <SidebarLink>Portfolio</SidebarLink>
           </Link>
           <Link href="/contact-info" passHref>
             <SidebarLink>Contact</SidebarLink>
