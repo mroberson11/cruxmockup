@@ -13,7 +13,7 @@ const Recaptcha = ({ verified, recaptchaCallback }) => {
   return (
     <>
       <ReCAPTCHA
-        sitekey="6LfKCk4rAAAAAPe-CMr9BgRaeBeF34cCbeWoc2JP"
+        sitekey="6LdWDU4rAAAAAHxBSyxYx42Xm_QjJtjAq7uGDiZF"
         onChange={onChange}
         theme="dark"
       />
