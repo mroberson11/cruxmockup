@@ -14,19 +14,19 @@ const WhoWeAre = () => {
         <Headline>Built for the ones who build.</Headline>
 
         <Paragraph>
-          You're running a business, not a tech company.
+          You&apos;re running a business, not a tech company.
         </Paragraph>
 
         <Paragraph>
-          You shouldn't have to Google "how to code" just to launch your idea.
+          You shouldn&apos;t have to Google &quot;how to code&quot; just to launch your idea.
         </Paragraph>
 
         <Paragraph>
-          Or pay $100k+ for a bloated platform you'll outgrow in six months.
+          Or pay $100k+ for a bloated platform you&apos;ll outgrow in six months.
         </Paragraph>
 
         <Paragraph>
-          At Crux, we build apps that work—simple as that.
+          At Crux, we build apps that work — simple as that.
         </Paragraph>
 
         <Paragraph>
@@ -34,7 +34,7 @@ const WhoWeAre = () => {
         </Paragraph>
 
         <Paragraph>
-          We’ve got you. Fast builds. Real results. No babysitting required.
+          We&apos;ve got you. Fast builds. Real results. No babysitting required.
         </Paragraph>
 
         <Paragraph>
@@ -42,14 +42,17 @@ const WhoWeAre = () => {
         </Paragraph>
 
         <Paragraph>
-          We don’t hide behind jargon or “synergy.” We ship. You scale.
+          We don&apos;t hide behind jargon or &quot;synergy.&quot; We ship. You scale.
         </Paragraph>
 
         <Paragraph>
-          If that’s what you’re after—hit the button.
+          If that&apos;s what you&apos;re after — hit the button.
         </Paragraph>
 
-        <CTA href="https://outlook.office365.com/owa/calendar/CruxSoftwareSolutions@cruxsoftwaresolutions.com/bookings/" target="_blank">
+        <CTA
+          href="https://outlook.office365.com/owa/calendar/CruxSoftwareSolutions@cruxsoftwaresolutions.com/bookings/"
+          target="_blank"
+        >
           Book a Call
         </CTA>
       </Container>
@@ -58,4 +61,5 @@ const WhoWeAre = () => {
 };
 
 export default WhoWeAre;
+
 
