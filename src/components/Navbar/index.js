@@ -62,7 +62,7 @@ const Navbar = ({ toggle }) => {
               />
             </MobileIcon>
             <NavMenu>
-              <NavItem
+              {/*<NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -78,8 +78,8 @@ const Navbar = ({ toggle }) => {
                 >
                   Services
                 </NavLinks>
-              </NavItem>
-              <NavItem
+              </NavItem>/*}
+              {/*<NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                 <Link href="/portfolio" passHref>
                   <NavLinks scrollNav={scrollNav}>Portfolio</NavLinks>
                 </Link>
-              </NavItem>
+              </NavItem>*/}
               {/* <NavItem
                 whileHover={{
                   scale: 1.1,
@@ -104,7 +104,7 @@ const Navbar = ({ toggle }) => {
                   Why Us
                 </NavLinks>
               </NavItem> */}
-              <NavItem
+              {/*<NavItem
                 whileHover={{
                   scale: 1.1,
                 }}
@@ -112,7 +112,7 @@ const Navbar = ({ toggle }) => {
                 <Link href="/contact-info" passHref>
                   <NavLinks scrollNav={scrollNav}>Contact</NavLinks>
                 </Link>
-              </NavItem>
+              </NavItem>*/}
               {/* <NavItem
                 whileHover={{
                   scale: 1.1,
@@ -143,7 +143,7 @@ const Navbar = ({ toggle }) => {
               </NavItem> */}
             </NavMenu>
             <NavBtn>
-              <Link href="tel:6019271778" passHref>
+              <Link href="https://outlook.office365.com/owa/calendar/CruxBookings@cruxsoftwaresolutions.com/bookings/" passHref>
                 <NavBtnLink
                   duration={500}
                   exact="true"
@@ -153,7 +153,7 @@ const Navbar = ({ toggle }) => {
                   }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  Call Now
+                  Free Strategy Call
                 </NavBtnLink>
               </Link>
             </NavBtn>

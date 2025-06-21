@@ -5,11 +5,11 @@ import HeroSection from "../src/components/HeroSection";
 import Image from "next/image";
 import InfoSection from "../src/components/InfoSection";
 import Navbar from "../src/components/Navbar";
-import OfferPopup from "../src/components/OfferPopup";
-import ReviewCarousel from "../src/components/ReviewCarousel";
+//import OfferPopup from "../src/components/OfferPopup";
+import CruxOffers from "../src/components/WhatWeDo";
 import Sidebar from "../src/components/Sidebar";
-import SiteGallery from "../src/components/SiteGallery";
-import Services from "../src/components/Services";
+import CruxAbout from "../src/components/WhoWeAre";
+import CruxHelp from "../src/components/HowWeCanHelp";
 import Script from "next/script";
 import ScrollUp from "../src/components/ScrollUp";
 import Testimonials from "../src/components/Testimonials";
@@ -67,13 +67,13 @@ export default function Home() {
       {/* <motion.div className="progress-bar" style={{ scaleX }} /> */}
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />\
-      <OfferPopup />
+      {/*<OfferPopup />*/}
       <HeroSection />
-      <Services />
-      <SiteGallery />
+      <CruxOffers />
+      <CruxAbout />
       {/* <Testimonials /> */}
       {/* <InfoSection {...homeObjTwo} /> */}
-      <ReviewCarousel />
+      <CruxHelp />
       <InfoSection {...homeObjThree} />
       {/* <VideoSection /> */}
       <ScrollUp />

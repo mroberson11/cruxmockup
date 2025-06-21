@@ -43,15 +43,15 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <Column1>
-          <HeroH1>Stop Giving Free Business to Your Competitors</HeroH1>
-          <HeroP>Rank #1 for Local Google Searches within 30 Days</HeroP>
+          <HeroH1>Custom Software That Solves Real Business Problems</HeroH1>
+          <HeroP>We build internal tools, dashboards, and systems that eliminate manual work for startups, small businesses, and public teams.</HeroP>
           <HeroBtnContainer>
             <HeroBtnWrapper
               whileHover={{
                 scale: 1.1,
               }}
             >
-              <Link href="/portfolio" passHref>
+              {/*<Link href="/portfolio" passHref>
                 <AnimatedButton
                   primary="false"
                   dark="false"
@@ -63,14 +63,14 @@ const HeroSection = () => {
                 >
                   View Portfolio
                 </AnimatedButton>
-              </Link>
+              </Link>*/}
             </HeroBtnWrapper>
             <HeroBtnWrapper
               whileHover={{
                 scale: 1.1,
               }}
             >
-              <Link href="tel:6019271778" passHref>
+              <Link href="https://outlook.office365.com/owa/calendar/CruxBookings@cruxsoftwaresolutions.com/bookings/" passHref>
                 <AnimatedButton
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
@@ -83,7 +83,7 @@ const HeroSection = () => {
                   transition={{ duration: 3 }}
                   style={{ background: "var(--offWhite)" }}
                 >
-                  Call Now {hover ? <ArrowForward /> : <ArrowRight />}
+                  Book Your Free Strategy Call {hover ? <ArrowForward /> : <ArrowRight />}
                 </AnimatedButton>
               </Link>
             </HeroBtnWrapper>
@@ -96,7 +96,7 @@ const HeroSection = () => {
             controls={false}
             muted
             playsInline
-            src={require("../../videos/seo-animation.mp4")}
+            src={require("../../videos/web-dev-animation.mp4")}
             type="video/mp4"
           />
         </Column2>

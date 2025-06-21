@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
-        <SidebarMenu>
+        {/*<SidebarMenu>
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
@@ -27,8 +27,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Link>
           <Link href="/contact-info" passHref>
             <SidebarLink>Contact</SidebarLink>
-          </Link>
-        </SidebarMenu>
+          </Link>/
+        </SidebarMenu>*/}
         <SideBtnWrap>
           <Link href="tel:6019271778" passHref>
             <SidebarRoute>Call Now</SidebarRoute>

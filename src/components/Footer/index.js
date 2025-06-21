@@ -34,7 +34,7 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>More Information</FooterLinkTitle>
-                <Link href="/contact-form" passHref>
+                <Link href="https://outlook.office365.com/owa/calendar/CruxBookings@cruxsoftwaresolutions.com/bookings/" passHref>
                   <FooterLink>Get Started</FooterLink>
                 </Link>
                 <Link href="https://g.page/r/CRXcCbOIyJ6JEAg/review " passHref>
@@ -67,7 +67,8 @@ const Footer = () => {
                 </LogoContainer>
               </SocialLogo>
               <WebsiteRights>
-                Crux ® {new Date().getFullYear()} | Starkville, MS
+                Crux ® {new Date().getFullYear()} | {' '}
+                <a href="tel:6019271778">601-927-1778</a>
               </WebsiteRights>
 
               <SocialIcons>

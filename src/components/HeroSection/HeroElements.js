@@ -33,10 +33,14 @@ export const HeroBg = styled.div`
 
 export const VideoBg = styled.video`
   width: 100%;
-  height: 100%;
+  height: auto;
   -o-object-fit: cover;
-  object-fit: cover;
+  object-fit: contain;
   background: #232a34;
+  display: block;
+  max-width: 100%
+  max-height: 100%
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
 `;
 
 export const HeroContent = styled.div`
@@ -61,17 +65,20 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-  max-width: 45%;
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 350px;
-  margin-left: 3rem;
-
+  padding-left: 1rem;
+  
   @media screen and (max-width: 768px) {
-    max-width: 100%;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  flex: unset;
+  width: 100%
+  margin: 2rem auto 20px;
+  padding-left: 0;
   }
+
 `;
 
 export const HeroH1 = styled(motion.h1)`
@@ -88,7 +95,7 @@ export const HeroH1 = styled(motion.h1)`
 export const HeroP = styled(motion.p)`
   margin-top: 24px;
   color: var(--offWhite);
-  font-size: 24px;
+  font-size: 22px;
   text-align: left;
   max-width: 600px;
 

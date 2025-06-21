@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Modal from "../Modal";
 import CruxLogo from "../../images/CompanyLogos/blue-w-tagline.png";
 
+
 const OfferPopup = () => {
   const [showModal, setShowModal] = useState(false);
 
